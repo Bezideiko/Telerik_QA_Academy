@@ -1,0 +1,10 @@
+C:\Work\TestExamples\AcademyTestProject\Wrappers\bin\Debug\Wrappers.dll
+C:\Work\TestExamples\AcademyTestProject\Wrappers\bin\Debug\Wrappers.pdb
+C:\Work\TestExamples\AcademyTestProject\Wrappers\obj\Debug\Wrappers.dll
+C:\Work\TestExamples\AcademyTestProject\Wrappers\obj\Debug\Wrappers.pdb
+C:\Work\TestExamples\AcademyTestProject\Wrappers\obj\Debug\Wrappers.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Desktop\AcademyTestProject\AcademyTestProject\Wrappers\bin\Debug\Wrappers.dll
+C:\Users\Angel\Desktop\AcademyTestProject\AcademyTestProject\Wrappers\bin\Debug\Wrappers.pdb
+C:\Users\Angel\Desktop\AcademyTestProject\AcademyTestProject\Wrappers\obj\Debug\Wrappers.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Desktop\AcademyTestProject\AcademyTestProject\Wrappers\obj\Debug\Wrappers.dll
+C:\Users\Angel\Desktop\AcademyTestProject\AcademyTestProject\Wrappers\obj\Debug\Wrappers.pdb

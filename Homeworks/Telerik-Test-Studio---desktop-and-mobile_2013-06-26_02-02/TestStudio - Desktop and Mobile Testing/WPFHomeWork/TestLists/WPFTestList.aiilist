@@ -1,0 +1,98 @@
+<TestList Type="ArtOfTest.WebAii.Design.Execution.TestList" Version="2012.2.1420.0">
+  <ID Type="System.String">37a875c8-8f8e-4a7b-b3f1-debe76bc1f1c</ID>
+  <TestListName Type="System.String">WPFTestList</TestListName>
+  <Date Type="System.DateTime">2013-06-25 22:50:56Z+0000000</Date>
+  <Settings Type="ArtOfTest.WebAii.Core.Settings" Version="2012.2.1420.0">
+    <WebSettings Type="ArtOfTest.WebAii.Core.Settings+WebSettings" Version="2012.2.1420.0">
+      <DefaultBrowser Type="ArtOfTest.WebAii.Core.BrowserType">InternetExplorer</DefaultBrowser>
+      <WebAppPhysicalPath Type="System.String">
+      </WebAppPhysicalPath>
+      <EnableScriptLogging Type="System.Boolean">False</EnableScriptLogging>
+      <EnableUILessRequestViewing Type="System.Boolean">False</EnableUILessRequestViewing>
+      <LocalWebServer Type="ArtOfTest.WebAii.Core.LocalWebServerType">None</LocalWebServer>
+      <BaseUrl Type="System.String">
+      </BaseUrl>
+      <AspNetDevServerPort Type="System.Int32">-1</AspNetDevServerPort>
+      <KillBrowserProcessOnClose Type="System.Boolean">False</KillBrowserProcessOnClose>
+      <RecycleBrowser Type="System.Boolean">False</RecycleBrowser>
+      <UseHttpProxy Type="System.Boolean">False</UseHttpProxy>
+      <EnableSilverlight Type="System.Boolean">False</EnableSilverlight>
+      <VerboseHttpProxy Type="System.Boolean">False</VerboseHttpProxy>
+      <SilverlightConnectTimeout Type="System.Int32">60000</SilverlightConnectTimeout>
+      <UseMultiBrowsers Type="System.Boolean">False</UseMultiBrowsers>
+      <IsProfilingExecution Type="System.Boolean">False</IsProfilingExecution>
+      <ProfilerConfigurations />
+      <__DataMembers />
+    </WebSettings>
+    <WpfSettings Type="ArtOfTest.WebAii.Core.Settings+WpfSettings" Version="2012.2.1420.0">
+      <__DataMembers />
+    </WpfSettings>
+    <ClientReadyTimeout Type="System.Int32">60000</ClientReadyTimeout>
+    <ExecuteCommandTimeout Type="System.Int32">20000</ExecuteCommandTimeout>
+    <LogLocation Type="System.String">C:\WebAiiLog\</LogLocation>
+    <QueryEventLogErrorsOnExit Type="System.Boolean">False</QueryEventLogErrorsOnExit>
+    <ExecutionDelay Type="System.Int32">0</ExecutionDelay>
+    <AnnotateExecution Type="System.Boolean">False</AnnotateExecution>
+    <SimulatedMouseMoveSpeed Type="System.Single">0.3</SimulatedMouseMoveSpeed>
+    <WaitCheckInterval Type="System.Int32">500</WaitCheckInterval>
+    <AnnotationMode Type="ArtOfTest.WebAii.Core.AnnotationMode">All</AnnotationMode>
+    <LogAnnotations Type="System.Boolean">False</LogAnnotations>
+    <IsUserInteractiveMode Type="System.Boolean">False</IsUserInteractiveMode>
+    <CreateLogFile Type="System.Boolean">True</CreateLogFile>
+    <XMultiMgr Type="System.Boolean">True</XMultiMgr>
+    <UnexpectedDialogAction Type="ArtOfTest.WebAii.Core.UnexpectedDialogAction">HandleAndFailTest</UnexpectedDialogAction>
+    <ElementWaitTimeout Type="System.Int32">30000</ElementWaitTimeout>
+    <DisableDialogMonitoring Type="System.Boolean">False</DisableDialogMonitoring>
+    <__DataMembers />
+  </Settings>
+  <Tests>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestInfo" Version="2012.2.1420.0">
+      <ID Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</ID>
+      <Path Type="System.String">CalculatorTestCase.tstest</Path>
+      <__DataMembers />
+    </Item>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestInfo" Version="2012.2.1420.0">
+      <ID Type="System.String">b2a800ab-5eed-4982-b05b-af2297f034e3</ID>
+      <Path Type="System.String">CalendarTestCase.tstest</Path>
+      <__DataMembers />
+    </Item>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestInfo" Version="2012.2.1420.0">
+      <ID Type="System.String">8cfb9e74-1509-450c-b143-e98c29d2d82c</ID>
+      <Path Type="System.String">DateFilterTestCase.tstest</Path>
+      <__DataMembers />
+    </Item>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestInfo" Version="2012.2.1420.0">
+      <ID Type="System.String">9b16a1ee-cc85-4c5d-bec3-a850c647b29e</ID>
+      <Path Type="System.String">DateTimePickerInvalidDataTestCase.tstest</Path>
+      <__DataMembers />
+    </Item>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestInfo" Version="2012.2.1420.0">
+      <ID Type="System.String">63b89b64-285c-4420-9acf-d3fc6f9d3dc4</ID>
+      <Path Type="System.String">DateTimePickerValidDataTestCase.tstest</Path>
+      <__DataMembers />
+    </Item>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestInfo" Version="2012.2.1420.0">
+      <ID Type="System.String">d81bb1bd-c035-4d76-8476-8dd5866a601e</ID>
+      <Path Type="System.String">DragAndDropTestCase.tstest</Path>
+      <__DataMembers />
+    </Item>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestInfo" Version="2012.2.1420.0">
+      <ID Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</ID>
+      <Path Type="System.String">GridViewTestCase.tstest</Path>
+      <__DataMembers />
+    </Item>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestInfo" Version="2012.2.1420.0">
+      <ID Type="System.String">af21fbcf-2a5f-4de7-8e22-1501364387d2</ID>
+      <Path Type="System.String">DateFormTestCase.tstest</Path>
+      <__DataMembers />
+    </Item>
+  </Tests>
+  <Filter Type="ArtOfTest.WebAii.Design.Execution.Filter" Version="2012.2.1420.0">
+    <Keys />
+    <Comparisons />
+    <Values />
+    <__DataMembers />
+  </Filter>
+  <TestListType Type="ArtOfTest.WebAii.Design.TestListType">Automated</TestListType>
+  <__DataMembers />
+</TestList>

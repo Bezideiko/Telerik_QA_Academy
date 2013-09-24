@@ -1,0 +1,8 @@
+click("1372231838085.png")
+wait(2)
+type("http://www.sikuli.org/" + Key.ENTER)
+wait(2)
+find("1372232074223.png")
+hover("1372232265214.png")
+wait("1372232122905.png")
+assert exists("1372232122905.png")

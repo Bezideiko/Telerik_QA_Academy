@@ -1,0 +1,5 @@
+D:\MG\Telerik\QA\Part_II\9.UseCaseTechnique\RadGridView_TestSolution\RadGridView.Web\bin\RadGridView.Web.dll
+D:\MG\Telerik\QA\Part_II\9.UseCaseTechnique\RadGridView_TestSolution\RadGridView.Web\bin\RadGridView.Web.pdb
+D:\MG\Telerik\QA\Part_II\9.UseCaseTechnique\RadGridView_TestSolution\RadGridView.Web\obj\Debug\RadGridView.Web.csprojResolveAssemblyReference.cache
+D:\MG\Telerik\QA\Part_II\9.UseCaseTechnique\RadGridView_TestSolution\RadGridView.Web\obj\Debug\RadGridView.Web.dll
+D:\MG\Telerik\QA\Part_II\9.UseCaseTechnique\RadGridView_TestSolution\RadGridView.Web\obj\Debug\RadGridView.Web.pdb

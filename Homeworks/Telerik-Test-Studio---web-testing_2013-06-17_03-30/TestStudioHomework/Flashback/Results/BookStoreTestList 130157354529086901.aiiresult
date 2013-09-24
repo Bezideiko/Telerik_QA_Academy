@@ -1,0 +1,860 @@
+<RunResult Type="ArtOfTest.WebAii.Design.Execution.RunResult" Version="2012.2.1420.0">
+  <__DataMember_FileName IsDataContractSerialized="True" PropertyName="FileName" PropertyType="System.String">
+    <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">BookStoreTestList 130157354529086901</string>
+  </__DataMember_FileName>
+  <__DataMember_Id IsDataContractSerialized="True" PropertyName="Id" PropertyType="System.Guid">
+    <guid xmlns="http://schemas.microsoft.com/2003/10/Serialization/">f1f6253e-953e-4167-ae60-439175fe8b70</guid>
+  </__DataMember_Id>
+  <__DataMember_Machine IsDataContractSerialized="True" PropertyName="Machine" PropertyType="ArtOfTest.WebAii.Design.Execution.Scheduling.Machine">
+    <Machine xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Execution.Scheduling" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+      <DBState>0</DBState>
+      <Id>00000000-0000-0000-0000-000000000000</Id>
+      <InstalledBrowsers>
+        <BrowserInformation>
+          <Type>InternetExplorer</Type>
+          <Version>9.10.9200.16580</Version>
+        </BrowserInformation>
+        <BrowserInformation>
+          <Type>FireFox</Type>
+          <Version>21.0 (en-US)</Version>
+        </BrowserInformation>
+        <BrowserInformation>
+          <Type>Safari</Type>
+          <Version>5.1.7</Version>
+        </BrowserInformation>
+        <BrowserInformation>
+          <Type>Chrome</Type>
+          <Version />
+        </BrowserInformation>
+      </InstalledBrowsers>
+      <NetworkName>LENAPC</NetworkName>
+      <OperatingSystem>Windows 8</OperatingSystem>
+      <ServiceUri i:nil="true" />
+      <Status>Ready</Status>
+      <UserName>Angel</UserName>
+    </Machine>
+  </__DataMember_Machine>
+  <__DataMember_RunId IsDataContractSerialized="True" PropertyName="RunId" PropertyType="System.Guid">
+    <guid xmlns="http://schemas.microsoft.com/2003/10/Serialization/">f1f6253e-953e-4167-ae60-439175fe8b70</guid>
+  </__DataMember_RunId>
+  <__DataMember_TestListId IsDataContractSerialized="True" PropertyName="TestListId" PropertyType="System.Guid">
+    <guid xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1dd069d5-37ef-4b96-98ae-d54675146b4e</guid>
+  </__DataMember_TestListId>
+  <TestListName Type="System.String">BookStoreTestList</TestListName>
+  <StartTime Type="System.DateTime">2013-06-15 02:02:27Z+0000000</StartTime>
+  <EndTime Type="System.DateTime">2013-06-15 02:04:12Z+9026894</EndTime>
+  <DataCollectors />
+  <TestResults>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestResult" Version="2012.2.1420.0">
+      <TestId Type="System.String">8af48038-de56-438f-87bd-f8b2483a5e01</TestId>
+      <TestName Type="System.String">BookStorePracticingVariableStorage</TestName>
+      <TestPath Type="System.String">BookStorePracticingVariableStorage.tstest</TestPath>
+      <TestDescription Type="System.String">
+      </TestDescription>
+      <ProjectPath Type="System.String">
+      </ProjectPath>
+      <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+      <AutomationStepResults>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Navigate to : 'http://www.book.store.bg/'</StepDescription>
+          <TestId Type="System.String">8af48038-de56-438f-87bd-f8b2483a5e01</TestId>
+          <TestName Type="System.String">BookStorePracticingVariableStorage</TestName>
+          <TestPath Type="System.String">BookStorePracticingVariableStorage.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">0</TestStepNumber>
+          <Order Type="System.Int32">1</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1347723234</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Enter text 'JavaScript' in 'SrchstrText0'</StepDescription>
+          <TestId Type="System.String">8af48038-de56-438f-87bd-f8b2483a5e01</TestId>
+          <TestName Type="System.String">BookStorePracticingVariableStorage</TestName>
+          <TestPath Type="System.String">BookStorePracticingVariableStorage.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">1</TestStepNumber>
+          <Order Type="System.Int32">2</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1106498604</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify attribute 'checked' has 'Exact' value of '' on 'SinRadio'</StepDescription>
+          <TestId Type="System.String">8af48038-de56-438f-87bd-f8b2483a5e01</TestId>
+          <TestName Type="System.String">BookStorePracticingVariableStorage</TestName>
+          <TestPath Type="System.String">BookStorePracticingVariableStorage.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">2</TestStepNumber>
+          <Order Type="System.Int32">3</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-426161344</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Check 'SinRadio0' to be 'True'</StepDescription>
+          <TestId Type="System.String">8af48038-de56-438f-87bd-f8b2483a5e01</TestId>
+          <TestName Type="System.String">BookStorePracticingVariableStorage</TestName>
+          <TestPath Type="System.String">BookStorePracticingVariableStorage.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">3</TestStepNumber>
+          <Order Type="System.Int32">4</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1094448602</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'Submit'</StepDescription>
+          <TestId Type="System.String">8af48038-de56-438f-87bd-f8b2483a5e01</TestId>
+          <TestName Type="System.String">BookStorePracticingVariableStorage</TestName>
+          <TestPath Type="System.String">BookStorePracticingVariableStorage.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">4</TestStepNumber>
+          <Order Type="System.Int32">5</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960564</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'InnerText' 'RegEx' 'JavaScript' on 'ForDummiesH3Tag'</StepDescription>
+          <TestId Type="System.String">8af48038-de56-438f-87bd-f8b2483a5e01</TestId>
+          <TestName Type="System.String">BookStorePracticingVariableStorage</TestName>
+          <TestPath Type="System.String">BookStorePracticingVariableStorage.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">5</TestStepNumber>
+          <Order Type="System.Int32">6</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506168</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'ForDummiesH3Tag'</StepDescription>
+          <TestId Type="System.String">8af48038-de56-438f-87bd-f8b2483a5e01</TestId>
+          <TestName Type="System.String">BookStorePracticingVariableStorage</TestName>
+          <TestPath Type="System.String">BookStorePracticingVariableStorage.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">6</TestStepNumber>
+          <Order Type="System.Int32">7</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960566</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Extract 'TextContent' on 'JavaScriptSpan' into DataBindVariable $(bookName)</StepDescription>
+          <TestId Type="System.String">8af48038-de56-438f-87bd-f8b2483a5e01</TestId>
+          <TestName Type="System.String">BookStorePracticingVariableStorage</TestName>
+          <TestPath Type="System.String">BookStorePracticingVariableStorage.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">7</TestStepNumber>
+          <Order Type="System.Int32">8</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506166</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'ЩракнетеNbspLink'</StepDescription>
+          <TestId Type="System.String">8af48038-de56-438f-87bd-f8b2483a5e01</TestId>
+          <TestName Type="System.String">BookStorePracticingVariableStorage</TestName>
+          <TestPath Type="System.String">BookStorePracticingVariableStorage.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">8</TestStepNumber>
+          <Order Type="System.Int32">9</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960568</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Connect to pop-up window : 'http://www.book.store.bg/cgi-bin/pp-page.cgi?p=delivery_price&amp;productid=61454'</StepDescription>
+          <TestId Type="System.String">8af48038-de56-438f-87bd-f8b2483a5e01</TestId>
+          <TestName Type="System.String">BookStorePracticingVariableStorage</TestName>
+          <TestPath Type="System.String">BookStorePracticingVariableStorage.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">9</TestStepNumber>
+          <Order Type="System.Int32">10</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">512605114</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'TextContent' 'Contains' 'Цена за доставка на 1 бр. JavaScript For Dummies - Ричард Уогнър:' on 'ЦенаЗаBTag' - DataDriven: [$(bookName)]</StepDescription>
+          <TestId Type="System.String">8af48038-de56-438f-87bd-f8b2483a5e01</TestId>
+          <TestName Type="System.String">BookStorePracticingVariableStorage</TestName>
+          <TestPath Type="System.String">BookStorePracticingVariableStorage.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">10</TestStepNumber>
+          <Order Type="System.Int32">11</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506163</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+      </AutomationStepResults>
+      <NotRunStepDescriptions />
+      <PerStepMessages Type="System.String">Overall Result: Pass
+------------------------------------------------------------
+'15.6.2013 г. 5:02:28' - Using .Net Runtime version: '4.0.30319.18046' for test execution. Build version is '2012.2.1420.0'.
+'15.6.2013 г. 5:02:28' - Starting execution....
+'15.6.2013 г. 5:02:29' - Detected custom code in test. Locating test assembly: Test Studio Homework.dll.
+'15.6.2013 г. 5:02:29' - Assembly Found: C:\Users\Angel\Desktop\QA Academy\QA Part - II\Homework\TestStudioHomework\Test Studio Homework\bin\Test Studio Homework.dll
+'15.6.2013 г. 5:02:29' - Loading code class: 'Test_Studio_Homework.BookStorePracticingVariableStorage'.
+------------------------------------------------------------
+------------------------------------------------------------
+'15.6.2013 г. 5:02:29' - Enabling Html Popup Tracker. Test expecting Popups.
+'15.6.2013 г. 5:02:29' - Using 'InternetExplorer' version '10.0' as default browser. 
+'15.6.2013 г. 5:02:32' - 'Pass' : 1. Navigate to : 'http://www.book.store.bg/'
+'15.6.2013 г. 5:02:36' - 'Pass' : 2. Enter text 'JavaScript' in 'SrchstrText0'
+'15.6.2013 г. 5:02:36' - 'Pass' : 3. Verify attribute 'checked' has 'Exact' value of '' on 'SinRadio'
+'15.6.2013 г. 5:02:42' - 'Pass' : 4. Check 'SinRadio0' to be 'True'
+'15.6.2013 г. 5:02:47' - 'Pass' : 5. Click 'Submit'
+'15.6.2013 г. 5:02:48' - 'Pass' : 6. Verify 'InnerText' 'RegEx' 'JavaScript' on 'ForDummiesH3Tag'
+'15.6.2013 г. 5:02:52' - 'Pass' : 7. Click 'ForDummiesH3Tag'
+'15.6.2013 г. 5:02:53' - 'Pass' : 8. Extract 'TextContent' on 'JavaScriptSpan' into DataBindVariable $(bookName)
+'15.6.2013 г. 5:02:53' - 'Pass' : 9. Click 'ЩракнетеNbspLink'
+'15.6.2013 г. 5:02:56' - 'Pass' : 10. Connect to pop-up window : 'http://www.book.store.bg/cgi-bin/pp-page.cgi?p=delivery_price&amp;productid=61454'
+'15.6.2013 г. 5:02:57' - 'Pass' : 11. Verify 'TextContent' 'Contains' 'Цена за доставка на 1 бр. JavaScript For Dummies - Ричард Уогнър:' on 'ЦенаЗаBTag' - DataDriven: [$(bookName)]
+------------------------------------------------------------
+'15.6.2013 г. 5:02:57' - Overall Result: Pass
+'15.6.2013 г. 5:02:57' - Duration: [0 min: 27 sec: 224 msec]
+------------------------------------------------------------
+'15.6.2013 г. 5:02:58' - Test completed!
+</PerStepMessages>
+      <TotalNumberOfPassedSteps Type="System.Int32">11</TotalNumberOfPassedSteps>
+      <ExecutingTestStepCount Type="System.Int32">11</ExecutingTestStepCount>
+      <TotalNumberOfNotRunSteps Type="System.Int32">0</TotalNumberOfNotRunSteps>
+      <IsDataDrivenResult Type="System.Boolean">False</IsDataDrivenResult>
+      <SeparatorLineCharCount Type="System.Int32">60</SeparatorLineCharCount>
+      <ExecutionType Type="ArtOfTest.Common.Design.ExecutionType">QuickExecution</ExecutionType>
+      <EndTime Type="System.DateTime">2013-06-15 02:02:57Z+0206065</EndTime>
+      <StarTime Type="System.DateTime">2013-06-15 02:02:29Z+7958690</StarTime>
+      <DataIterationResults />
+      <VersionGroupKey Type="System.String">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+      <__DataMembers />
+    </Item>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestResult" Version="2012.2.1420.0">
+      <TestId Type="System.String">3c396e9e-1694-4aeb-bb0a-104b704aa9c9</TestId>
+      <TestName Type="System.String">BookStoreRadioButtonVerificationAndJavaScriptSearch</TestName>
+      <TestPath Type="System.String">BookStoreRadioButtonVerificationAndJavaScriptSearch.tstest</TestPath>
+      <TestDescription Type="System.String">
+      </TestDescription>
+      <ProjectPath Type="System.String">
+      </ProjectPath>
+      <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+      <AutomationStepResults>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Navigate to : 'http://www.book.store.bg/'</StepDescription>
+          <TestId Type="System.String">3c396e9e-1694-4aeb-bb0a-104b704aa9c9</TestId>
+          <TestName Type="System.String">BookStoreRadioButtonVerificationAndJavaScriptSearch</TestName>
+          <TestPath Type="System.String">BookStoreRadioButtonVerificationAndJavaScriptSearch.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">0</TestStepNumber>
+          <Order Type="System.Int32">1</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1347723234</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Enter text 'Java Script' in 'SrchstrText0'</StepDescription>
+          <TestId Type="System.String">3c396e9e-1694-4aeb-bb0a-104b704aa9c9</TestId>
+          <TestName Type="System.String">BookStoreRadioButtonVerificationAndJavaScriptSearch</TestName>
+          <TestPath Type="System.String">BookStoreRadioButtonVerificationAndJavaScriptSearch.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">1</TestStepNumber>
+          <Order Type="System.Int32">2</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1106498604</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify attribute 'checked' has 'Exact' value of '' on 'SinRadio'</StepDescription>
+          <TestId Type="System.String">3c396e9e-1694-4aeb-bb0a-104b704aa9c9</TestId>
+          <TestName Type="System.String">BookStoreRadioButtonVerificationAndJavaScriptSearch</TestName>
+          <TestPath Type="System.String">BookStoreRadioButtonVerificationAndJavaScriptSearch.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">2</TestStepNumber>
+          <Order Type="System.Int32">3</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-426161344</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Check 'SinRadio0' to be 'True'</StepDescription>
+          <TestId Type="System.String">3c396e9e-1694-4aeb-bb0a-104b704aa9c9</TestId>
+          <TestName Type="System.String">BookStoreRadioButtonVerificationAndJavaScriptSearch</TestName>
+          <TestPath Type="System.String">BookStoreRadioButtonVerificationAndJavaScriptSearch.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">3</TestStepNumber>
+          <Order Type="System.Int32">4</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1094448602</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'Submit'</StepDescription>
+          <TestId Type="System.String">3c396e9e-1694-4aeb-bb0a-104b704aa9c9</TestId>
+          <TestName Type="System.String">BookStoreRadioButtonVerificationAndJavaScriptSearch</TestName>
+          <TestPath Type="System.String">BookStoreRadioButtonVerificationAndJavaScriptSearch.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">4</TestStepNumber>
+          <Order Type="System.Int32">5</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960564</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'TextContent' 'Contains' 'Книги' on 'КнигиBTag'</StepDescription>
+          <TestId Type="System.String">3c396e9e-1694-4aeb-bb0a-104b704aa9c9</TestId>
+          <TestName Type="System.String">BookStoreRadioButtonVerificationAndJavaScriptSearch</TestName>
+          <TestPath Type="System.String">BookStoreRadioButtonVerificationAndJavaScriptSearch.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">5</TestStepNumber>
+          <Order Type="System.Int32">6</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506168</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify checked value is 'True' on 'SinRadio'</StepDescription>
+          <TestId Type="System.String">3c396e9e-1694-4aeb-bb0a-104b704aa9c9</TestId>
+          <TestName Type="System.String">BookStoreRadioButtonVerificationAndJavaScriptSearch</TestName>
+          <TestPath Type="System.String">BookStoreRadioButtonVerificationAndJavaScriptSearch.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">6</TestStepNumber>
+          <Order Type="System.Int32">7</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2053732633</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+      </AutomationStepResults>
+      <NotRunStepDescriptions />
+      <PerStepMessages Type="System.String">Overall Result: Pass
+------------------------------------------------------------
+'15.6.2013 г. 5:02:59' - Using .Net Runtime version: '4.0.30319.18046' for test execution. Build version is '2012.2.1420.0'.
+'15.6.2013 г. 5:02:59' - Starting execution....
+------------------------------------------------------------
+------------------------------------------------------------
+'15.6.2013 г. 5:03:00' - Using 'InternetExplorer' version '10.0' as default browser. 
+'15.6.2013 г. 5:03:03' - 'Pass' : 1. Navigate to : 'http://www.book.store.bg/'
+'15.6.2013 г. 5:03:09' - 'Pass' : 2. Enter text 'Java Script' in 'SrchstrText0'
+'15.6.2013 г. 5:03:10' - 'Pass' : 3. Verify attribute 'checked' has 'Exact' value of '' on 'SinRadio'
+'15.6.2013 г. 5:03:16' - 'Pass' : 4. Check 'SinRadio0' to be 'True'
+'15.6.2013 г. 5:03:22' - 'Pass' : 5. Click 'Submit'
+'15.6.2013 г. 5:03:23' - 'Pass' : 6. Verify 'TextContent' 'Contains' 'Книги' on 'КнигиBTag'
+'15.6.2013 г. 5:03:27' - 'Pass' : 7. Verify checked value is 'True' on 'SinRadio'
+------------------------------------------------------------
+'15.6.2013 г. 5:03:27' - Overall Result: Pass
+'15.6.2013 г. 5:03:27' - Duration: [0 min: 26 sec: 613 msec]
+------------------------------------------------------------
+'15.6.2013 г. 5:03:28' - Test completed!
+</PerStepMessages>
+      <TotalNumberOfPassedSteps Type="System.Int32">7</TotalNumberOfPassedSteps>
+      <ExecutingTestStepCount Type="System.Int32">7</ExecutingTestStepCount>
+      <TotalNumberOfNotRunSteps Type="System.Int32">0</TotalNumberOfNotRunSteps>
+      <IsDataDrivenResult Type="System.Boolean">False</IsDataDrivenResult>
+      <SeparatorLineCharCount Type="System.Int32">60</SeparatorLineCharCount>
+      <ExecutionType Type="ArtOfTest.Common.Design.ExecutionType">QuickExecution</ExecutionType>
+      <EndTime Type="System.DateTime">2013-06-15 02:03:27Z+3263727</EndTime>
+      <StarTime Type="System.DateTime">2013-06-15 02:03:00Z+7128305</StarTime>
+      <DataIterationResults />
+      <VersionGroupKey Type="System.String">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+      <__DataMembers />
+    </Item>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestResult" Version="2012.2.1420.0">
+      <TestId Type="System.String">917afc1c-4aa1-4698-a32f-12677b2bd030</TestId>
+      <TestName Type="System.String">BookStoreSearchJavaScriptVerification</TestName>
+      <TestPath Type="System.String">BookStoreSearchJavaScriptVerification.tstest</TestPath>
+      <TestDescription Type="System.String">
+      </TestDescription>
+      <ProjectPath Type="System.String">
+      </ProjectPath>
+      <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+      <AutomationStepResults>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Navigate to : 'http://www.book.store.bg/'</StepDescription>
+          <TestId Type="System.String">917afc1c-4aa1-4698-a32f-12677b2bd030</TestId>
+          <TestName Type="System.String">BookStoreSearchJavaScriptVerification</TestName>
+          <TestPath Type="System.String">BookStoreSearchJavaScriptVerification.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">0</TestStepNumber>
+          <Order Type="System.Int32">1</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1347723234</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Enter text 'Java Script' in 'SrchstrText'</StepDescription>
+          <TestId Type="System.String">917afc1c-4aa1-4698-a32f-12677b2bd030</TestId>
+          <TestName Type="System.String">BookStoreSearchJavaScriptVerification</TestName>
+          <TestPath Type="System.String">BookStoreSearchJavaScriptVerification.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">1</TestStepNumber>
+          <Order Type="System.Int32">2</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1106498604</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'Submit'</StepDescription>
+          <TestId Type="System.String">917afc1c-4aa1-4698-a32f-12677b2bd030</TestId>
+          <TestName Type="System.String">BookStoreSearchJavaScriptVerification</TestName>
+          <TestPath Type="System.String">BookStoreSearchJavaScriptVerification.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">2</TestStepNumber>
+          <Order Type="System.Int32">3</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960562</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify input 'SrchstrText' value 'Exact' 'Java Script'.</StepDescription>
+          <TestId Type="System.String">917afc1c-4aa1-4698-a32f-12677b2bd030</TestId>
+          <TestName Type="System.String">BookStoreSearchJavaScriptVerification</TestName>
+          <TestPath Type="System.String">BookStoreSearchJavaScriptVerification.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">3</TestStepNumber>
+          <Order Type="System.Int32">4</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">950034499</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'TextContent' 'Exact' 'Java Script' on 'JavaScriptBTag'</StepDescription>
+          <TestId Type="System.String">917afc1c-4aa1-4698-a32f-12677b2bd030</TestId>
+          <TestName Type="System.String">BookStoreSearchJavaScriptVerification</TestName>
+          <TestPath Type="System.String">BookStoreSearchJavaScriptVerification.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">4</TestStepNumber>
+          <Order Type="System.Int32">5</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506169</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+      </AutomationStepResults>
+      <NotRunStepDescriptions />
+      <PerStepMessages Type="System.String">Overall Result: Pass
+------------------------------------------------------------
+'15.6.2013 г. 5:03:28' - Using .Net Runtime version: '4.0.30319.18046' for test execution. Build version is '2012.2.1420.0'.
+'15.6.2013 г. 5:03:28' - Starting execution....
+------------------------------------------------------------
+------------------------------------------------------------
+'15.6.2013 г. 5:03:30' - Using 'InternetExplorer' version '10.0' as default browser. 
+'15.6.2013 г. 5:03:34' - 'Pass' : 1. Navigate to : 'http://www.book.store.bg/'
+'15.6.2013 г. 5:03:37' - 'Pass' : 2. Enter text 'Java Script' in 'SrchstrText'
+'15.6.2013 г. 5:03:46' - 'Pass' : 3. Click 'Submit'
+'15.6.2013 г. 5:03:49' - 'Pass' : 4. Verify input 'SrchstrText' value 'Exact' 'Java Script'.
+'15.6.2013 г. 5:03:49' - 'Pass' : 5. Verify 'TextContent' 'Exact' 'Java Script' on 'JavaScriptBTag'
+------------------------------------------------------------
+'15.6.2013 г. 5:03:49' - Overall Result: Pass
+'15.6.2013 г. 5:03:49' - Duration: [0 min: 19 sec: 29 msec]
+------------------------------------------------------------
+'15.6.2013 г. 5:03:49' - Test completed!
+</PerStepMessages>
+      <TotalNumberOfPassedSteps Type="System.Int32">5</TotalNumberOfPassedSteps>
+      <ExecutingTestStepCount Type="System.Int32">5</ExecutingTestStepCount>
+      <TotalNumberOfNotRunSteps Type="System.Int32">0</TotalNumberOfNotRunSteps>
+      <IsDataDrivenResult Type="System.Boolean">False</IsDataDrivenResult>
+      <SeparatorLineCharCount Type="System.Int32">60</SeparatorLineCharCount>
+      <ExecutionType Type="ArtOfTest.Common.Design.ExecutionType">QuickExecution</ExecutionType>
+      <EndTime Type="System.DateTime">2013-06-15 02:03:49Z+1347985</EndTime>
+      <StarTime Type="System.DateTime">2013-06-15 02:03:30Z+1055591</StarTime>
+      <DataIterationResults />
+      <VersionGroupKey Type="System.String">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+      <__DataMembers />
+    </Item>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestResult" Version="2012.2.1420.0">
+      <TestId Type="System.String">08664c34-2c59-421d-9581-8c55ed85ad49</TestId>
+      <TestName Type="System.String">BookStoreIfElsePractice</TestName>
+      <TestPath Type="System.String">BookStoreIfElsePractice.tstest</TestPath>
+      <TestDescription Type="System.String">
+      </TestDescription>
+      <ProjectPath Type="System.String">
+      </ProjectPath>
+      <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+      <AutomationStepResults>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Navigate to : 'http://www.book.store.bg/'</StepDescription>
+          <TestId Type="System.String">08664c34-2c59-421d-9581-8c55ed85ad49</TestId>
+          <TestName Type="System.String">BookStoreIfElsePractice</TestName>
+          <TestPath Type="System.String">BookStoreIfElsePractice.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">0</TestStepNumber>
+          <Order Type="System.Int32">1</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2113398266</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.Execution.LogicalStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">IF (Verify checked value is 'True' on 'SinRadio') THEN</StepDescription>
+          <TestId Type="System.String">08664c34-2c59-421d-9581-8c55ed85ad49</TestId>
+          <TestName Type="System.String">BookStoreIfElsePractice</TestName>
+          <TestPath Type="System.String">BookStoreIfElsePractice.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">1</TestStepNumber>
+          <Order Type="System.Int32">2</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-206396960</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <TestResult Type="ArtOfTest.WebAii.Design.Execution.TestResult" Version="2012.2.1420.0">
+            <TestId Type="System.String">08664c34-2c59-421d-9581-8c55ed85ad49</TestId>
+            <TestName Type="System.String">BookStoreIfElsePractice</TestName>
+            <TestPath Type="System.String">BookStoreIfElsePractice.tstest</TestPath>
+            <TestDescription Type="System.String">
+            </TestDescription>
+            <ProjectPath Type="System.String">
+            </ProjectPath>
+            <ResultType Type="ArtOfTest.Common.Design.ResultType">NotRun</ResultType>
+            <AutomationStepResults />
+            <NotRunStepDescriptions>
+              <Item Type="System.String">[BookStoreIfElsePractice_CodedStep1] : Navigate to : 'http://www.book.store.bg/'</Item>
+              <Item Type="System.String">IF (Verify checked value is 'True' on 'SinRadio') THEN</Item>
+            </NotRunStepDescriptions>
+            <PerStepMessages Type="System.String">
+            </PerStepMessages>
+            <TotalNumberOfPassedSteps Type="System.Int32">0</TotalNumberOfPassedSteps>
+            <ExecutingTestStepCount Type="System.Int32">0</ExecutingTestStepCount>
+            <TotalNumberOfNotRunSteps Type="System.Int32">0</TotalNumberOfNotRunSteps>
+            <IsDataDrivenResult Type="System.Boolean">False</IsDataDrivenResult>
+            <SeparatorLineCharCount Type="System.Int32">60</SeparatorLineCharCount>
+            <ExecutionType Type="ArtOfTest.Common.Design.ExecutionType">QuickExecution</ExecutionType>
+            <EndTime Type="System.DateTime">2013-06-15 02:04:01Z+1054742</EndTime>
+            <StarTime Type="System.DateTime">2013-06-15 02:04:01Z+1054742</StarTime>
+            <DataIterationResults />
+            <VersionGroupKey Type="System.String">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+            <__DataMembers />
+          </TestResult>
+          <innerResult Type="ArtOfTest.WebAii.Design.Execution.TestResult" Version="2012.2.1420.0">
+            <TestId Type="System.String">08664c34-2c59-421d-9581-8c55ed85ad49</TestId>
+            <TestName Type="System.String">
+            </TestName>
+            <TestOwner Type="System.String">
+            </TestOwner>
+            <TestDescription Type="System.String">
+            </TestDescription>
+            <ProjectPath Type="System.String">
+            </ProjectPath>
+            <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+            <AutomationStepResults>
+              <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+                <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+                <StepDescription Type="System.String">Enter text 'Melanie Delon' in 'SrchstrText0'</StepDescription>
+                <TestId Type="System.String">08664c34-2c59-421d-9581-8c55ed85ad49</TestId>
+                <TestName Type="System.String">BookStoreIfElsePractice</TestName>
+                <TestPath Type="System.String">BookStoreIfElsePractice.tstest</TestPath>
+                <TestStepNumber Type="System.Int32">0</TestStepNumber>
+                <Order Type="System.Int32">3</Order>
+                <LogMessageOnError Type="System.String">
+                </LogMessageOnError>
+                <HashCode Type="System.Int32">2113398266</HashCode>
+                <IsManual Type="System.Boolean">False</IsManual>
+                <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+                <__DataMembers />
+              </Item>
+              <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+                <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+                <StepDescription Type="System.String">Click 'Submit'</StepDescription>
+                <TestId Type="System.String">08664c34-2c59-421d-9581-8c55ed85ad49</TestId>
+                <TestName Type="System.String">BookStoreIfElsePractice</TestName>
+                <TestPath Type="System.String">BookStoreIfElsePractice.tstest</TestPath>
+                <TestStepNumber Type="System.Int32">1</TestStepNumber>
+                <Order Type="System.Int32">4</Order>
+                <LogMessageOnError Type="System.String">
+                </LogMessageOnError>
+                <HashCode Type="System.Int32">2087960561</HashCode>
+                <IsManual Type="System.Boolean">False</IsManual>
+                <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+                <__DataMembers />
+              </Item>
+              <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+                <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+                <StepDescription Type="System.String">Verify 'TextContent' 'Contains' 'Melanie Delon' on 'MelanieDelonBTag'</StepDescription>
+                <TestId Type="System.String">08664c34-2c59-421d-9581-8c55ed85ad49</TestId>
+                <TestName Type="System.String">BookStoreIfElsePractice</TestName>
+                <TestPath Type="System.String">BookStoreIfElsePractice.tstest</TestPath>
+                <TestStepNumber Type="System.Int32">2</TestStepNumber>
+                <Order Type="System.Int32">5</Order>
+                <LogMessageOnError Type="System.String">
+                </LogMessageOnError>
+                <HashCode Type="System.Int32">-1313506171</HashCode>
+                <IsManual Type="System.Boolean">False</IsManual>
+                <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+                <__DataMembers />
+              </Item>
+            </AutomationStepResults>
+            <NotRunStepDescriptions />
+            <PerStepMessages Type="System.String">------------------------------------------------------------
+'15.6.2013 г. 5:04:01' - Using 'InternetExplorer' version '10.0' as default browser. 
+'15.6.2013 г. 5:04:05' - 'Pass' : 3. Enter text 'Melanie Delon' in 'SrchstrText0'
+'15.6.2013 г. 5:04:11' - 'Pass' : 4. Click 'Submit'
+'15.6.2013 г. 5:04:11' - 'Pass' : 5. Verify 'TextContent' 'Contains' 'Melanie Delon' on 'MelanieDelonBTag'
+</PerStepMessages>
+            <TotalNumberOfPassedSteps Type="System.Int32">3</TotalNumberOfPassedSteps>
+            <ExecutingTestStepCount Type="System.Int32">3</ExecutingTestStepCount>
+            <TotalNumberOfNotRunSteps Type="System.Int32">0</TotalNumberOfNotRunSteps>
+            <IsDataDrivenResult Type="System.Boolean">False</IsDataDrivenResult>
+            <SeparatorLineCharCount Type="System.Int32">60</SeparatorLineCharCount>
+            <ExecutionType Type="ArtOfTest.Common.Design.ExecutionType">QuickExecution</ExecutionType>
+            <EndTime Type="System.DateTime">2013-06-15 02:04:01Z+1054742</EndTime>
+            <StarTime Type="System.DateTime">2013-06-15 02:04:01Z+1054742</StarTime>
+            <DataIterationResults />
+            <VersionGroupKey Type="System.String">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+            <__DataMembers />
+          </innerResult>
+          <logicDetails Type="System.String">Condition Evaluation Details:
+
+Parameters:
+-----------
+Checked         = Expected:[True] , Actual:[True]
+</logicDetails>
+          <loopIteration Type="System.Int32">1</loopIteration>
+          <isLoop Type="System.Boolean">False</isLoop>
+          <__DataMembers />
+        </Item>
+      </AutomationStepResults>
+      <NotRunStepDescriptions />
+      <PerStepMessages Type="System.String">Overall Result: Pass
+------------------------------------------------------------
+'15.6.2013 г. 5:03:50' - Using .Net Runtime version: '4.0.30319.18046' for test execution. Build version is '2012.2.1420.0'.
+'15.6.2013 г. 5:03:50' - Starting execution....
+'15.6.2013 г. 5:03:51' - Detected custom code in test. Locating test assembly: Test Studio Homework.dll.
+'15.6.2013 г. 5:03:51' - Assembly Found: C:\Users\Angel\Desktop\QA Academy\QA Part - II\Homework\TestStudioHomework\Test Studio Homework\bin\Test Studio Homework.dll
+'15.6.2013 г. 5:03:51' - Loading code class: 'Test_Studio_Homework.BookStoreIfElsePractice'.
+------------------------------------------------------------
+------------------------------------------------------------
+'15.6.2013 г. 5:03:51' - Using 'InternetExplorer' version '10.0' as default browser. 
+'15.6.2013 г. 5:03:55' - 'Pass' : 1. Navigate to : 'http://www.book.store.bg/'
+'15.6.2013 г. 5:04:11' - 'Pass' : 2. IF (Verify checked value is 'True' on 'SinRadio') THEN
+Logical step encountered. Executing branch =&gt; IF (Verify checked value is 'True' on 'SinRadio') THEN:
+------------------------------------------------------------
+Condition Evaluation Details:
+
+Parameters:
+-----------
+Checked         = Expected:[True] , Actual:[True]
+
+------------------------------------------------------------
+------------------------------------------------------------
+'15.6.2013 г. 5:04:01' - Using 'InternetExplorer' version '10.0' as default browser. 
+'15.6.2013 г. 5:04:05' - 'Pass' : 3. Enter text 'Melanie Delon' in 'SrchstrText0'
+'15.6.2013 г. 5:04:11' - 'Pass' : 4. Click 'Submit'
+'15.6.2013 г. 5:04:11' - 'Pass' : 5. Verify 'TextContent' 'Contains' 'Melanie Delon' on 'MelanieDelonBTag'
+
+------------------------------------------------------------
+'15.6.2013 г. 5:04:11' - Overall Result: Pass
+'15.6.2013 г. 5:04:11' - Duration: [0 min: 19 sec: 901 msec]
+------------------------------------------------------------
+'15.6.2013 г. 5:04:12' - Test completed!
+</PerStepMessages>
+      <TotalNumberOfPassedSteps Type="System.Int32">2</TotalNumberOfPassedSteps>
+      <ExecutingTestStepCount Type="System.Int32">2</ExecutingTestStepCount>
+      <TotalNumberOfNotRunSteps Type="System.Int32">0</TotalNumberOfNotRunSteps>
+      <IsDataDrivenResult Type="System.Boolean">False</IsDataDrivenResult>
+      <SeparatorLineCharCount Type="System.Int32">60</SeparatorLineCharCount>
+      <ExecutionType Type="ArtOfTest.Common.Design.ExecutionType">QuickExecution</ExecutionType>
+      <EndTime Type="System.DateTime">2013-06-15 02:04:11Z+6868574</EndTime>
+      <StarTime Type="System.DateTime">2013-06-15 02:03:51Z+7857876</StarTime>
+      <DataIterationResults />
+      <VersionGroupKey Type="System.String">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+      <__DataMembers />
+    </Item>
+  </TestResults>
+  <ResultId Type="System.String">f1f6253e-953e-4167-ae60-439175fe8b70</ResultId>
+  <Machine Type="ArtOfTest.WebAii.Design.Execution.Scheduling.Machine" Version="2012.2.1420.0">
+    <__DataMember_Id IsDataContractSerialized="True" PropertyName="Id" PropertyType="System.Guid">
+      <guid xmlns="http://schemas.microsoft.com/2003/10/Serialization/">00000000-0000-0000-0000-000000000000</guid>
+    </__DataMember_Id>
+    <__DataMember_NetworkName IsDataContractSerialized="True" PropertyName="NetworkName" PropertyType="System.String">
+      <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">LENAPC</string>
+    </__DataMember_NetworkName>
+    <__DataMember_OperatingSystem IsDataContractSerialized="True" PropertyName="OperatingSystem" PropertyType="System.String">
+      <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">Windows 8</string>
+    </__DataMember_OperatingSystem>
+    <__DataMember_InstalledBrowsers IsDataContractSerialized="True" PropertyName="InstalledBrowsers" PropertyType="ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation[]">
+      <ArrayOfBrowserInformation xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Execution.Scheduling" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <BrowserInformation>
+          <Type>InternetExplorer</Type>
+          <Version>9.10.9200.16580</Version>
+        </BrowserInformation>
+        <BrowserInformation>
+          <Type>FireFox</Type>
+          <Version>21.0 (en-US)</Version>
+        </BrowserInformation>
+        <BrowserInformation>
+          <Type>Safari</Type>
+          <Version>5.1.7</Version>
+        </BrowserInformation>
+        <BrowserInformation>
+          <Type>Chrome</Type>
+          <Version />
+        </BrowserInformation>
+      </ArrayOfBrowserInformation>
+    </__DataMember_InstalledBrowsers>
+    <__DataMember_Status IsDataContractSerialized="True" PropertyName="Status" PropertyType="ArtOfTest.WebAii.Design.Execution.Scheduling.MachineStatus">
+      <MachineStatus xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Execution.Scheduling">Ready</MachineStatus>
+    </__DataMember_Status>
+    <__DataMember_ServiceUri IsDataContractSerialized="True" PropertyName="ServiceUri" PropertyType="System.String">
+      <string i:nil="true" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" />
+    </__DataMember_ServiceUri>
+    <__DataMember_DBState IsDataContractSerialized="True" PropertyName="DBState" PropertyType="System.Int32">
+      <int xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0</int>
+    </__DataMember_DBState>
+    <__DataMember_UserName IsDataContractSerialized="True" PropertyName="UserName" PropertyType="System.String">
+      <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">Angel</string>
+    </__DataMember_UserName>
+    <Id Type="System.String">00000000-0000-0000-0000-000000000000</Id>
+    <NetworkName Type="System.String">LENAPC</NetworkName>
+    <OperatingSystem Type="System.String">Windows 8</OperatingSystem>
+    <InstalledBrowsers>
+      <Item Type="ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation" Version="2012.2.1420.0">
+        <__DataMember_Type IsDataContractSerialized="True" PropertyName="Type" PropertyType="ArtOfTest.WebAii.Core.BrowserType">
+          <BrowserType xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Core">InternetExplorer</BrowserType>
+        </__DataMember_Type>
+        <__DataMember_Version IsDataContractSerialized="True" PropertyName="Version" PropertyType="System.String">
+          <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">9.10.9200.16580</string>
+        </__DataMember_Version>
+        <BrowserType Type="ArtOfTest.WebAii.Core.BrowserType">InternetExplorer</BrowserType>
+        <Version Type="System.String">9.10.9200.16580</Version>
+        <__DataMembers>
+          <Item Type="System.String">__DataMember_Type</Item>
+          <Item Type="System.String">__DataMember_Version</Item>
+        </__DataMembers>
+      </Item>
+      <Item Type="ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation" Version="2012.2.1420.0">
+        <__DataMember_Type IsDataContractSerialized="True" PropertyName="Type" PropertyType="ArtOfTest.WebAii.Core.BrowserType">
+          <BrowserType xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Core">FireFox</BrowserType>
+        </__DataMember_Type>
+        <__DataMember_Version IsDataContractSerialized="True" PropertyName="Version" PropertyType="System.String">
+          <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">21.0 (en-US)</string>
+        </__DataMember_Version>
+        <BrowserType Type="ArtOfTest.WebAii.Core.BrowserType">FireFox</BrowserType>
+        <Version Type="System.String">21.0 (en-US)</Version>
+        <__DataMembers>
+          <Item Type="System.String">__DataMember_Type</Item>
+          <Item Type="System.String">__DataMember_Version</Item>
+        </__DataMembers>
+      </Item>
+      <Item Type="ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation" Version="2012.2.1420.0">
+        <__DataMember_Type IsDataContractSerialized="True" PropertyName="Type" PropertyType="ArtOfTest.WebAii.Core.BrowserType">
+          <BrowserType xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Core">Safari</BrowserType>
+        </__DataMember_Type>
+        <__DataMember_Version IsDataContractSerialized="True" PropertyName="Version" PropertyType="System.String">
+          <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">5.1.7</string>
+        </__DataMember_Version>
+        <BrowserType Type="ArtOfTest.WebAii.Core.BrowserType">Safari</BrowserType>
+        <Version Type="System.String">5.1.7</Version>
+        <__DataMembers>
+          <Item Type="System.String">__DataMember_Type</Item>
+          <Item Type="System.String">__DataMember_Version</Item>
+        </__DataMembers>
+      </Item>
+      <Item Type="ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation" Version="2012.2.1420.0">
+        <__DataMember_Type IsDataContractSerialized="True" PropertyName="Type" PropertyType="ArtOfTest.WebAii.Core.BrowserType">
+          <BrowserType xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Core">Chrome</BrowserType>
+        </__DataMember_Type>
+        <__DataMember_Version IsDataContractSerialized="True" PropertyName="Version" PropertyType="System.String">
+          <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </__DataMember_Version>
+        <BrowserType Type="ArtOfTest.WebAii.Core.BrowserType">Chrome</BrowserType>
+        <Version Type="System.String">
+        </Version>
+        <__DataMembers>
+          <Item Type="System.String">__DataMember_Type</Item>
+          <Item Type="System.String">__DataMember_Version</Item>
+        </__DataMembers>
+      </Item>
+    </InstalledBrowsers>
+    <Status Type="ArtOfTest.WebAii.Design.Execution.Scheduling.MachineStatus">Ready</Status>
+    <DBState Type="System.Int32">0</DBState>
+    <__DataMembers>
+      <Item Type="System.String">__DataMember_Id</Item>
+      <Item Type="System.String">__DataMember_NetworkName</Item>
+      <Item Type="System.String">__DataMember_OperatingSystem</Item>
+      <Item Type="System.String">__DataMember_InstalledBrowsers</Item>
+      <Item Type="System.String">__DataMember_Status</Item>
+      <Item Type="System.String">__DataMember_ServiceUri</Item>
+      <Item Type="System.String">__DataMember_DBState</Item>
+      <Item Type="System.String">__DataMember_UserName</Item>
+    </__DataMembers>
+  </Machine>
+  <IsManual Type="System.Boolean">False</IsManual>
+  <TestListId Type="System.String">1dd069d5-37ef-4b96-98ae-d54675146b4e</TestListId>
+  <IsComplete Type="System.Boolean">True</IsComplete>
+  <__DataMembers>
+    <Item Type="System.String">__DataMember_FileName</Item>
+    <Item Type="System.String">__DataMember_Id</Item>
+    <Item Type="System.String">__DataMember_Machine</Item>
+    <Item Type="System.String">__DataMember_RunId</Item>
+    <Item Type="System.String">__DataMember_TestListId</Item>
+  </__DataMembers>
+</RunResult>

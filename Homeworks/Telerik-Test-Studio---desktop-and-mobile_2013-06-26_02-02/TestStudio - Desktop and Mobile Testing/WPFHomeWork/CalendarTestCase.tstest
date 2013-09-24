@@ -1,0 +1,1246 @@
+﻿<WebAiiTest xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://artoftest.com/schemas/WebAiiDesignCanvas/3.0.0">
+  <DataInfo xmlns:d2p1="http://artoftest.com/schemas/WebAiiDesignCanvas/1.0.0">
+    <d2p1:BuiltInData i:nil="true" />
+    <d2p1:BuiltInDocumentKey i:nil="true" />
+    <d2p1:ConnectionString />
+    <d2p1:DataEnabled>true</d2p1:DataEnabled>
+    <d2p1:DataProvider />
+    <d2p1:DataRange />
+    <d2p1:DataTableName />
+    <d2p1:DataType>None</d2p1:DataType>
+    <d2p1:DefaultToGrid>true</d2p1:DefaultToGrid>
+    <d2p1:HasBuiltinGrid>false</d2p1:HasBuiltinGrid>
+    <d2p1:LoadRecordsCount i:nil="true" />
+    <d2p1:TSQL />
+  </DataInfo>
+  <Description />
+  <IsManual>false</IsManual>
+  <Name>CalendarTestCase</Name>
+  <Owner i:nil="true" />
+  <Path>CalendarTestCase.tstest</Path>
+  <Priority>0</Priority>
+  <TestType>Wpf</TestType>
+  <UniqueId>b2a800ab-5eed-4982-b05b-af2297f034e3</UniqueId>
+  <Version>200</Version>
+  <BrowserType>NotSet</BrowserType>
+  <CurrentReferences xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:string>System</d2p1:string>
+    <d2p1:string>System.Core</d2p1:string>
+    <d2p1:string>ArtOfTest.WebAii, Version=2012.2.1420.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c</d2p1:string>
+    <d2p1:string>ArtOfTest.WebAii.Design, Version=2012.2.1420.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d</d2p1:string>
+    <d2p1:string>Telerik.WebAii.Controls.Html, Version=2012.2.1420.0, Culture=neutral, PublicKeyToken=528163f3e645de45</d2p1:string>
+    <d2p1:string>Telerik.WebAii.Controls.Xaml, Version=2012.2.1420.0, Culture=neutral, PublicKeyToken=528163f3e645de45</d2p1:string>
+    <d2p1:string>Telerik.WebAii.Controls.Xaml.Wpf, Version=2012.2.1420.0, Culture=neutral, PublicKeyToken=528163f3e645de45</d2p1:string>
+    <d2p1:string>Telerik.TestingFramework.Controls.KendoUI, Version=2012.2.1420.0, Culture=neutral, PublicKeyToken=528163f3e645de45</d2p1:string>
+    <d2p1:string>System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</d2p1:string>
+  </CurrentReferences>
+  <DataInfo xmlns:d2p1="http://artoftest.com/schemas/WebAiiDesignCanvas/1.0.0">
+    <d2p1:BuiltInData i:nil="true" />
+    <d2p1:BuiltInDocumentKey i:nil="true" />
+    <d2p1:ConnectionString />
+    <d2p1:DataEnabled>true</d2p1:DataEnabled>
+    <d2p1:DataProvider />
+    <d2p1:DataRange />
+    <d2p1:DataTableName />
+    <d2p1:DataType>None</d2p1:DataType>
+    <d2p1:DefaultToGrid>true</d2p1:DefaultToGrid>
+    <d2p1:HasBuiltinGrid>false</d2p1:HasBuiltinGrid>
+    <d2p1:LoadRecordsCount i:nil="true" />
+    <d2p1:TSQL />
+  </DataInfo>
+  <DeploymentItems xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <DomStatesCounter xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <HasCodeBehind>true</HasCodeBehind>
+  <HtmlDescription />
+  <IndependentDescriptors xmlns:d2p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+    <d2p1:ElementDescriptor>
+      <d2p1:DomStateKey />
+      <d2p1:FindExpression>
+        <d2p1:BackupSearchClause>/shell[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/border[1]/grid[1]/contentcontrol[1]/contentpresenter[1]/singleexample[1]/grid[1]/contentpresenter[1]/grid[1]/contentcontrol[1]/grid[1]/border[1]/contentpresenter[1]/grid[1]/tabcontrol[1]/grid[1]/border[1]/contentpresenter[1]/contentcontrol[1]/contentpresenter[1]/border[1]/grid[1]/contentpresenter[1]/example[1]/border[1]/contentpresenter[1]/grid[1]/headeredcontentcontrol[1]/grid[1]/border[2]/contentpresenter[1]/radcalendar[1]/grid[1]/border[3]/grid[1]/button[1]/grid[1]/textblock[1]</d2p1:BackupSearchClause>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:FindExpressions xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+          <d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+            <d5p1:key>Wpf</d5p1:key>
+            <d5p1:value i:type="d2p1:XamlFindExpression">
+              <d2p1:ChainStops xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <d2p1:Clauses>
+                <d2p1:XamlFindClause>
+                  <d2p1:Clause>Name=Text</d2p1:Clause>
+                </d2p1:XamlFindClause>
+                <d2p1:XamlFindClause>
+                  <d2p1:Clause>XamlTag=textblock</d2p1:Clause>
+                </d2p1:XamlFindClause>
+              </d2p1:Clauses>
+              <d2p1:Constraints />
+            </d5p1:value>
+          </d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+        </d2p1:FindExpressions>
+        <d2p1:Name>TextTextblock</d2p1:Name>
+        <d2p1:NodeKind>5</d2p1:NodeKind>
+        <d2p1:TechnologyType>Wpf</d2p1:TechnologyType>
+      </d2p1:FindExpression>
+      <d2p1:FindInfo i:nil="true" />
+      <d2p1:Frame xmlns:d4p1="http://artoftest.com/schemas/WebAiiDesignCanvas/1.0.0" i:type="d4p1:WpfWindowNode">
+        <d4p1:Caption>WPF Controls Examples - Grid, Chart, Scheduler, Map, Code Samples</d4p1:Caption>
+        <d4p1:FriendlyName>WPF Controls Examples - Grid, Chart, Scheduler, Map, Code Samples</d4p1:FriendlyName>
+      </d2p1:Frame>
+      <d2p1:HtmlControlType>ArtOfTest.WebAii.Controls.Xaml.Wpf.TextBlock</d2p1:HtmlControlType>
+      <d2p1:IsIndependent>true</d2p1:IsIndependent>
+      <d2p1:Name />
+      <d2p1:Page xmlns:d4p1="http://artoftest.com/schemas/WebAiiDesignCanvas/1.0.0" i:type="d4p1:WpfAppNode">
+        <d4p1:ExecutablePath>C:\Users\Angel\AppData\Local\Apps\2.0\JYYNV9BC.AD2\CCMB18PJ.1E5\wpfd..tion_1dcf05cf98ac3011_07dd.0002_86a7363a5cb8bc77\WPF Demos.exe</d4p1:ExecutablePath>
+        <d4p1:FriendlyName>WPF Demos.exe</d4p1:FriendlyName>
+        <d4p1:ModuleName>WPF Demos.exe</d4p1:ModuleName>
+      </d2p1:Page>
+      <d2p1:Region i:nil="true" />
+      <d2p1:TechnologyType>Wpf</d2p1:TechnologyType>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:ElementDescriptor>
+    <d2p1:ElementDescriptor>
+      <d2p1:DomStateKey />
+      <d2p1:FindExpression>
+        <d2p1:BackupSearchClause>/shell[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/border[1]/grid[1]/contentcontrol[1]/contentpresenter[1]/singleexample[1]/grid[1]/contentpresenter[1]/grid[1]/contentcontrol[1]/grid[1]/border[1]/contentpresenter[1]/grid[1]/tabcontrol[1]/grid[1]/border[1]/contentpresenter[1]/contentcontrol[1]/contentpresenter[1]/border[1]/grid[1]/contentpresenter[1]/example[1]/border[1]/contentpresenter[1]/grid[1]/headeredcontentcontrol[1]/grid[1]/border[2]/contentpresenter[1]/radcalendar[1]</d2p1:BackupSearchClause>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:FindExpressions xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+          <d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+            <d5p1:key>Wpf</d5p1:key>
+            <d5p1:value i:type="d2p1:XamlFindExpression">
+              <d2p1:ChainStops xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <d2p1:Clauses>
+                <d2p1:XamlFindClause>
+                  <d2p1:Clause>Name=calendar</d2p1:Clause>
+                </d2p1:XamlFindClause>
+                <d2p1:XamlFindClause>
+                  <d2p1:Clause>XamlTag=radcalendar</d2p1:Clause>
+                </d2p1:XamlFindClause>
+              </d2p1:Clauses>
+              <d2p1:Constraints />
+            </d5p1:value>
+          </d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+        </d2p1:FindExpressions>
+        <d2p1:Name>CalendarRadcalendar</d2p1:Name>
+        <d2p1:NodeKind>5</d2p1:NodeKind>
+        <d2p1:TechnologyType>Wpf</d2p1:TechnologyType>
+      </d2p1:FindExpression>
+      <d2p1:FindInfo i:nil="true" />
+      <d2p1:Frame xmlns:d4p1="http://artoftest.com/schemas/WebAiiDesignCanvas/1.0.0" i:type="d4p1:WpfWindowNode">
+        <d4p1:Caption>WPF Controls Examples - Grid, Chart, Scheduler, Map, Code Samples</d4p1:Caption>
+        <d4p1:FriendlyName>WPF Controls Examples - Grid, Chart, Scheduler, Map, Code Samples</d4p1:FriendlyName>
+      </d2p1:Frame>
+      <d2p1:HtmlControlType>Telerik.WebAii.Controls.Xaml.Wpf.RadCalendar</d2p1:HtmlControlType>
+      <d2p1:IsIndependent>true</d2p1:IsIndependent>
+      <d2p1:Name />
+      <d2p1:Page xmlns:d4p1="http://artoftest.com/schemas/WebAiiDesignCanvas/1.0.0" i:type="d4p1:WpfAppNode">
+        <d4p1:ExecutablePath>C:\Users\Angel\AppData\Local\Apps\2.0\JYYNV9BC.AD2\CCMB18PJ.1E5\wpfd..tion_1dcf05cf98ac3011_07dd.0002_86a7363a5cb8bc77\WPF Demos.exe</d4p1:ExecutablePath>
+        <d4p1:FriendlyName>WPF Demos.exe</d4p1:FriendlyName>
+        <d4p1:ModuleName>WPF Demos.exe</d4p1:ModuleName>
+      </d2p1:Page>
+      <d2p1:Region i:nil="true" />
+      <d2p1:TechnologyType>Wpf</d2p1:TechnologyType>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:ElementDescriptor>
+  </IndependentDescriptors>
+  <InheritParentDataSource>false</InheritParentDataSource>
+  <IsSilverlightApp>false</IsSilverlightApp>
+  <IsTestFragment>false</IsTestFragment>
+  <ProfilerBenchmarkResultsFilePath i:nil="true" />
+  <ProfilerBenchmarkResultsId>00000000-0000-0000-0000-000000000000</ProfilerBenchmarkResultsId>
+  <ProfilerConfigurationFilePath>C:\Users\Angel\Desktop\QA Academy\QA Part - II\Homework\TestStudio - Desktop and Mobile Testing\WPFHomeWork\Profiler Configurations\{b2a800ab-5eed-4982-b05b-af2297f034e3}.tsprofconfig</ProfilerConfigurationFilePath>
+  <ProfilerConfigurationId>00000000-0000-0000-0000-000000000000</ProfilerConfigurationId>
+  <ProfilerConfigurations xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <ProfilerResultsDirectory>C:\Users\Angel\AppData\Local\Temp\</ProfilerResultsDirectory>
+  <ProfilerServerName i:nil="true" />
+  <QcFilePath i:nil="true" />
+  <QcId>0</QcId>
+  <QcTestVersionStamp>0</QcTestVersionStamp>
+  <ResourceFilePath>CalendarTestCase.resx</ResourceFilePath>
+  <ReuseAppWindow>0</ReuseAppWindow>
+  <SilverlightAppLocalDirectory />
+  <SilverlightAppOriginUri i:nil="true" />
+  <SilverlightAppRecordLocal>false</SilverlightAppRecordLocal>
+  <SilverlightAppWebUrl />
+  <SilverlightEnabled>false</SilverlightEnabled>
+  <Steps xmlns:d2p1="http://artoftest.com/schemas/WebAiiDesignCanvas/1.0.0">
+    <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+      <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+      <d2p1:CustomDescription i:nil="true" />
+      <d2p1:Description>LeftClick on GridViewTextblock</d2p1:Description>
+      <d2p1:Enabled>true</d2p1:Enabled>
+      <d2p1:Id />
+      <d2p1:Order>1</d2p1:Order>
+      <d2p1:QcId>0</d2p1:QcId>
+      <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+      <d2p1:Runtime_x0020_ID>e7f8765a-2cab-4deb-b4a2-15aa19c47a05</d2p1:Runtime_x0020_ID>
+      <d2p1:Step xmlns:d4p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0" i:type="d4p1:SilverlightClickActionDescriptor">
+        <d2p1:Constraints>
+          <d4p1:ConstraintValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringstring>
+              <d6p1:Key>RunsAgainstVersion</d6p1:Key>
+              <d6p1:Value />
+            </d6p1:KeyValueOfstringstring>
+          </d4p1:ConstraintValues>
+        </d2p1:Constraints>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:EditorType />
+        <d2p1:Elements xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+            <d5p1:Key>TargetKey1</d5p1:Key>
+            <d5p1:Value>
+              <d4p1:DomStateKey />
+              <d4p1:FindExpression>
+                <d4p1:BackupSearchClause>/shell[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/border[1]/grid[1]/contentcontrol[1]/contentpresenter[1]/home[1]/grid[1]/contentpresenter[1]/grid[1]/contentcontrol[1]/grid[1]/border[1]/contentpresenter[1]/adornerdecorator[1]/grid[1]/highlightedcontrols[1]/border[1]/contentpresenter[1]/grid[1]/itemscontrol[1]/border[1]/itemspresenter[1]/raduniformgrid[1]/contentpresenter[3]/button[1]/grid[1]/textblock[1]</d4p1:BackupSearchClause>
+                <d4p1:DataBindingExpressions />
+                <d4p1:FindExpressions xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Wpf</d9p1:key>
+                    <d9p1:value i:type="d4p1:XamlFindExpression">
+                      <d4p1:ChainStops />
+                      <d4p1:Clauses>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>XamlTag=textblock</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>TextContent=GridView</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                      </d4p1:Clauses>
+                      <d4p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                </d4p1:FindExpressions>
+                <d4p1:Name>GridViewTextblock</d4p1:Name>
+                <d4p1:NodeKind>5</d4p1:NodeKind>
+                <d4p1:TechnologyType>Wpf</d4p1:TechnologyType>
+              </d4p1:FindExpression>
+              <d4p1:FindInfo i:nil="true" />
+              <d4p1:Frame i:type="d2p1:WpfWindowNode">
+                <d2p1:Caption>WPF Controls Examples - Grid, Chart, Scheduler, Map, Code Samples</d2p1:Caption>
+                <d2p1:FriendlyName>WPF Controls Examples - Grid, Chart, Scheduler, Map, Code Samples</d2p1:FriendlyName>
+              </d4p1:Frame>
+              <d4p1:HtmlControlType>ArtOfTest.WebAii.Controls.Xaml.Wpf.TextBlock</d4p1:HtmlControlType>
+              <d4p1:IsIndependent>false</d4p1:IsIndependent>
+              <d4p1:Name>TargetKey1</d4p1:Name>
+              <d4p1:Page i:type="d2p1:WpfAppNode">
+                <d2p1:ExecutablePath>C:\Users\Angel\AppData\Local\Apps\2.0\JYYNV9BC.AD2\CCMB18PJ.1E5\wpfd..tion_1dcf05cf98ac3011_07dd.0002_86a7363a5cb8bc77\WPF Demos.exe</d2p1:ExecutablePath>
+                <d2p1:FriendlyName>WPF Demos.exe</d2p1:FriendlyName>
+                <d2p1:ModuleName>WPF Demos.exe</d2p1:ModuleName>
+              </d4p1:Page>
+              <d4p1:Region i:nil="true" />
+              <d4p1:TechnologyType>Wpf</d4p1:TechnologyType>
+              <d4p1:Version>200</d4p1:Version>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+        </d2p1:Elements>
+        <d2p1:LogMessageOnFailure />
+        <d2p1:Pause>None</d2p1:Pause>
+        <d2p1:RunsAgainstVersion />
+        <d2p1:StepType>Action</d2p1:StepType>
+        <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+        <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+        <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+        <d4p1:EnsureElementsClickable>true</d4p1:EnsureElementsClickable>
+        <d4p1:SimulateRealUser>true</d4p1:SimulateRealUser>
+        <d4p1:VirtualizingContainerOffset>0</d4p1:VirtualizingContainerOffset>
+        <d4p1:WaitForNoMotion>true</d4p1:WaitForNoMotion>
+        <d4p1:WaitForNoMotionCheckInterval>500</d4p1:WaitForNoMotionCheckInterval>
+        <d4p1:Button>Left</d4p1:Button>
+        <d4p1:ClickPoint>
+          <d2p1:ClickUnitType>Percentage</d2p1:ClickUnitType>
+          <d2p1:OffSetReference>TopLeftCorner</d2p1:OffSetReference>
+          <d2p1:X>21</d2p1:X>
+          <d2p1:Y>19</d2p1:Y>
+        </d4p1:ClickPoint>
+        <d4p1:IsDoubleClick>false</d4p1:IsDoubleClick>
+        <d4p1:ModiferKeysCode>0</d4p1:ModiferKeysCode>
+        <d4p1:UseOffset>true</d4p1:UseOffset>
+      </d2p1:Step>
+      <d2p1:StepImageKey>CalendarTestCase2fsubxok.v31</d2p1:StepImageKey>
+      <d2p1:StepState>NoCode</d2p1:StepState>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:AutomationStep>
+    <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+      <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+      <d2p1:CustomDescription i:nil="true" />
+      <d2p1:Description>LeftClick on IndustryTextblock</d2p1:Description>
+      <d2p1:Enabled>true</d2p1:Enabled>
+      <d2p1:Id />
+      <d2p1:Order>2</d2p1:Order>
+      <d2p1:QcId>0</d2p1:QcId>
+      <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+      <d2p1:Runtime_x0020_ID>27a788ab-d2d0-483b-a77c-d5b566de2732</d2p1:Runtime_x0020_ID>
+      <d2p1:Step xmlns:d4p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0" i:type="d4p1:SilverlightClickActionDescriptor">
+        <d2p1:Constraints>
+          <d4p1:ConstraintValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringstring>
+              <d6p1:Key>RunsAgainstVersion</d6p1:Key>
+              <d6p1:Value />
+            </d6p1:KeyValueOfstringstring>
+          </d4p1:ConstraintValues>
+        </d2p1:Constraints>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:EditorType />
+        <d2p1:Elements xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+            <d5p1:Key>TargetKey1</d5p1:Key>
+            <d5p1:Value>
+              <d4p1:DomStateKey />
+              <d4p1:FindExpression>
+                <d4p1:BackupSearchClause>/shell[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/border[1]/grid[1]/contentcontrol[1]/contentpresenter[1]/home[1]/grid[1]/contentpresenter[1]/grid[1]/contentcontrol[2]/grid[1]/border[1]/contentpresenter[1]/grid[1]/itemscontrol[1]/border[1]/itemspresenter[1]/uniformgrid[1]/contentpresenter[2]/grid[1]/textblock[2]</d4p1:BackupSearchClause>
+                <d4p1:DataBindingExpressions />
+                <d4p1:FindExpressions xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Wpf</d9p1:key>
+                    <d9p1:value i:type="d4p1:XamlFindExpression">
+                      <d4p1:ChainStops />
+                      <d4p1:Clauses>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>TextContent=^Industry-leadin</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>XamlTag=textblock</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                      </d4p1:Clauses>
+                      <d4p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                </d4p1:FindExpressions>
+                <d4p1:Name>IndustryTextblock</d4p1:Name>
+                <d4p1:NodeKind>5</d4p1:NodeKind>
+                <d4p1:TechnologyType>Wpf</d4p1:TechnologyType>
+              </d4p1:FindExpression>
+              <d4p1:FindInfo i:nil="true" />
+              <d4p1:Frame i:type="d2p1:WpfWindowNode">
+                <d2p1:Caption>WPF Controls Examples - Grid, Chart, Scheduler, Map, Code Samples</d2p1:Caption>
+                <d2p1:FriendlyName>WPF Controls Examples - Grid, Chart, Scheduler, Map, Code Samples</d2p1:FriendlyName>
+              </d4p1:Frame>
+              <d4p1:HtmlControlType>ArtOfTest.WebAii.Controls.Xaml.Wpf.TextBlock</d4p1:HtmlControlType>
+              <d4p1:IsIndependent>false</d4p1:IsIndependent>
+              <d4p1:Name>TargetKey1</d4p1:Name>
+              <d4p1:Page i:type="d2p1:WpfAppNode">
+                <d2p1:ExecutablePath>C:\Users\Angel\AppData\Local\Apps\2.0\JYYNV9BC.AD2\CCMB18PJ.1E5\wpfd..tion_1dcf05cf98ac3011_07dd.0002_86a7363a5cb8bc77\WPF Demos.exe</d2p1:ExecutablePath>
+                <d2p1:FriendlyName>WPF Demos.exe</d2p1:FriendlyName>
+                <d2p1:ModuleName>WPF Demos.exe</d2p1:ModuleName>
+              </d4p1:Page>
+              <d4p1:Region i:nil="true" />
+              <d4p1:TechnologyType>Wpf</d4p1:TechnologyType>
+              <d4p1:Version>200</d4p1:Version>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+        </d2p1:Elements>
+        <d2p1:LogMessageOnFailure />
+        <d2p1:Pause>None</d2p1:Pause>
+        <d2p1:RunsAgainstVersion />
+        <d2p1:StepType>Action</d2p1:StepType>
+        <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+        <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+        <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+        <d4p1:EnsureElementsClickable>true</d4p1:EnsureElementsClickable>
+        <d4p1:SimulateRealUser>true</d4p1:SimulateRealUser>
+        <d4p1:VirtualizingContainerOffset>0</d4p1:VirtualizingContainerOffset>
+        <d4p1:WaitForNoMotion>true</d4p1:WaitForNoMotion>
+        <d4p1:WaitForNoMotionCheckInterval>500</d4p1:WaitForNoMotionCheckInterval>
+        <d4p1:Button>Left</d4p1:Button>
+        <d4p1:ClickPoint>
+          <d2p1:ClickUnitType>Percentage</d2p1:ClickUnitType>
+          <d2p1:OffSetReference>TopLeftCorner</d2p1:OffSetReference>
+          <d2p1:X>39</d2p1:X>
+          <d2p1:Y>45</d2p1:Y>
+        </d4p1:ClickPoint>
+        <d4p1:IsDoubleClick>false</d4p1:IsDoubleClick>
+        <d4p1:ModiferKeysCode>0</d4p1:ModiferKeysCode>
+        <d4p1:UseOffset>true</d4p1:UseOffset>
+      </d2p1:Step>
+      <d2p1:StepImageKey>CalendarTestCasenk3fz5d1.odq</d2p1:StepImageKey>
+      <d2p1:StepState>NoCode</d2p1:StepState>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:AutomationStep>
+    <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+      <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+      <d2p1:CustomDescription i:nil="true" />
+      <d2p1:Description>LeftClick on Item24Textblock</d2p1:Description>
+      <d2p1:Enabled>true</d2p1:Enabled>
+      <d2p1:Id />
+      <d2p1:Order>3</d2p1:Order>
+      <d2p1:QcId>0</d2p1:QcId>
+      <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+      <d2p1:Runtime_x0020_ID>b1782674-d465-4e01-9858-a1de10b32d61</d2p1:Runtime_x0020_ID>
+      <d2p1:Step xmlns:d4p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0" i:type="d4p1:SilverlightClickActionDescriptor">
+        <d2p1:Constraints>
+          <d4p1:ConstraintValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringstring>
+              <d6p1:Key>RunsAgainstVersion</d6p1:Key>
+              <d6p1:Value />
+            </d6p1:KeyValueOfstringstring>
+          </d4p1:ConstraintValues>
+        </d2p1:Constraints>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:EditorType />
+        <d2p1:Elements xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+            <d5p1:Key>TargetKey1</d5p1:Key>
+            <d5p1:Value>
+              <d4p1:DomStateKey />
+              <d4p1:FindExpression>
+                <d4p1:BackupSearchClause>/shell[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/border[1]/grid[1]/contentcontrol[1]/contentpresenter[1]/home[1]/grid[1]/contentpresenter[1]/grid[1]/contentcontrol[2]/grid[1]/border[1]/contentpresenter[1]/adornerdecorator[1]/grid[1]/button[1]/grid[1]/contentpresenter[1]/accesstext[1]/textblock[1]</d4p1:BackupSearchClause>
+                <d4p1:DataBindingExpressions />
+                <d4p1:FindExpressions xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Wpf</d9p1:key>
+                    <d9p1:value i:type="d4p1:XamlFindExpression">
+                      <d4p1:ChainStops>
+                        <d5p1:int>2</d5p1:int>
+                      </d4p1:ChainStops>
+                      <d4p1:Clauses>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>XamlTag=grid</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>name=controls_browser</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>XamlPath=/contentpresenter[0]/accesstext[0]/textblock[0]</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                      </d4p1:Clauses>
+                      <d4p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                </d4p1:FindExpressions>
+                <d4p1:Name>Item24Textblock</d4p1:Name>
+                <d4p1:NodeKind>5</d4p1:NodeKind>
+                <d4p1:TechnologyType>Wpf</d4p1:TechnologyType>
+              </d4p1:FindExpression>
+              <d4p1:FindInfo i:nil="true" />
+              <d4p1:Frame i:type="d2p1:WpfWindowNode">
+                <d2p1:Caption>WPF Controls Examples - Grid, Chart, Scheduler, Map, Code Samples</d2p1:Caption>
+                <d2p1:FriendlyName>WPF Controls Examples - Grid, Chart, Scheduler, Map, Code Samples</d2p1:FriendlyName>
+              </d4p1:Frame>
+              <d4p1:HtmlControlType>ArtOfTest.WebAii.Controls.Xaml.Wpf.TextBlock</d4p1:HtmlControlType>
+              <d4p1:IsIndependent>false</d4p1:IsIndependent>
+              <d4p1:Name>TargetKey1</d4p1:Name>
+              <d4p1:Page i:type="d2p1:WpfAppNode">
+                <d2p1:ExecutablePath>C:\Users\Angel\AppData\Local\Apps\2.0\JYYNV9BC.AD2\CCMB18PJ.1E5\wpfd..tion_1dcf05cf98ac3011_07dd.0002_86a7363a5cb8bc77\WPF Demos.exe</d2p1:ExecutablePath>
+                <d2p1:FriendlyName>WPF Demos.exe</d2p1:FriendlyName>
+                <d2p1:ModuleName>WPF Demos.exe</d2p1:ModuleName>
+              </d4p1:Page>
+              <d4p1:Region i:nil="true" />
+              <d4p1:TechnologyType>Wpf</d4p1:TechnologyType>
+              <d4p1:Version>200</d4p1:Version>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+        </d2p1:Elements>
+        <d2p1:LogMessageOnFailure />
+        <d2p1:Pause>None</d2p1:Pause>
+        <d2p1:RunsAgainstVersion />
+        <d2p1:StepType>Action</d2p1:StepType>
+        <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+        <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+        <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+        <d4p1:EnsureElementsClickable>true</d4p1:EnsureElementsClickable>
+        <d4p1:SimulateRealUser>true</d4p1:SimulateRealUser>
+        <d4p1:VirtualizingContainerOffset>0</d4p1:VirtualizingContainerOffset>
+        <d4p1:WaitForNoMotion>true</d4p1:WaitForNoMotion>
+        <d4p1:WaitForNoMotionCheckInterval>500</d4p1:WaitForNoMotionCheckInterval>
+        <d4p1:Button>Left</d4p1:Button>
+        <d4p1:ClickPoint>
+          <d2p1:ClickUnitType>Percentage</d2p1:ClickUnitType>
+          <d2p1:OffSetReference>TopLeftCorner</d2p1:OffSetReference>
+          <d2p1:X>53</d2p1:X>
+          <d2p1:Y>57</d2p1:Y>
+        </d4p1:ClickPoint>
+        <d4p1:IsDoubleClick>false</d4p1:IsDoubleClick>
+        <d4p1:ModiferKeysCode>0</d4p1:ModiferKeysCode>
+        <d4p1:UseOffset>true</d4p1:UseOffset>
+      </d2p1:Step>
+      <d2p1:StepImageKey>CalendarTestCasemurq0wk5.2ne</d2p1:StepImageKey>
+      <d2p1:StepState>NoCode</d2p1:StepState>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:AutomationStep>
+    <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+      <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+      <d2p1:CustomDescription i:nil="true" />
+      <d2p1:Description>LeftClick on SmallNameTextblock0</d2p1:Description>
+      <d2p1:Enabled>true</d2p1:Enabled>
+      <d2p1:Id />
+      <d2p1:Order>4</d2p1:Order>
+      <d2p1:QcId>0</d2p1:QcId>
+      <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+      <d2p1:Runtime_x0020_ID>706e47cd-eab4-4ac9-ba4d-e7ed01530927</d2p1:Runtime_x0020_ID>
+      <d2p1:Step xmlns:d4p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0" i:type="d4p1:SilverlightClickActionDescriptor">
+        <d2p1:Constraints>
+          <d4p1:ConstraintValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringstring>
+              <d6p1:Key>RunsAgainstVersion</d6p1:Key>
+              <d6p1:Value />
+            </d6p1:KeyValueOfstringstring>
+          </d4p1:ConstraintValues>
+        </d2p1:Constraints>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:EditorType />
+        <d2p1:Elements xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+            <d5p1:Key>TargetKey1</d5p1:Key>
+            <d5p1:Value>
+              <d4p1:DomStateKey />
+              <d4p1:FindExpression>
+                <d4p1:BackupSearchClause>/shell[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/border[1]/grid[1]/contentcontrol[1]/contentpresenter[1]/allcontrols[1]/grid[1]/contentpresenter[1]/grid[1]/contentcontrol[2]/grid[1]/border[1]/contentpresenter[1]/grid[1]/nonhighlightedcontrols[1]/border[1]/contentpresenter[1]/grid[1]/itemscontrol[1]/border[1]/itemspresenter[1]/raduniformgrid[1]/contentpresenter[9]/button[1]/grid[1]/textblock[1]</d4p1:BackupSearchClause>
+                <d4p1:DataBindingExpressions />
+                <d4p1:FindExpressions xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Wpf</d9p1:key>
+                    <d9p1:value i:type="d4p1:XamlFindExpression">
+                      <d4p1:ChainStops />
+                      <d4p1:Clauses>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>TextContent=Calendar</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>XamlTag=textblock</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                      </d4p1:Clauses>
+                      <d4p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                </d4p1:FindExpressions>
+                <d4p1:Name>SmallNameTextblock0</d4p1:Name>
+                <d4p1:NodeKind>5</d4p1:NodeKind>
+                <d4p1:TechnologyType>Wpf</d4p1:TechnologyType>
+              </d4p1:FindExpression>
+              <d4p1:FindInfo i:nil="true" />
+              <d4p1:Frame i:type="d2p1:WpfWindowNode">
+                <d2p1:Caption>WPF Controls Examples - Grid, Chart, Scheduler, Map, Code Samples</d2p1:Caption>
+                <d2p1:FriendlyName>WPF Controls Examples - Grid, Chart, Scheduler, Map, Code Samples</d2p1:FriendlyName>
+              </d4p1:Frame>
+              <d4p1:HtmlControlType>ArtOfTest.WebAii.Controls.Xaml.Wpf.TextBlock</d4p1:HtmlControlType>
+              <d4p1:IsIndependent>false</d4p1:IsIndependent>
+              <d4p1:Name>TargetKey1</d4p1:Name>
+              <d4p1:Page i:type="d2p1:WpfAppNode">
+                <d2p1:ExecutablePath>C:\Users\Angel\AppData\Local\Apps\2.0\JYYNV9BC.AD2\CCMB18PJ.1E5\wpfd..tion_1dcf05cf98ac3011_07dd.0002_86a7363a5cb8bc77\WPF Demos.exe</d2p1:ExecutablePath>
+                <d2p1:FriendlyName>WPF Demos.exe</d2p1:FriendlyName>
+                <d2p1:ModuleName>WPF Demos.exe</d2p1:ModuleName>
+              </d4p1:Page>
+              <d4p1:Region i:nil="true" />
+              <d4p1:TechnologyType>Wpf</d4p1:TechnologyType>
+              <d4p1:Version>200</d4p1:Version>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+        </d2p1:Elements>
+        <d2p1:LogMessageOnFailure />
+        <d2p1:Pause>None</d2p1:Pause>
+        <d2p1:RunsAgainstVersion />
+        <d2p1:StepType>Action</d2p1:StepType>
+        <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+        <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+        <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+        <d4p1:EnsureElementsClickable>true</d4p1:EnsureElementsClickable>
+        <d4p1:SimulateRealUser>true</d4p1:SimulateRealUser>
+        <d4p1:VirtualizingContainerOffset>0</d4p1:VirtualizingContainerOffset>
+        <d4p1:WaitForNoMotion>true</d4p1:WaitForNoMotion>
+        <d4p1:WaitForNoMotionCheckInterval>500</d4p1:WaitForNoMotionCheckInterval>
+        <d4p1:Button>Left</d4p1:Button>
+        <d4p1:ClickPoint>
+          <d2p1:ClickUnitType>Percentage</d2p1:ClickUnitType>
+          <d2p1:OffSetReference>TopLeftCorner</d2p1:OffSetReference>
+          <d2p1:X>12</d2p1:X>
+          <d2p1:Y>31</d2p1:Y>
+        </d4p1:ClickPoint>
+        <d4p1:IsDoubleClick>false</d4p1:IsDoubleClick>
+        <d4p1:ModiferKeysCode>0</d4p1:ModiferKeysCode>
+        <d4p1:UseOffset>true</d4p1:UseOffset>
+      </d2p1:Step>
+      <d2p1:StepImageKey>CalendarTestCaseq5sgaanf.00v</d2p1:StepImageKey>
+      <d2p1:StepState>NoCode</d2p1:StepState>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:AutomationStep>
+    <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+      <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+      <d2p1:CustomDescription i:nil="true" />
+      <d2p1:Description>WHILE (Verify 'TextTextblock' text Same 'June - 2013') THEN</d2p1:Description>
+      <d2p1:Enabled>true</d2p1:Enabled>
+      <d2p1:Id />
+      <d2p1:Order>5</d2p1:Order>
+      <d2p1:QcId>0</d2p1:QcId>
+      <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+      <d2p1:Runtime_x0020_ID>169cd75a-4cb8-4f28-8d91-226611679810</d2p1:Runtime_x0020_ID>
+      <d2p1:Step i:type="d2p1:WhileLoopLogicalDescriptor">
+        <d2p1:Constraints xmlns:d5p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+          <d5p1:ConstraintValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        </d2p1:Constraints>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:EditorType />
+        <d2p1:Elements xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+            <d5p1:Key>TargetKey1</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+              <d7p1:DomStateKey />
+              <d7p1:FindExpression>
+                <d7p1:BackupSearchClause>/shell[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/border[1]/grid[1]/contentcontrol[1]/contentpresenter[1]/singleexample[1]/grid[1]/contentpresenter[1]/grid[1]/contentcontrol[1]/grid[1]/border[1]/contentpresenter[1]/grid[1]/tabcontrol[1]/grid[1]/border[1]/contentpresenter[1]/contentcontrol[1]/contentpresenter[1]/border[1]/grid[1]/contentpresenter[1]/example[1]/border[1]/contentpresenter[1]/grid[1]/headeredcontentcontrol[1]/grid[1]/border[2]/contentpresenter[1]/radcalendar[1]/grid[1]/border[3]/grid[1]/button[1]/grid[1]/textblock[1]</d7p1:BackupSearchClause>
+                <d7p1:DataBindingExpressions />
+                <d7p1:FindExpressions xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Wpf</d9p1:key>
+                    <d9p1:value i:type="d7p1:XamlFindExpression">
+                      <d7p1:ChainStops />
+                      <d7p1:Clauses>
+                        <d7p1:XamlFindClause>
+                          <d7p1:Clause>XamlTag=textblock</d7p1:Clause>
+                        </d7p1:XamlFindClause>
+                        <d7p1:XamlFindClause>
+                          <d7p1:Clause>Name=Text</d7p1:Clause>
+                        </d7p1:XamlFindClause>
+                      </d7p1:Clauses>
+                      <d7p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                </d7p1:FindExpressions>
+                <d7p1:Name>TextTextblock</d7p1:Name>
+                <d7p1:NodeKind>5</d7p1:NodeKind>
+                <d7p1:TechnologyType>Wpf</d7p1:TechnologyType>
+              </d7p1:FindExpression>
+              <d7p1:FindInfo i:nil="true" />
+              <d7p1:Frame i:type="d2p1:WpfWindowNode">
+                <d2p1:Caption>WPF Controls Examples - Grid, Chart, Scheduler, Map, Code Samples</d2p1:Caption>
+                <d2p1:FriendlyName>WPF Controls Examples - Grid, Chart, Scheduler, Map, Code Samples</d2p1:FriendlyName>
+              </d7p1:Frame>
+              <d7p1:HtmlControlType>ArtOfTest.WebAii.Controls.Xaml.Wpf.TextBlock</d7p1:HtmlControlType>
+              <d7p1:IsIndependent>false</d7p1:IsIndependent>
+              <d7p1:Name>TargetKey1</d7p1:Name>
+              <d7p1:Page i:type="d2p1:WpfAppNode">
+                <d2p1:ExecutablePath>C:\Users\Angel\AppData\Local\Apps\2.0\JYYNV9BC.AD2\CCMB18PJ.1E5\wpfd..tion_1dcf05cf98ac3011_07dd.0002_86a7363a5cb8bc77\WPF Demos.exe</d2p1:ExecutablePath>
+                <d2p1:FriendlyName>WPF Demos.exe</d2p1:FriendlyName>
+                <d2p1:ModuleName>WPF Demos.exe</d2p1:ModuleName>
+              </d7p1:Page>
+              <d7p1:Region i:nil="true" />
+              <d7p1:TechnologyType>Wpf</d7p1:TechnologyType>
+              <d7p1:Version>200</d7p1:Version>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+        </d2p1:Elements>
+        <d2p1:LogMessageOnFailure />
+        <d2p1:Pause>None</d2p1:Pause>
+        <d2p1:RunsAgainstVersion />
+        <d2p1:StepType>Logical</d2p1:StepType>
+        <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+        <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+        <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+        <d2p1:Branches xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfintLogicalBranchDataM_Pcf9bkW>
+            <d5p1:Key>0</d5p1:Key>
+            <d5p1:Value>
+              <d2p1:Branch>0</d2p1:Branch>
+              <d2p1:CustomDescription i:nil="true" />
+              <d2p1:Description>WHILE ({0}) THEN</d2p1:Description>
+              <d2p1:Order>0</d2p1:Order>
+              <d2p1:StepList>
+                <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+                  <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+                  <d2p1:CustomDescription i:nil="true" />
+                  <d2p1:Description>radcalendar: 'MoveLeft' action.</d2p1:Description>
+                  <d2p1:Enabled>true</d2p1:Enabled>
+                  <d2p1:Id />
+                  <d2p1:Order>1</d2p1:Order>
+                  <d2p1:QcId>0</d2p1:QcId>
+                  <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+                  <d2p1:Runtime_x0020_ID>aa7f1ba5-da8e-45a5-9498-fc7328398255</d2p1:Runtime_x0020_ID>
+                  <d2p1:Step xmlns:d10p1="http://schemas.datacontract.org/2004/07/Telerik.WebAii.Design.Translators.Xaml.Calendar" i:type="d10p1:RadCalendarPrevNextNavigationAction">
+                    <d2p1:Constraints xmlns:d11p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+                      <d11p1:ConstraintValues>
+                        <d5p1:KeyValueOfstringstring>
+                          <d5p1:Key>RunsAgainstVersion</d5p1:Key>
+                          <d5p1:Value />
+                        </d5p1:KeyValueOfstringstring>
+                      </d11p1:ConstraintValues>
+                    </d2p1:Constraints>
+                    <d2p1:DataBindingExpressions />
+                    <d2p1:EditorType />
+                    <d2p1:Elements>
+                      <d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+                        <d5p1:Key>radcalendar</d5p1:Key>
+                        <d5p1:Value xmlns:d13p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+                          <d13p1:DomStateKey />
+                          <d13p1:FindExpression>
+                            <d13p1:BackupSearchClause>/shell[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/border[1]/grid[1]/contentcontrol[1]/contentpresenter[1]/singleexample[1]/grid[1]/contentpresenter[1]/grid[1]/contentcontrol[1]/grid[1]/border[1]/contentpresenter[1]/grid[1]/tabcontrol[1]/grid[1]/border[1]/contentpresenter[1]/contentcontrol[1]/contentpresenter[1]/border[1]/grid[1]/contentpresenter[1]/example[1]/border[1]/contentpresenter[1]/grid[1]/headeredcontentcontrol[1]/grid[1]/border[2]/contentpresenter[1]/radcalendar[1]</d13p1:BackupSearchClause>
+                            <d13p1:DataBindingExpressions />
+                            <d13p1:FindExpressions xmlns:d15p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                              <d15p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                                <d15p1:key>Wpf</d15p1:key>
+                                <d15p1:value i:type="d13p1:XamlFindExpression">
+                                  <d13p1:ChainStops />
+                                  <d13p1:Clauses>
+                                    <d13p1:XamlFindClause>
+                                      <d13p1:Clause>XamlTag=radcalendar</d13p1:Clause>
+                                    </d13p1:XamlFindClause>
+                                    <d13p1:XamlFindClause>
+                                      <d13p1:Clause>Name=calendar</d13p1:Clause>
+                                    </d13p1:XamlFindClause>
+                                  </d13p1:Clauses>
+                                  <d13p1:Constraints />
+                                </d15p1:value>
+                              </d15p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                            </d13p1:FindExpressions>
+                            <d13p1:Name>CalendarRadcalendar</d13p1:Name>
+                            <d13p1:NodeKind>5</d13p1:NodeKind>
+                            <d13p1:TechnologyType>Wpf</d13p1:TechnologyType>
+                          </d13p1:FindExpression>
+                          <d13p1:FindInfo i:nil="true" />
+                          <d13p1:Frame i:type="d2p1:WpfWindowNode">
+                            <d2p1:Caption>WPF Controls Examples - Grid, Chart, Scheduler, Map, Code Samples</d2p1:Caption>
+                            <d2p1:FriendlyName>WPF Controls Examples - Grid, Chart, Scheduler, Map, Code Samples</d2p1:FriendlyName>
+                          </d13p1:Frame>
+                          <d13p1:HtmlControlType>Telerik.WebAii.Controls.Xaml.Wpf.RadCalendar</d13p1:HtmlControlType>
+                          <d13p1:IsIndependent>false</d13p1:IsIndependent>
+                          <d13p1:Name>radcalendar</d13p1:Name>
+                          <d13p1:Page i:type="d2p1:WpfAppNode">
+                            <d2p1:ExecutablePath>C:\Users\Angel\AppData\Local\Apps\2.0\JYYNV9BC.AD2\CCMB18PJ.1E5\wpfd..tion_1dcf05cf98ac3011_07dd.0002_86a7363a5cb8bc77\WPF Demos.exe</d2p1:ExecutablePath>
+                            <d2p1:FriendlyName>WPF Demos.exe</d2p1:FriendlyName>
+                            <d2p1:ModuleName>WPF Demos.exe</d2p1:ModuleName>
+                          </d13p1:Page>
+                          <d13p1:Region i:nil="true" />
+                          <d13p1:TechnologyType>Wpf</d13p1:TechnologyType>
+                          <d13p1:Version>200</d13p1:Version>
+                        </d5p1:Value>
+                      </d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+                    </d2p1:Elements>
+                    <d2p1:LogMessageOnFailure />
+                    <d2p1:Pause>None</d2p1:Pause>
+                    <d2p1:RunsAgainstVersion />
+                    <d2p1:StepType>Action</d2p1:StepType>
+                    <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+                    <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+                    <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+                    <EnsureElementsClickable xmlns="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">true</EnsureElementsClickable>
+                    <SimulateRealUser xmlns="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">true</SimulateRealUser>
+                    <VirtualizingContainerOffset xmlns="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">0</VirtualizingContainerOffset>
+                    <WaitForNoMotion xmlns="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">true</WaitForNoMotion>
+                    <WaitForNoMotionCheckInterval xmlns="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">500</WaitForNoMotionCheckInterval>
+                    <ControlKey xmlns="http://schemas.datacontract.org/2004/07/Telerik.WebAii.Design.Translators.Xaml.Common">radcalendar</ControlKey>
+                    <d10p1:ButtonName>MoveLeft</d10p1:ButtonName>
+                  </d2p1:Step>
+                  <d2p1:StepImageKey>CalendarTestCase1vhtgwx1.nuj</d2p1:StepImageKey>
+                  <d2p1:StepState>NoCode</d2p1:StepState>
+                  <d2p1:Version>200</d2p1:Version>
+                </d2p1:AutomationStep>
+              </d2p1:StepList>
+              <d2p1:Visible>true</d2p1:Visible>
+            </d5p1:Value>
+          </d5p1:KeyValueOfintLogicalBranchDataM_Pcf9bkW>
+        </d2p1:Branches>
+        <d2p1:Verification xmlns:d5p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0" i:type="d5p1:TextBlockVerificationDescriptor">
+          <d2p1:Constraints>
+            <d5p1:ConstraintValues xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:KeyValueOfstringstring>
+                <d7p1:Key>RunsAgainstVersion</d7p1:Key>
+                <d7p1:Value />
+              </d7p1:KeyValueOfstringstring>
+            </d5p1:ConstraintValues>
+          </d2p1:Constraints>
+          <d2p1:DataBindingExpressions xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <d2p1:EditorType />
+          <d2p1:Elements xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringElementDescriptorJagf4TWk>
+              <d6p1:Key>TargetKey1</d6p1:Key>
+              <d6p1:Value>
+                <d5p1:DomStateKey />
+                <d5p1:FindExpression>
+                  <d5p1:BackupSearchClause>/shell[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/border[1]/grid[1]/contentcontrol[1]/contentpresenter[1]/singleexample[1]/grid[1]/contentpresenter[1]/grid[1]/contentcontrol[1]/grid[1]/border[1]/contentpresenter[1]/grid[1]/tabcontrol[1]/grid[1]/border[1]/contentpresenter[1]/contentcontrol[1]/contentpresenter[1]/border[1]/grid[1]/contentpresenter[1]/example[1]/border[1]/contentpresenter[1]/grid[1]/headeredcontentcontrol[1]/grid[1]/border[2]/contentpresenter[1]/radcalendar[1]/grid[1]/border[3]/grid[1]/button[1]/grid[1]/textblock[1]</d5p1:BackupSearchClause>
+                  <d5p1:DataBindingExpressions />
+                  <d5p1:FindExpressions xmlns:d10p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                    <d10p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                      <d10p1:key>Wpf</d10p1:key>
+                      <d10p1:value i:type="d5p1:XamlFindExpression">
+                        <d5p1:ChainStops />
+                        <d5p1:Clauses>
+                          <d5p1:XamlFindClause>
+                            <d5p1:Clause>XamlTag=textblock</d5p1:Clause>
+                          </d5p1:XamlFindClause>
+                          <d5p1:XamlFindClause>
+                            <d5p1:Clause>Name=Text</d5p1:Clause>
+                          </d5p1:XamlFindClause>
+                        </d5p1:Clauses>
+                        <d5p1:Constraints />
+                      </d10p1:value>
+                    </d10p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                  </d5p1:FindExpressions>
+                  <d5p1:Name>TextTextblock</d5p1:Name>
+                  <d5p1:NodeKind>5</d5p1:NodeKind>
+                  <d5p1:TechnologyType>Wpf</d5p1:TechnologyType>
+                </d5p1:FindExpression>
+                <d5p1:FindInfo i:nil="true" />
+                <d5p1:Frame i:type="d2p1:WpfWindowNode">
+                  <d2p1:Caption>WPF Controls Examples - Grid, Chart, Scheduler, Map, Code Samples</d2p1:Caption>
+                  <d2p1:FriendlyName>WPF Controls Examples - Grid, Chart, Scheduler, Map, Code Samples</d2p1:FriendlyName>
+                </d5p1:Frame>
+                <d5p1:HtmlControlType>ArtOfTest.WebAii.Controls.Xaml.Wpf.TextBlock</d5p1:HtmlControlType>
+                <d5p1:IsIndependent>false</d5p1:IsIndependent>
+                <d5p1:Name>TargetKey1</d5p1:Name>
+                <d5p1:Page i:type="d2p1:WpfAppNode">
+                  <d2p1:ExecutablePath>C:\Users\Angel\AppData\Local\Apps\2.0\JYYNV9BC.AD2\CCMB18PJ.1E5\wpfd..tion_1dcf05cf98ac3011_07dd.0002_86a7363a5cb8bc77\WPF Demos.exe</d2p1:ExecutablePath>
+                  <d2p1:FriendlyName>WPF Demos.exe</d2p1:FriendlyName>
+                  <d2p1:ModuleName>WPF Demos.exe</d2p1:ModuleName>
+                </d5p1:Page>
+                <d5p1:Region i:nil="true" />
+                <d5p1:TechnologyType>Wpf</d5p1:TechnologyType>
+                <d5p1:Version>200</d5p1:Version>
+              </d6p1:Value>
+            </d6p1:KeyValueOfstringElementDescriptorJagf4TWk>
+          </d2p1:Elements>
+          <d2p1:LogMessageOnFailure />
+          <d2p1:Pause>None</d2p1:Pause>
+          <d2p1:RunsAgainstVersion />
+          <d2p1:StepType>Verification</d2p1:StepType>
+          <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+          <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+          <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+          <d2p1:CheckInterval>500</d2p1:CheckInterval>
+          <d2p1:DataBindVariableName i:nil="true" />
+          <d2p1:EnsureStateIsCurrent>false</d2p1:EnsureStateIsCurrent>
+          <d2p1:Timeout>30000</d2p1:Timeout>
+          <d5p1:VirtualizingContainerOffset>0</d5p1:VirtualizingContainerOffset>
+          <d5p1:WaitForNoMotion>true</d5p1:WaitForNoMotion>
+          <d5p1:WaitForNoMotionCheckInterval>500</d5p1:WaitForNoMotionCheckInterval>
+          <d5p1:Comparer i:type="d5p1:StringComparer" />
+          <d5p1:Comparison>NotSame</d5p1:Comparison>
+          <d5p1:Property xmlns:d6p1="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Silverlight">
+            <d6p1:AttachedPropertyOwner i:nil="true" />
+            <d6p1:Index i:nil="true" />
+            <d6p1:IsAttachedProperty>false</d6p1:IsAttachedProperty>
+            <d6p1:Name>Text</d6p1:Name>
+            <d6p1:TypeName>System.String</d6p1:TypeName>
+          </d5p1:Property>
+          <d5p1:Value xmlns:d6p1="http://www.w3.org/2001/XMLSchema" i:type="d6p1:string">June - 2013</d5p1:Value>
+        </d2p1:Verification>
+      </d2p1:Step>
+      <d2p1:StepImageKey>CalendarTestCaseaj4qvijh.avk</d2p1:StepImageKey>
+      <d2p1:StepState>NoCode</d2p1:StepState>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:AutomationStep>
+    <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+      <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+      <d2p1:CustomDescription i:nil="true" />
+      <d2p1:Description>calendarview: select '28' action.</d2p1:Description>
+      <d2p1:Enabled>true</d2p1:Enabled>
+      <d2p1:Id />
+      <d2p1:Order>6</d2p1:Order>
+      <d2p1:QcId>0</d2p1:QcId>
+      <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+      <d2p1:Runtime_x0020_ID>781e898a-f899-4e75-8e24-c5d97aa5aa52</d2p1:Runtime_x0020_ID>
+      <d2p1:Step xmlns:d4p1="http://schemas.datacontract.org/2004/07/Telerik.WebAii.Design.Translators.Xaml.Calendar" i:type="d4p1:RadCalendarButtonSelectionAction">
+        <d2p1:Constraints xmlns:d5p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+          <d5p1:ConstraintValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringstring>
+              <d6p1:Key>RunsAgainstVersion</d6p1:Key>
+              <d6p1:Value />
+            </d6p1:KeyValueOfstringstring>
+          </d5p1:ConstraintValues>
+        </d2p1:Constraints>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:EditorType />
+        <d2p1:Elements xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+            <d5p1:Key>calendarview</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+              <d7p1:DomStateKey />
+              <d7p1:FindExpression>
+                <d7p1:BackupSearchClause>/shell[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/border[1]/grid[1]/contentcontrol[1]/contentpresenter[1]/singleexample[1]/grid[1]/contentpresenter[1]/grid[1]/contentcontrol[1]/grid[1]/border[1]/contentpresenter[1]/grid[1]/tabcontrol[1]/grid[1]/border[1]/contentpresenter[1]/contentcontrol[1]/contentpresenter[1]/border[1]/grid[1]/contentpresenter[1]/example[1]/border[1]/contentpresenter[1]/grid[1]/headeredcontentcontrol[1]/grid[1]/border[2]/contentpresenter[1]/radcalendar[1]/grid[1]/transitionpanel[1]/raduniformgrid[1]/calendarview[1]</d7p1:BackupSearchClause>
+                <d7p1:DataBindingExpressions />
+                <d7p1:FindExpressions xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Wpf</d9p1:key>
+                    <d9p1:value i:type="d7p1:XamlFindExpression">
+                      <d7p1:ChainStops>
+                        <d5p1:int>2</d5p1:int>
+                      </d7p1:ChainStops>
+                      <d7p1:Clauses>
+                        <d7p1:XamlFindClause>
+                          <d7p1:Clause>XamlTag=raduniformgrid</d7p1:Clause>
+                        </d7p1:XamlFindClause>
+                        <d7p1:XamlFindClause>
+                          <d7p1:Clause>name=MonthViews</d7p1:Clause>
+                        </d7p1:XamlFindClause>
+                        <d7p1:XamlFindClause>
+                          <d7p1:Clause>XamlPath=/calendarview[0]</d7p1:Clause>
+                        </d7p1:XamlFindClause>
+                      </d7p1:Clauses>
+                      <d7p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                </d7p1:FindExpressions>
+                <d7p1:Name>SunCalendarview</d7p1:Name>
+                <d7p1:NodeKind>5</d7p1:NodeKind>
+                <d7p1:TechnologyType>Wpf</d7p1:TechnologyType>
+              </d7p1:FindExpression>
+              <d7p1:FindInfo i:nil="true" />
+              <d7p1:Frame i:type="d2p1:WpfWindowNode">
+                <d2p1:Caption>WPF Controls Examples - Grid, Chart, Scheduler, Map, Code Samples</d2p1:Caption>
+                <d2p1:FriendlyName>WPF Controls Examples - Grid, Chart, Scheduler, Map, Code Samples</d2p1:FriendlyName>
+              </d7p1:Frame>
+              <d7p1:HtmlControlType>Telerik.WebAii.Controls.Xaml.Wpf.CalendarView</d7p1:HtmlControlType>
+              <d7p1:IsIndependent>false</d7p1:IsIndependent>
+              <d7p1:Name>calendarview</d7p1:Name>
+              <d7p1:Page i:type="d2p1:WpfAppNode">
+                <d2p1:ExecutablePath>C:\Users\Angel\AppData\Local\Apps\2.0\JYYNV9BC.AD2\CCMB18PJ.1E5\wpfd..tion_1dcf05cf98ac3011_07dd.0002_86a7363a5cb8bc77\WPF Demos.exe</d2p1:ExecutablePath>
+                <d2p1:FriendlyName>WPF Demos.exe</d2p1:FriendlyName>
+                <d2p1:ModuleName>WPF Demos.exe</d2p1:ModuleName>
+              </d7p1:Page>
+              <d7p1:Region i:nil="true" />
+              <d7p1:TechnologyType>Wpf</d7p1:TechnologyType>
+              <d7p1:Version>200</d7p1:Version>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+        </d2p1:Elements>
+        <d2p1:LogMessageOnFailure />
+        <d2p1:Pause>None</d2p1:Pause>
+        <d2p1:RunsAgainstVersion />
+        <d2p1:StepType>Action</d2p1:StepType>
+        <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+        <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+        <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+        <EnsureElementsClickable xmlns="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">true</EnsureElementsClickable>
+        <SimulateRealUser xmlns="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">true</SimulateRealUser>
+        <VirtualizingContainerOffset xmlns="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">0</VirtualizingContainerOffset>
+        <WaitForNoMotion xmlns="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">true</WaitForNoMotion>
+        <WaitForNoMotionCheckInterval xmlns="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">500</WaitForNoMotionCheckInterval>
+        <ControlKey xmlns="http://schemas.datacontract.org/2004/07/Telerik.WebAii.Design.Translators.Xaml.Common">calendarview</ControlKey>
+        <d4p1:ItemText>28</d4p1:ItemText>
+        <d4p1:TextOccurrence>1</d4p1:TextOccurrence>
+      </d2p1:Step>
+      <d2p1:StepImageKey>CalendarTestCaseyzzt5ptf.5hx</d2p1:StepImageKey>
+      <d2p1:StepState>NoCode</d2p1:StepState>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:AutomationStep>
+    <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+      <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+      <d2p1:CustomDescription i:nil="true" />
+      <d2p1:Description>Verify 'EventDateTextblock' text Same 'петък, юни 28'</d2p1:Description>
+      <d2p1:Enabled>true</d2p1:Enabled>
+      <d2p1:Id />
+      <d2p1:Order>7</d2p1:Order>
+      <d2p1:QcId>0</d2p1:QcId>
+      <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+      <d2p1:Runtime_x0020_ID>5139ca40-b385-4d4e-a2e3-393b0bc1bef6</d2p1:Runtime_x0020_ID>
+      <d2p1:Step xmlns:d4p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0" i:type="d4p1:TextBlockVerificationDescriptor">
+        <d2p1:Constraints>
+          <d4p1:ConstraintValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringstring>
+              <d6p1:Key>RunsAgainstVersion</d6p1:Key>
+              <d6p1:Value />
+            </d6p1:KeyValueOfstringstring>
+          </d4p1:ConstraintValues>
+        </d2p1:Constraints>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:EditorType />
+        <d2p1:Elements xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+            <d5p1:Key>TargetKey1</d5p1:Key>
+            <d5p1:Value>
+              <d4p1:DomStateKey />
+              <d4p1:FindExpression>
+                <d4p1:BackupSearchClause>/shell[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/border[1]/grid[1]/contentcontrol[1]/contentpresenter[1]/singleexample[1]/grid[1]/contentpresenter[1]/grid[1]/contentcontrol[1]/grid[1]/border[1]/contentpresenter[1]/grid[1]/tabcontrol[1]/grid[1]/border[1]/contentpresenter[1]/contentcontrol[1]/contentpresenter[1]/border[1]/grid[1]/contentpresenter[1]/example[1]/border[1]/contentpresenter[1]/grid[1]/headeredcontentcontrol[2]/grid[1]/border[2]/contentpresenter[1]/grid[1]/listbox[1]/scrollviewer[1]/border[1]/grid[1]/scrollcontentpresenter[1]/itemspresenter[1]/virtualizingstackpanel[1]/listboxitem[1]/border[1]/contentpresenter[1]/stackpanel[1]/textblock[1]</d4p1:BackupSearchClause>
+                <d4p1:DataBindingExpressions />
+                <d4p1:FindExpressions xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Wpf</d9p1:key>
+                    <d9p1:value i:type="d4p1:XamlFindExpression">
+                      <d4p1:ChainStops>
+                        <d5p1:int>2</d5p1:int>
+                        <d5p1:int>3</d5p1:int>
+                        <d5p1:int>4</d5p1:int>
+                      </d4p1:ChainStops>
+                      <d4p1:Clauses>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>XamlTag=listbox</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>name=width</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>XamlPath=/scrollviewer[0]/border[0]/grid[0]/scrollcontentpresenter[name=PART_ScrollContentPresenter]/itemspresenter[0]/virtualizingstackpanel[0]</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>VirtualizedIndex=0</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>XamlPath=/border[0]/contentpresenter[0]/stackpanel[0]/textblock[name=EventDate]</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                      </d4p1:Clauses>
+                      <d4p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                </d4p1:FindExpressions>
+                <d4p1:Name>EventDateTextblock</d4p1:Name>
+                <d4p1:NodeKind>5</d4p1:NodeKind>
+                <d4p1:TechnologyType>Wpf</d4p1:TechnologyType>
+              </d4p1:FindExpression>
+              <d4p1:FindInfo i:nil="true" />
+              <d4p1:Frame i:type="d2p1:WpfWindowNode">
+                <d2p1:Caption>WPF Controls Examples - Grid, Chart, Scheduler, Map, Code Samples</d2p1:Caption>
+                <d2p1:FriendlyName>WPF Controls Examples - Grid, Chart, Scheduler, Map, Code Samples</d2p1:FriendlyName>
+              </d4p1:Frame>
+              <d4p1:HtmlControlType>ArtOfTest.WebAii.Controls.Xaml.Wpf.TextBlock</d4p1:HtmlControlType>
+              <d4p1:IsIndependent>false</d4p1:IsIndependent>
+              <d4p1:Name>TargetKey1</d4p1:Name>
+              <d4p1:Page i:type="d2p1:WpfAppNode">
+                <d2p1:ExecutablePath>C:\Users\Angel\AppData\Local\Apps\2.0\JYYNV9BC.AD2\CCMB18PJ.1E5\wpfd..tion_1dcf05cf98ac3011_07dd.0002_86a7363a5cb8bc77\WPF Demos.exe</d2p1:ExecutablePath>
+                <d2p1:FriendlyName>WPF Demos.exe</d2p1:FriendlyName>
+                <d2p1:ModuleName>WPF Demos.exe</d2p1:ModuleName>
+              </d4p1:Page>
+              <d4p1:Region i:nil="true" />
+              <d4p1:TechnologyType>Wpf</d4p1:TechnologyType>
+              <d4p1:Version>200</d4p1:Version>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+          <d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+            <d5p1:Key>VirtualizingContainer</d5p1:Key>
+            <d5p1:Value>
+              <d4p1:DomStateKey />
+              <d4p1:FindExpression>
+                <d4p1:BackupSearchClause>/shell[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/border[1]/grid[1]/contentcontrol[1]/contentpresenter[1]/singleexample[1]/grid[1]/contentpresenter[1]/grid[1]/contentcontrol[1]/grid[1]/border[1]/contentpresenter[1]/grid[1]/tabcontrol[1]/grid[1]/border[1]/contentpresenter[1]/contentcontrol[1]/contentpresenter[1]/border[1]/grid[1]/contentpresenter[1]/example[1]/border[1]/contentpresenter[1]/grid[1]/headeredcontentcontrol[2]/grid[1]/border[2]/contentpresenter[1]/grid[1]/listbox[1]/scrollviewer[1]/border[1]/grid[1]/scrollcontentpresenter[1]/itemspresenter[1]/virtualizingstackpanel[1]</d4p1:BackupSearchClause>
+                <d4p1:DataBindingExpressions />
+                <d4p1:FindExpressions xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Wpf</d9p1:key>
+                    <d9p1:value i:type="d4p1:XamlFindExpression">
+                      <d4p1:ChainStops>
+                        <d5p1:int>2</d5p1:int>
+                      </d4p1:ChainStops>
+                      <d4p1:Clauses>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>XamlTag=listbox</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>name=width</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>XamlPath=/scrollviewer[0]/border[0]/grid[0]/scrollcontentpresenter[name=PART_ScrollContentPresenter]/itemspresenter[0]/virtualizingstackpanel[0]</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                      </d4p1:Clauses>
+                      <d4p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                </d4p1:FindExpressions>
+                <d4p1:Name>ПетъкЮни28Virtualizingstackpanel</d4p1:Name>
+                <d4p1:NodeKind>5</d4p1:NodeKind>
+                <d4p1:TechnologyType>Wpf</d4p1:TechnologyType>
+              </d4p1:FindExpression>
+              <d4p1:FindInfo i:nil="true" />
+              <d4p1:Frame i:type="d2p1:WpfWindowNode">
+                <d2p1:Caption>WPF Controls Examples - Grid, Chart, Scheduler, Map, Code Samples</d2p1:Caption>
+                <d2p1:FriendlyName>WPF Controls Examples - Grid, Chart, Scheduler, Map, Code Samples</d2p1:FriendlyName>
+              </d4p1:Frame>
+              <d4p1:HtmlControlType>ArtOfTest.WebAii.Controls.Xaml.Wpf.VirtualizingStackPanel</d4p1:HtmlControlType>
+              <d4p1:IsIndependent>false</d4p1:IsIndependent>
+              <d4p1:Name>VirtualizingContainer</d4p1:Name>
+              <d4p1:Page i:type="d2p1:WpfAppNode">
+                <d2p1:ExecutablePath>C:\Users\Angel\AppData\Local\Apps\2.0\JYYNV9BC.AD2\CCMB18PJ.1E5\wpfd..tion_1dcf05cf98ac3011_07dd.0002_86a7363a5cb8bc77\WPF Demos.exe</d2p1:ExecutablePath>
+                <d2p1:FriendlyName>WPF Demos.exe</d2p1:FriendlyName>
+                <d2p1:ModuleName>WPF Demos.exe</d2p1:ModuleName>
+              </d4p1:Page>
+              <d4p1:Region i:nil="true" />
+              <d4p1:TechnologyType>Wpf</d4p1:TechnologyType>
+              <d4p1:Version>200</d4p1:Version>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+        </d2p1:Elements>
+        <d2p1:LogMessageOnFailure />
+        <d2p1:Pause>None</d2p1:Pause>
+        <d2p1:RunsAgainstVersion />
+        <d2p1:StepType>Verification</d2p1:StepType>
+        <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+        <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+        <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+        <d2p1:CheckInterval>500</d2p1:CheckInterval>
+        <d2p1:DataBindVariableName i:nil="true" />
+        <d2p1:EnsureStateIsCurrent>false</d2p1:EnsureStateIsCurrent>
+        <d2p1:Timeout>30000</d2p1:Timeout>
+        <d4p1:VirtualizingContainerOffset>0</d4p1:VirtualizingContainerOffset>
+        <d4p1:WaitForNoMotion>true</d4p1:WaitForNoMotion>
+        <d4p1:WaitForNoMotionCheckInterval>500</d4p1:WaitForNoMotionCheckInterval>
+        <d4p1:Comparer i:type="d4p1:StringComparer" />
+        <d4p1:Comparison>Same</d4p1:Comparison>
+        <d4p1:Property xmlns:d5p1="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Silverlight">
+          <d5p1:AttachedPropertyOwner i:nil="true" />
+          <d5p1:Index i:nil="true" />
+          <d5p1:IsAttachedProperty>false</d5p1:IsAttachedProperty>
+          <d5p1:Name>Text</d5p1:Name>
+          <d5p1:TypeName>System.String</d5p1:TypeName>
+        </d4p1:Property>
+        <d4p1:Value xmlns:d5p1="http://www.w3.org/2001/XMLSchema" i:type="d5p1:string">петък, юни 28</d4p1:Value>
+      </d2p1:Step>
+      <d2p1:StepImageKey>CalendarTestCaseo52bmxi1.2nj</d2p1:StepImageKey>
+      <d2p1:StepState>NoCode</d2p1:StepState>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:AutomationStep>
+    <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+      <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+      <d2p1:CustomDescription i:nil="true" />
+      <d2p1:Description>Verify 'EventTitleTextblock' text Same 'Integrating WPF and WCF'</d2p1:Description>
+      <d2p1:Enabled>true</d2p1:Enabled>
+      <d2p1:Id />
+      <d2p1:Order>8</d2p1:Order>
+      <d2p1:QcId>0</d2p1:QcId>
+      <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+      <d2p1:Runtime_x0020_ID>30a09695-f594-4447-bdf6-90e9c36a85e4</d2p1:Runtime_x0020_ID>
+      <d2p1:Step xmlns:d4p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0" i:type="d4p1:TextBlockVerificationDescriptor">
+        <d2p1:Constraints>
+          <d4p1:ConstraintValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringstring>
+              <d6p1:Key>RunsAgainstVersion</d6p1:Key>
+              <d6p1:Value />
+            </d6p1:KeyValueOfstringstring>
+          </d4p1:ConstraintValues>
+        </d2p1:Constraints>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:EditorType />
+        <d2p1:Elements xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+            <d5p1:Key>TargetKey1</d5p1:Key>
+            <d5p1:Value>
+              <d4p1:DomStateKey />
+              <d4p1:FindExpression>
+                <d4p1:BackupSearchClause>/shell[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/border[1]/grid[1]/contentcontrol[1]/contentpresenter[1]/singleexample[1]/grid[1]/contentpresenter[1]/grid[1]/contentcontrol[1]/grid[1]/border[1]/contentpresenter[1]/grid[1]/tabcontrol[1]/grid[1]/border[1]/contentpresenter[1]/contentcontrol[1]/contentpresenter[1]/border[1]/grid[1]/contentpresenter[1]/example[1]/border[1]/contentpresenter[1]/grid[1]/headeredcontentcontrol[2]/grid[1]/border[2]/contentpresenter[1]/grid[1]/listbox[1]/scrollviewer[1]/border[1]/grid[1]/scrollcontentpresenter[1]/itemspresenter[1]/virtualizingstackpanel[1]/listboxitem[1]/border[1]/contentpresenter[1]/stackpanel[1]/textblock[3]</d4p1:BackupSearchClause>
+                <d4p1:DataBindingExpressions />
+                <d4p1:FindExpressions xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Wpf</d9p1:key>
+                    <d9p1:value i:type="d4p1:XamlFindExpression">
+                      <d4p1:ChainStops>
+                        <d5p1:int>2</d5p1:int>
+                        <d5p1:int>3</d5p1:int>
+                        <d5p1:int>4</d5p1:int>
+                      </d4p1:ChainStops>
+                      <d4p1:Clauses>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>XamlTag=listbox</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>name=width</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>XamlPath=/scrollviewer[0]/border[0]/grid[0]/scrollcontentpresenter[name=PART_ScrollContentPresenter]/itemspresenter[0]/virtualizingstackpanel[0]</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>VirtualizedIndex=0</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>XamlTag=textblock</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>TextContent=^Integrating WPF</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                      </d4p1:Clauses>
+                      <d4p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                </d4p1:FindExpressions>
+                <d4p1:Name>EventTitleTextblock</d4p1:Name>
+                <d4p1:NodeKind>5</d4p1:NodeKind>
+                <d4p1:TechnologyType>Wpf</d4p1:TechnologyType>
+              </d4p1:FindExpression>
+              <d4p1:FindInfo i:nil="true" />
+              <d4p1:Frame i:type="d2p1:WpfWindowNode">
+                <d2p1:Caption>WPF Controls Examples - Grid, Chart, Scheduler, Map, Code Samples</d2p1:Caption>
+                <d2p1:FriendlyName>WPF Controls Examples - Grid, Chart, Scheduler, Map, Code Samples</d2p1:FriendlyName>
+              </d4p1:Frame>
+              <d4p1:HtmlControlType>ArtOfTest.WebAii.Controls.Xaml.Wpf.TextBlock</d4p1:HtmlControlType>
+              <d4p1:IsIndependent>false</d4p1:IsIndependent>
+              <d4p1:Name>TargetKey1</d4p1:Name>
+              <d4p1:Page i:type="d2p1:WpfAppNode">
+                <d2p1:ExecutablePath>C:\Users\Angel\AppData\Local\Apps\2.0\JYYNV9BC.AD2\CCMB18PJ.1E5\wpfd..tion_1dcf05cf98ac3011_07dd.0002_86a7363a5cb8bc77\WPF Demos.exe</d2p1:ExecutablePath>
+                <d2p1:FriendlyName>WPF Demos.exe</d2p1:FriendlyName>
+                <d2p1:ModuleName>WPF Demos.exe</d2p1:ModuleName>
+              </d4p1:Page>
+              <d4p1:Region i:nil="true" />
+              <d4p1:TechnologyType>Wpf</d4p1:TechnologyType>
+              <d4p1:Version>200</d4p1:Version>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+          <d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+            <d5p1:Key>VirtualizingContainer</d5p1:Key>
+            <d5p1:Value>
+              <d4p1:DomStateKey />
+              <d4p1:FindExpression>
+                <d4p1:BackupSearchClause>/shell[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/border[1]/grid[1]/contentcontrol[1]/contentpresenter[1]/singleexample[1]/grid[1]/contentpresenter[1]/grid[1]/contentcontrol[1]/grid[1]/border[1]/contentpresenter[1]/grid[1]/tabcontrol[1]/grid[1]/border[1]/contentpresenter[1]/contentcontrol[1]/contentpresenter[1]/border[1]/grid[1]/contentpresenter[1]/example[1]/border[1]/contentpresenter[1]/grid[1]/headeredcontentcontrol[2]/grid[1]/border[2]/contentpresenter[1]/grid[1]/listbox[1]/scrollviewer[1]/border[1]/grid[1]/scrollcontentpresenter[1]/itemspresenter[1]/virtualizingstackpanel[1]</d4p1:BackupSearchClause>
+                <d4p1:DataBindingExpressions />
+                <d4p1:FindExpressions xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Wpf</d9p1:key>
+                    <d9p1:value i:type="d4p1:XamlFindExpression">
+                      <d4p1:ChainStops>
+                        <d5p1:int>2</d5p1:int>
+                      </d4p1:ChainStops>
+                      <d4p1:Clauses>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>XamlTag=listbox</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>name=width</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>XamlPath=/scrollviewer[0]/border[0]/grid[0]/scrollcontentpresenter[name=PART_ScrollContentPresenter]/itemspresenter[0]/virtualizingstackpanel[0]</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                      </d4p1:Clauses>
+                      <d4p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                </d4p1:FindExpressions>
+                <d4p1:Name>ПетъкЮни28Virtualizingstackpanel</d4p1:Name>
+                <d4p1:NodeKind>5</d4p1:NodeKind>
+                <d4p1:TechnologyType>Wpf</d4p1:TechnologyType>
+              </d4p1:FindExpression>
+              <d4p1:FindInfo i:nil="true" />
+              <d4p1:Frame i:type="d2p1:WpfWindowNode">
+                <d2p1:Caption>WPF Controls Examples - Grid, Chart, Scheduler, Map, Code Samples</d2p1:Caption>
+                <d2p1:FriendlyName>WPF Controls Examples - Grid, Chart, Scheduler, Map, Code Samples</d2p1:FriendlyName>
+              </d4p1:Frame>
+              <d4p1:HtmlControlType>ArtOfTest.WebAii.Controls.Xaml.Wpf.VirtualizingStackPanel</d4p1:HtmlControlType>
+              <d4p1:IsIndependent>false</d4p1:IsIndependent>
+              <d4p1:Name>VirtualizingContainer</d4p1:Name>
+              <d4p1:Page i:type="d2p1:WpfAppNode">
+                <d2p1:ExecutablePath>C:\Users\Angel\AppData\Local\Apps\2.0\JYYNV9BC.AD2\CCMB18PJ.1E5\wpfd..tion_1dcf05cf98ac3011_07dd.0002_86a7363a5cb8bc77\WPF Demos.exe</d2p1:ExecutablePath>
+                <d2p1:FriendlyName>WPF Demos.exe</d2p1:FriendlyName>
+                <d2p1:ModuleName>WPF Demos.exe</d2p1:ModuleName>
+              </d4p1:Page>
+              <d4p1:Region i:nil="true" />
+              <d4p1:TechnologyType>Wpf</d4p1:TechnologyType>
+              <d4p1:Version>200</d4p1:Version>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+        </d2p1:Elements>
+        <d2p1:LogMessageOnFailure />
+        <d2p1:Pause>None</d2p1:Pause>
+        <d2p1:RunsAgainstVersion />
+        <d2p1:StepType>Verification</d2p1:StepType>
+        <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+        <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+        <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+        <d2p1:CheckInterval>500</d2p1:CheckInterval>
+        <d2p1:DataBindVariableName i:nil="true" />
+        <d2p1:EnsureStateIsCurrent>false</d2p1:EnsureStateIsCurrent>
+        <d2p1:Timeout>30000</d2p1:Timeout>
+        <d4p1:VirtualizingContainerOffset>0</d4p1:VirtualizingContainerOffset>
+        <d4p1:WaitForNoMotion>true</d4p1:WaitForNoMotion>
+        <d4p1:WaitForNoMotionCheckInterval>500</d4p1:WaitForNoMotionCheckInterval>
+        <d4p1:Comparer i:type="d4p1:StringComparer" />
+        <d4p1:Comparison>Same</d4p1:Comparison>
+        <d4p1:Property xmlns:d5p1="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Silverlight">
+          <d5p1:AttachedPropertyOwner i:nil="true" />
+          <d5p1:Index i:nil="true" />
+          <d5p1:IsAttachedProperty>false</d5p1:IsAttachedProperty>
+          <d5p1:Name>Text</d5p1:Name>
+          <d5p1:TypeName>System.String</d5p1:TypeName>
+        </d4p1:Property>
+        <d4p1:Value xmlns:d5p1="http://www.w3.org/2001/XMLSchema" i:type="d5p1:string">Integrating WPF and WCF</d4p1:Value>
+      </d2p1:Step>
+      <d2p1:StepImageKey>CalendarTestCase213d3kui.wpp</d2p1:StepImageKey>
+      <d2p1:StepState>NoCode</d2p1:StepState>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:AutomationStep>
+  </Steps>
+  <StopTestListOnFailure>false</StopTestListOnFailure>
+  <TestAssembly>WPFHomeWork.dll</TestAssembly>
+  <TestAssemblyPath>bin</TestAssemblyPath>
+  <TestClass>WPFHomeWork.CalendarTestCase</TestClass>
+  <TestLinks xmlns:d2p1="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.ProjectModel.TestLinks" />
+  <UseDefaultWpfAppPath>false</UseDefaultWpfAppPath>
+  <VSProperties xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <WebKitExecutionDelay>0</WebKitExecutionDelay>
+  <WpfAppPath>C:\Users\Angel\AppData\Local\Apps\2.0\JYYNV9BC.AD2\CCMB18PJ.1E5\wpfd..tion_1dcf05cf98ac3011_07dd.0002_86a7363a5cb8bc77\WPF Demos.exe</WpfAppPath>
+</WebAiiTest>

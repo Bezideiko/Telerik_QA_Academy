@@ -1,0 +1,1 @@
+define("bootstrap/browse/gc_promo",["jquery"],function(t){var e=t(".content-wrap .promo-outer");e.click(function(e){var i=t(this).attr("data-href");e.metaKey?window.open(i):window.location=i}),e.on("click","a",function(t){t.stopPropagation()})});

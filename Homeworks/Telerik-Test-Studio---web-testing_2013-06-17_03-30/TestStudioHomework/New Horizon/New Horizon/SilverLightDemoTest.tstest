@@ -1,0 +1,1709 @@
+﻿<WebAiiTest xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://artoftest.com/schemas/WebAiiDesignCanvas/3.0.0">
+  <DataInfo xmlns:d2p1="http://artoftest.com/schemas/WebAiiDesignCanvas/1.0.0">
+    <d2p1:BuiltInData i:nil="true" />
+    <d2p1:BuiltInDocumentKey i:nil="true" />
+    <d2p1:ConnectionString />
+    <d2p1:DataEnabled>true</d2p1:DataEnabled>
+    <d2p1:DataProvider />
+    <d2p1:DataRange />
+    <d2p1:DataTableName />
+    <d2p1:DataType>None</d2p1:DataType>
+    <d2p1:DefaultToGrid>true</d2p1:DefaultToGrid>
+    <d2p1:HasBuiltinGrid>false</d2p1:HasBuiltinGrid>
+    <d2p1:LoadRecordsCount i:nil="true" />
+    <d2p1:TSQL />
+  </DataInfo>
+  <Description />
+  <IsManual>false</IsManual>
+  <Name>SilverLightDemoTest</Name>
+  <Owner i:nil="true" />
+  <Path>SilverLightDemoTest.tstest</Path>
+  <Priority>0</Priority>
+  <TestType>Web</TestType>
+  <UniqueId>b49d0bc3-bf69-48f8-bb6e-3aacb30abdd4</UniqueId>
+  <Version>200</Version>
+  <BrowserType>NotSet</BrowserType>
+  <CurrentReferences xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:string>System</d2p1:string>
+    <d2p1:string>System.Core</d2p1:string>
+    <d2p1:string>ArtOfTest.WebAii, Version=2012.2.1420.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c</d2p1:string>
+    <d2p1:string>ArtOfTest.WebAii.Design, Version=2012.2.1420.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d</d2p1:string>
+    <d2p1:string>Telerik.WebAii.Controls.Html, Version=2012.2.1420.0, Culture=neutral, PublicKeyToken=528163f3e645de45</d2p1:string>
+    <d2p1:string>Telerik.WebAii.Controls.Xaml, Version=2012.2.1420.0, Culture=neutral, PublicKeyToken=528163f3e645de45</d2p1:string>
+    <d2p1:string>Telerik.WebAii.Controls.Xaml.Wpf, Version=2012.2.1420.0, Culture=neutral, PublicKeyToken=528163f3e645de45</d2p1:string>
+    <d2p1:string>Telerik.TestingFramework.Controls.KendoUI, Version=2012.2.1420.0, Culture=neutral, PublicKeyToken=528163f3e645de45</d2p1:string>
+    <d2p1:string>System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</d2p1:string>
+  </CurrentReferences>
+  <DataInfo xmlns:d2p1="http://artoftest.com/schemas/WebAiiDesignCanvas/1.0.0">
+    <d2p1:BuiltInData i:nil="true" />
+    <d2p1:BuiltInDocumentKey i:nil="true" />
+    <d2p1:ConnectionString />
+    <d2p1:DataEnabled>true</d2p1:DataEnabled>
+    <d2p1:DataProvider />
+    <d2p1:DataRange />
+    <d2p1:DataTableName />
+    <d2p1:DataType>None</d2p1:DataType>
+    <d2p1:DefaultToGrid>true</d2p1:DefaultToGrid>
+    <d2p1:HasBuiltinGrid>false</d2p1:HasBuiltinGrid>
+    <d2p1:LoadRecordsCount i:nil="true" />
+    <d2p1:TSQL />
+  </DataInfo>
+  <DeploymentItems xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <DomStatesCounter xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <HasCodeBehind>true</HasCodeBehind>
+  <HtmlDescription />
+  <IndependentDescriptors xmlns:d2p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+    <d2p1:ElementDescriptor>
+      <d2p1:DomStateKey />
+      <d2p1:FindExpression>
+        <d2p1:BackupSearchClause>/mainpage[1]/grid[1]/grid[1]/frame[1]/contentpresenter[1]/singleexampleview[1]/grid[1]/examplecontentcontrol[1]/grid[1]/contentpresenter[1]/headeredcontentcontrol[1]/grid[1]/contentpresenter[1]/example[1]/grid[1]/grid[1]/grid[2]/stackpanel[2]/stackpanel[1]/textblock[1]</d2p1:BackupSearchClause>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:FindExpressions xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+          <d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+            <d5p1:key>Html</d5p1:key>
+            <d5p1:value i:type="d2p1:HtmlFindExpression">
+              <d2p1:ChainStops xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                <d8p1:int>1</d8p1:int>
+              </d2p1:ChainStops>
+              <d2p1:Clauses>
+                <d2p1:HtmlFindClause>
+                  <d2p1:Clause>id=silverlightControlHost</d2p1:Clause>
+                </d2p1:HtmlFindClause>
+                <d2p1:HtmlFindClause>
+                  <d2p1:Clause>tagIndex=object:0</d2p1:Clause>
+                </d2p1:HtmlFindClause>
+              </d2p1:Clauses>
+              <d2p1:Constraints />
+            </d5p1:value>
+          </d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+          <d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+            <d5p1:key>Silverlight</d5p1:key>
+            <d5p1:value i:type="d2p1:XamlFindExpression">
+              <d2p1:ChainStops xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <d2p1:Clauses>
+                <d2p1:XamlFindClause>
+                  <d2p1:Clause>AutomationId=timeText</d2p1:Clause>
+                </d2p1:XamlFindClause>
+                <d2p1:XamlFindClause>
+                  <d2p1:Clause>XamlTag=textblock</d2p1:Clause>
+                </d2p1:XamlFindClause>
+              </d2p1:Clauses>
+              <d2p1:Constraints />
+            </d5p1:value>
+          </d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+        </d2p1:FindExpressions>
+        <d2p1:Name>TimeTextTextblock</d2p1:Name>
+        <d2p1:NodeKind>5</d2p1:NodeKind>
+        <d2p1:TechnologyType>Silverlight</d2p1:TechnologyType>
+      </d2p1:FindExpression>
+      <d2p1:FindInfo i:nil="true" />
+      <d2p1:Frame i:nil="true" />
+      <d2p1:HtmlControlType>ArtOfTest.WebAii.Silverlight.UI.TextBlock</d2p1:HtmlControlType>
+      <d2p1:IsIndependent>true</d2p1:IsIndependent>
+      <d2p1:Name />
+      <d2p1:Page xmlns:d4p1="http://artoftest.com/schemas/WebAiiDesignCanvas/1.0.0" i:type="d4p1:PageUri">
+        <d4p1:AlwaysUseTitleInCompare>false</d4p1:AlwaysUseTitleInCompare>
+        <d4p1:BaseUrl />
+        <d4p1:CompareMode>FullPathAndQuery</d4p1:CompareMode>
+        <d4p1:EquivalentUrls xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d4p1:Fragment>#Gauge/Weather</d4p1:Fragment>
+        <d4p1:FriendlyName>TelerikGaugeForSilverlight1</d4p1:FriendlyName>
+        <d4p1:Path>http://demos.telerik.com/silverlight/</d4p1:Path>
+        <d4p1:Query />
+        <d4p1:Title>Telerik Gauge for Silverlight</d4p1:Title>
+      </d2p1:Page>
+      <d2p1:Region i:nil="true" />
+      <d2p1:TechnologyType>Silverlight</d2p1:TechnologyType>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:ElementDescriptor>
+    <d2p1:ElementDescriptor>
+      <d2p1:DomStateKey />
+      <d2p1:FindExpression>
+        <d2p1:BackupSearchClause>/mainpage[1]/grid[1]/grid[1]/frame[1]/contentpresenter[1]/singleexampleview[1]/grid[1]/examplecontentcontrol[1]/grid[1]/contentpresenter[1]/headeredcontentcontrol[1]/grid[1]/contentpresenter[1]/example[1]/grid[1]/grid[1]/grid[2]/stackpanel[2]/stackpanel[1]/textblock[1]</d2p1:BackupSearchClause>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:FindExpressions xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+          <d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+            <d5p1:key>Html</d5p1:key>
+            <d5p1:value i:type="d2p1:HtmlFindExpression">
+              <d2p1:ChainStops xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                <d8p1:int>1</d8p1:int>
+              </d2p1:ChainStops>
+              <d2p1:Clauses>
+                <d2p1:HtmlFindClause>
+                  <d2p1:Clause>id=silverlightControlHost</d2p1:Clause>
+                </d2p1:HtmlFindClause>
+                <d2p1:HtmlFindClause>
+                  <d2p1:Clause>tagIndex=object:0</d2p1:Clause>
+                </d2p1:HtmlFindClause>
+              </d2p1:Clauses>
+              <d2p1:Constraints />
+            </d5p1:value>
+          </d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+          <d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+            <d5p1:key>Silverlight</d5p1:key>
+            <d5p1:value i:type="d2p1:XamlFindExpression">
+              <d2p1:ChainStops xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <d2p1:Clauses>
+                <d2p1:XamlFindClause>
+                  <d2p1:Clause>AutomationId=timeText</d2p1:Clause>
+                </d2p1:XamlFindClause>
+                <d2p1:XamlFindClause>
+                  <d2p1:Clause>XamlTag=textblock</d2p1:Clause>
+                </d2p1:XamlFindClause>
+              </d2p1:Clauses>
+              <d2p1:Constraints />
+            </d5p1:value>
+          </d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+        </d2p1:FindExpressions>
+        <d2p1:Name>TimeTextTextblock</d2p1:Name>
+        <d2p1:NodeKind>5</d2p1:NodeKind>
+        <d2p1:TechnologyType>Silverlight</d2p1:TechnologyType>
+      </d2p1:FindExpression>
+      <d2p1:FindInfo i:nil="true" />
+      <d2p1:Frame i:nil="true" />
+      <d2p1:HtmlControlType>ArtOfTest.WebAii.Silverlight.UI.TextBlock</d2p1:HtmlControlType>
+      <d2p1:IsIndependent>true</d2p1:IsIndependent>
+      <d2p1:Name />
+      <d2p1:Page xmlns:d4p1="http://artoftest.com/schemas/WebAiiDesignCanvas/1.0.0" i:type="d4p1:PageUri">
+        <d4p1:AlwaysUseTitleInCompare>false</d4p1:AlwaysUseTitleInCompare>
+        <d4p1:BaseUrl />
+        <d4p1:CompareMode>FullPathAndQuery</d4p1:CompareMode>
+        <d4p1:EquivalentUrls xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d4p1:Fragment>#Gauge/Weather</d4p1:Fragment>
+        <d4p1:FriendlyName>TelerikGaugeForSilverlight1</d4p1:FriendlyName>
+        <d4p1:Path>http://demos.telerik.com/silverlight/</d4p1:Path>
+        <d4p1:Query />
+        <d4p1:Title>Telerik Gauge for Silverlight</d4p1:Title>
+      </d2p1:Page>
+      <d2p1:Region i:nil="true" />
+      <d2p1:TechnologyType>Silverlight</d2p1:TechnologyType>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:ElementDescriptor>
+    <d2p1:ElementDescriptor>
+      <d2p1:DomStateKey />
+      <d2p1:FindExpression>
+        <d2p1:BackupSearchClause>/mainpage[1]/grid[1]/grid[1]/frame[1]/contentpresenter[1]/singleexampleview[1]/grid[1]/examplecontentcontrol[1]/grid[1]/contentpresenter[1]/headeredcontentcontrol[1]/grid[1]/contentpresenter[1]/example[1]/grid[1]/grid[1]/grid[2]/stackpanel[2]/stackpanel[1]/textblock[1]</d2p1:BackupSearchClause>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:FindExpressions xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+          <d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+            <d5p1:key>Html</d5p1:key>
+            <d5p1:value i:type="d2p1:HtmlFindExpression">
+              <d2p1:ChainStops xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                <d8p1:int>1</d8p1:int>
+              </d2p1:ChainStops>
+              <d2p1:Clauses>
+                <d2p1:HtmlFindClause>
+                  <d2p1:Clause>id=silverlightControlHost</d2p1:Clause>
+                </d2p1:HtmlFindClause>
+                <d2p1:HtmlFindClause>
+                  <d2p1:Clause>tagIndex=object:0</d2p1:Clause>
+                </d2p1:HtmlFindClause>
+              </d2p1:Clauses>
+              <d2p1:Constraints />
+            </d5p1:value>
+          </d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+          <d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+            <d5p1:key>Silverlight</d5p1:key>
+            <d5p1:value i:type="d2p1:XamlFindExpression">
+              <d2p1:ChainStops xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <d2p1:Clauses>
+                <d2p1:XamlFindClause>
+                  <d2p1:Clause>AutomationId=timeText</d2p1:Clause>
+                </d2p1:XamlFindClause>
+                <d2p1:XamlFindClause>
+                  <d2p1:Clause>XamlTag=textblock</d2p1:Clause>
+                </d2p1:XamlFindClause>
+              </d2p1:Clauses>
+              <d2p1:Constraints />
+            </d5p1:value>
+          </d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+        </d2p1:FindExpressions>
+        <d2p1:Name>TimeTextTextblock</d2p1:Name>
+        <d2p1:NodeKind>5</d2p1:NodeKind>
+        <d2p1:TechnologyType>Silverlight</d2p1:TechnologyType>
+      </d2p1:FindExpression>
+      <d2p1:FindInfo i:nil="true" />
+      <d2p1:Frame i:nil="true" />
+      <d2p1:HtmlControlType>ArtOfTest.WebAii.Silverlight.UI.TextBlock</d2p1:HtmlControlType>
+      <d2p1:IsIndependent>true</d2p1:IsIndependent>
+      <d2p1:Name />
+      <d2p1:Page xmlns:d4p1="http://artoftest.com/schemas/WebAiiDesignCanvas/1.0.0" i:type="d4p1:PageUri">
+        <d4p1:AlwaysUseTitleInCompare>false</d4p1:AlwaysUseTitleInCompare>
+        <d4p1:BaseUrl />
+        <d4p1:CompareMode>FullPathAndQuery</d4p1:CompareMode>
+        <d4p1:EquivalentUrls xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d4p1:Fragment>#Gauge/Weather</d4p1:Fragment>
+        <d4p1:FriendlyName>TelerikGaugeForSilverlight1</d4p1:FriendlyName>
+        <d4p1:Path>http://demos.telerik.com/silverlight/</d4p1:Path>
+        <d4p1:Query />
+        <d4p1:Title>Telerik Gauge for Silverlight</d4p1:Title>
+      </d2p1:Page>
+      <d2p1:Region i:nil="true" />
+      <d2p1:TechnologyType>Silverlight</d2p1:TechnologyType>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:ElementDescriptor>
+    <d2p1:ElementDescriptor>
+      <d2p1:DomStateKey />
+      <d2p1:FindExpression>
+        <d2p1:BackupSearchClause>/mainpage[1]/grid[1]/grid[1]/frame[1]/contentpresenter[1]/singleexampleview[1]/grid[1]/examplecontentcontrol[1]/grid[1]/contentpresenter[1]/headeredcontentcontrol[1]/grid[1]/contentpresenter[1]/example[1]/grid[1]/grid[1]/grid[2]/stackpanel[2]/stackpanel[1]/textblock[2]</d2p1:BackupSearchClause>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:FindExpressions xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+          <d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+            <d5p1:key>Html</d5p1:key>
+            <d5p1:value i:type="d2p1:HtmlFindExpression">
+              <d2p1:ChainStops xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                <d8p1:int>1</d8p1:int>
+              </d2p1:ChainStops>
+              <d2p1:Clauses>
+                <d2p1:HtmlFindClause>
+                  <d2p1:Clause>id=silverlightControlHost</d2p1:Clause>
+                </d2p1:HtmlFindClause>
+                <d2p1:HtmlFindClause>
+                  <d2p1:Clause>tagIndex=object:0</d2p1:Clause>
+                </d2p1:HtmlFindClause>
+              </d2p1:Clauses>
+              <d2p1:Constraints />
+            </d5p1:value>
+          </d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+          <d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+            <d5p1:key>Silverlight</d5p1:key>
+            <d5p1:value i:type="d2p1:XamlFindExpression">
+              <d2p1:ChainStops xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <d2p1:Clauses>
+                <d2p1:XamlFindClause>
+                  <d2p1:Clause>TextContent=JUN 17, 2013</d2p1:Clause>
+                </d2p1:XamlFindClause>
+                <d2p1:XamlFindClause>
+                  <d2p1:Clause>XamlTag=textblock</d2p1:Clause>
+                </d2p1:XamlFindClause>
+              </d2p1:Clauses>
+              <d2p1:Constraints />
+            </d5p1:value>
+          </d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+        </d2p1:FindExpressions>
+        <d2p1:Name>JUN172013Textblock</d2p1:Name>
+        <d2p1:NodeKind>5</d2p1:NodeKind>
+        <d2p1:TechnologyType>Silverlight</d2p1:TechnologyType>
+      </d2p1:FindExpression>
+      <d2p1:FindInfo i:nil="true" />
+      <d2p1:Frame i:nil="true" />
+      <d2p1:HtmlControlType>ArtOfTest.WebAii.Silverlight.UI.TextBlock</d2p1:HtmlControlType>
+      <d2p1:IsIndependent>true</d2p1:IsIndependent>
+      <d2p1:Name />
+      <d2p1:Page xmlns:d4p1="http://artoftest.com/schemas/WebAiiDesignCanvas/1.0.0" i:type="d4p1:PageUri">
+        <d4p1:AlwaysUseTitleInCompare>false</d4p1:AlwaysUseTitleInCompare>
+        <d4p1:BaseUrl />
+        <d4p1:CompareMode>FullPathAndQuery</d4p1:CompareMode>
+        <d4p1:EquivalentUrls xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d4p1:Fragment>#Gauge/Weather</d4p1:Fragment>
+        <d4p1:FriendlyName>TelerikGaugeForSilverlight1</d4p1:FriendlyName>
+        <d4p1:Path>http://demos.telerik.com/silverlight/</d4p1:Path>
+        <d4p1:Query />
+        <d4p1:Title>Telerik Gauge for Silverlight</d4p1:Title>
+      </d2p1:Page>
+      <d2p1:Region i:nil="true" />
+      <d2p1:TechnologyType>Silverlight</d2p1:TechnologyType>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:ElementDescriptor>
+    <d2p1:ElementDescriptor>
+      <d2p1:DomStateKey />
+      <d2p1:FindExpression>
+        <d2p1:BackupSearchClause>/mainpage[1]/grid[1]/grid[1]/frame[1]/contentpresenter[1]/singleexampleview[1]/grid[1]/examplecontentcontrol[1]/grid[1]/contentpresenter[1]/headeredcontentcontrol[1]/grid[1]/contentpresenter[1]/example[1]/grid[1]/grid[1]/grid[2]/stackpanel[2]/stackpanel[1]/textblock[2]</d2p1:BackupSearchClause>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:FindExpressions xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+          <d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+            <d5p1:key>Html</d5p1:key>
+            <d5p1:value i:type="d2p1:HtmlFindExpression">
+              <d2p1:ChainStops xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                <d8p1:int>1</d8p1:int>
+              </d2p1:ChainStops>
+              <d2p1:Clauses>
+                <d2p1:HtmlFindClause>
+                  <d2p1:Clause>id=silverlightControlHost</d2p1:Clause>
+                </d2p1:HtmlFindClause>
+                <d2p1:HtmlFindClause>
+                  <d2p1:Clause>tagIndex=object:0</d2p1:Clause>
+                </d2p1:HtmlFindClause>
+              </d2p1:Clauses>
+              <d2p1:Constraints />
+            </d5p1:value>
+          </d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+          <d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+            <d5p1:key>Silverlight</d5p1:key>
+            <d5p1:value i:type="d2p1:XamlFindExpression">
+              <d2p1:ChainStops xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <d2p1:Clauses>
+                <d2p1:XamlFindClause>
+                  <d2p1:Clause>TextContent=JUN 17, 2013</d2p1:Clause>
+                </d2p1:XamlFindClause>
+                <d2p1:XamlFindClause>
+                  <d2p1:Clause>XamlTag=textblock</d2p1:Clause>
+                </d2p1:XamlFindClause>
+              </d2p1:Clauses>
+              <d2p1:Constraints />
+            </d5p1:value>
+          </d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+        </d2p1:FindExpressions>
+        <d2p1:Name>JUN172013Textblock</d2p1:Name>
+        <d2p1:NodeKind>5</d2p1:NodeKind>
+        <d2p1:TechnologyType>Silverlight</d2p1:TechnologyType>
+      </d2p1:FindExpression>
+      <d2p1:FindInfo i:nil="true" />
+      <d2p1:Frame i:nil="true" />
+      <d2p1:HtmlControlType>ArtOfTest.WebAii.Silverlight.UI.TextBlock</d2p1:HtmlControlType>
+      <d2p1:IsIndependent>true</d2p1:IsIndependent>
+      <d2p1:Name>$$Independent$$</d2p1:Name>
+      <d2p1:Page xmlns:d4p1="http://artoftest.com/schemas/WebAiiDesignCanvas/1.0.0" i:type="d4p1:PageUri">
+        <d4p1:AlwaysUseTitleInCompare>false</d4p1:AlwaysUseTitleInCompare>
+        <d4p1:BaseUrl />
+        <d4p1:CompareMode>FullPathAndQuery</d4p1:CompareMode>
+        <d4p1:EquivalentUrls xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d4p1:Fragment>#Gauge/Weather</d4p1:Fragment>
+        <d4p1:FriendlyName>TelerikGaugeForSilverlight1</d4p1:FriendlyName>
+        <d4p1:Path>http://demos.telerik.com/silverlight/</d4p1:Path>
+        <d4p1:Query />
+        <d4p1:Title>Telerik Gauge for Silverlight</d4p1:Title>
+      </d2p1:Page>
+      <d2p1:Region i:nil="true" />
+      <d2p1:TechnologyType>Silverlight</d2p1:TechnologyType>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:ElementDescriptor>
+    <d2p1:ElementDescriptor>
+      <d2p1:DomStateKey />
+      <d2p1:FindExpression>
+        <d2p1:BackupSearchClause>/mainpage[1]/grid[1]/grid[1]/frame[1]/contentpresenter[1]/singleexampleview[1]/grid[1]/examplecontentcontrol[1]/grid[1]/contentpresenter[1]/headeredcontentcontrol[1]/grid[1]/contentpresenter[1]/example[1]/grid[1]/grid[1]/grid[2]/stackpanel[2]/stackpanel[1]/textblock[2]</d2p1:BackupSearchClause>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:FindExpressions xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+          <d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+            <d5p1:key>Html</d5p1:key>
+            <d5p1:value i:type="d2p1:HtmlFindExpression">
+              <d2p1:ChainStops xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                <d8p1:int>1</d8p1:int>
+              </d2p1:ChainStops>
+              <d2p1:Clauses>
+                <d2p1:HtmlFindClause>
+                  <d2p1:Clause>id=silverlightControlHost</d2p1:Clause>
+                </d2p1:HtmlFindClause>
+                <d2p1:HtmlFindClause>
+                  <d2p1:Clause>tagIndex=object:0</d2p1:Clause>
+                </d2p1:HtmlFindClause>
+              </d2p1:Clauses>
+              <d2p1:Constraints />
+            </d5p1:value>
+          </d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+          <d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+            <d5p1:key>Silverlight</d5p1:key>
+            <d5p1:value i:type="d2p1:XamlFindExpression">
+              <d2p1:ChainStops xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <d2p1:Clauses>
+                <d2p1:XamlFindClause>
+                  <d2p1:Clause>TextContent=JUN 17, 2013</d2p1:Clause>
+                </d2p1:XamlFindClause>
+                <d2p1:XamlFindClause>
+                  <d2p1:Clause>XamlTag=textblock</d2p1:Clause>
+                </d2p1:XamlFindClause>
+              </d2p1:Clauses>
+              <d2p1:Constraints />
+            </d5p1:value>
+          </d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+        </d2p1:FindExpressions>
+        <d2p1:Name>JUN172013Textblock</d2p1:Name>
+        <d2p1:NodeKind>5</d2p1:NodeKind>
+        <d2p1:TechnologyType>Silverlight</d2p1:TechnologyType>
+      </d2p1:FindExpression>
+      <d2p1:FindInfo i:nil="true" />
+      <d2p1:Frame i:nil="true" />
+      <d2p1:HtmlControlType>ArtOfTest.WebAii.Silverlight.UI.TextBlock</d2p1:HtmlControlType>
+      <d2p1:IsIndependent>true</d2p1:IsIndependent>
+      <d2p1:Name>$$Independent$$</d2p1:Name>
+      <d2p1:Page xmlns:d4p1="http://artoftest.com/schemas/WebAiiDesignCanvas/1.0.0" i:type="d4p1:PageUri">
+        <d4p1:AlwaysUseTitleInCompare>false</d4p1:AlwaysUseTitleInCompare>
+        <d4p1:BaseUrl />
+        <d4p1:CompareMode>FullPathAndQuery</d4p1:CompareMode>
+        <d4p1:EquivalentUrls xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d4p1:Fragment>#Gauge/Weather</d4p1:Fragment>
+        <d4p1:FriendlyName>TelerikGaugeForSilverlight1</d4p1:FriendlyName>
+        <d4p1:Path>http://demos.telerik.com/silverlight/</d4p1:Path>
+        <d4p1:Query />
+        <d4p1:Title>Telerik Gauge for Silverlight</d4p1:Title>
+      </d2p1:Page>
+      <d2p1:Region i:nil="true" />
+      <d2p1:TechnologyType>Silverlight</d2p1:TechnologyType>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:ElementDescriptor>
+  </IndependentDescriptors>
+  <InheritParentDataSource>false</InheritParentDataSource>
+  <IsSilverlightApp>false</IsSilverlightApp>
+  <IsTestFragment>false</IsTestFragment>
+  <ProfilerBenchmarkResultsFilePath i:nil="true" />
+  <ProfilerBenchmarkResultsId>00000000-0000-0000-0000-000000000000</ProfilerBenchmarkResultsId>
+  <ProfilerConfigurationFilePath>C:\Users\Angel\Desktop\QA Academy\QA Part - II\Homework\TestStudioHomework\New Horizon\New Horizon\Profiler Configurations\{b49d0bc3-bf69-48f8-bb6e-3aacb30abdd4}.tsprofconfig</ProfilerConfigurationFilePath>
+  <ProfilerConfigurationId>00000000-0000-0000-0000-000000000000</ProfilerConfigurationId>
+  <ProfilerConfigurations xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <ProfilerResultsDirectory>C:\Users\Angel\AppData\Local\Temp\</ProfilerResultsDirectory>
+  <ProfilerServerName i:nil="true" />
+  <QcFilePath i:nil="true" />
+  <QcId>0</QcId>
+  <QcTestVersionStamp>0</QcTestVersionStamp>
+  <ResourceFilePath>SilverLightDemoTest.resx</ResourceFilePath>
+  <ReuseAppWindow>0</ReuseAppWindow>
+  <SilverlightAppLocalDirectory />
+  <SilverlightAppOriginUri i:nil="true" />
+  <SilverlightAppRecordLocal>false</SilverlightAppRecordLocal>
+  <SilverlightAppWebUrl />
+  <SilverlightEnabled>true</SilverlightEnabled>
+  <Steps xmlns:d2p1="http://artoftest.com/schemas/WebAiiDesignCanvas/1.0.0">
+    <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+      <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+      <d2p1:CustomDescription i:nil="true" />
+      <d2p1:Description>Navigate to : 'http://www.telerik.com/support/demos/developer-tools-demos.aspx'</d2p1:Description>
+      <d2p1:Enabled>true</d2p1:Enabled>
+      <d2p1:Id />
+      <d2p1:Order>1</d2p1:Order>
+      <d2p1:QcId>0</d2p1:QcId>
+      <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+      <d2p1:Runtime_x0020_ID>7d5c9184-d16c-4bdf-b495-3a4655edc694</d2p1:Runtime_x0020_ID>
+      <d2p1:Step i:type="d2p1:NavigateToActionDescriptor">
+        <d2p1:Constraints xmlns:d5p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+          <d5p1:ConstraintValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringstring>
+              <d6p1:Key>RunsAgainstVersion</d6p1:Key>
+              <d6p1:Value />
+            </d6p1:KeyValueOfstringstring>
+          </d5p1:ConstraintValues>
+        </d2p1:Constraints>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:EditorType />
+        <d2p1:Elements xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:LogMessageOnFailure />
+        <d2p1:Pause>None</d2p1:Pause>
+        <d2p1:RunsAgainstVersion />
+        <d2p1:StepType>Action</d2p1:StepType>
+        <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+        <d2p1:WaitOnElements>false</d2p1:WaitOnElements>
+        <d2p1:WaitOnElementsTimeout>0</d2p1:WaitOnElementsTimeout>
+        <AjaxTimeout xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Extensibility">0</AjaxTimeout>
+        <ClosesBrowser xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Extensibility">false</ClosesBrowser>
+        <UseBackupSearch xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Extensibility">true</UseBackupSearch>
+        <UsejQuery xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Extensibility">false</UsejQuery>
+        <d2p1:BaseUrl />
+        <d2p1:NavigateURL>http://www.telerik.com/support/demos/developer-tools-demos.aspx</d2p1:NavigateURL>
+        <d2p1:UseDecodedUrl>true</d2p1:UseDecodedUrl>
+      </d2p1:Step>
+      <d2p1:StepImageKey>SilverLightDemoTestfhqbdpif.yzi</d2p1:StepImageKey>
+      <d2p1:StepState>NoCode</d2p1:StepState>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:AutomationStep>
+    <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+      <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+      <d2p1:CustomDescription i:nil="true" />
+      <d2p1:Description>Click 'LaunchLink'</d2p1:Description>
+      <d2p1:Enabled>true</d2p1:Enabled>
+      <d2p1:Id />
+      <d2p1:Order>2</d2p1:Order>
+      <d2p1:QcId>0</d2p1:QcId>
+      <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+      <d2p1:Runtime_x0020_ID>04784fef-5194-435c-8b6e-1377795bf3f9</d2p1:Runtime_x0020_ID>
+      <d2p1:Step i:type="d2p1:ClickActionDescriptor">
+        <d2p1:Constraints xmlns:d5p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+          <d5p1:ConstraintValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringstring>
+              <d6p1:Key>RunsAgainstVersion</d6p1:Key>
+              <d6p1:Value />
+            </d6p1:KeyValueOfstringstring>
+          </d5p1:ConstraintValues>
+        </d2p1:Constraints>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:EditorType />
+        <d2p1:Elements xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+            <d5p1:Key>target</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+              <d7p1:DomStateKey />
+              <d7p1:FindExpression i:type="d7p1:HtmlFindExpressionElement">
+                <d7p1:BackupSearchClause>/html[1]/body[1]/form[1]/div[2]/div[1]/div[1]/section[1]/article[1]/a[3]</d7p1:BackupSearchClause>
+                <d7p1:DataBindingExpressions />
+                <d7p1:FindExpressions xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Html</d9p1:key>
+                    <d9p1:value i:type="d7p1:HtmlFindExpression">
+                      <d7p1:ChainStops />
+                      <d7p1:Clauses>
+                        <d7p1:HtmlFindClause>
+                          <d7p1:Clause>href=http://demos.telerik.com/silverlight/</d7p1:Clause>
+                        </d7p1:HtmlFindClause>
+                        <d7p1:HtmlFindClause>
+                          <d7p1:Clause>tagname=a</d7p1:Clause>
+                        </d7p1:HtmlFindClause>
+                      </d7p1:Clauses>
+                      <d7p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                </d7p1:FindExpressions>
+                <d7p1:Name>LaunchLink</d7p1:Name>
+                <d7p1:NodeKind>4</d7p1:NodeKind>
+                <d7p1:TechnologyType>Html</d7p1:TechnologyType>
+              </d7p1:FindExpression>
+              <d7p1:FindInfo i:nil="true" />
+              <d7p1:Frame i:nil="true" />
+              <d7p1:HtmlControlType>ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor</d7p1:HtmlControlType>
+              <d7p1:IsIndependent>false</d7p1:IsIndependent>
+              <d7p1:Name>target</d7p1:Name>
+              <d7p1:Page i:type="d2p1:PageUri">
+                <d2p1:AlwaysUseTitleInCompare>false</d2p1:AlwaysUseTitleInCompare>
+                <d2p1:BaseUrl />
+                <d2p1:CompareMode>FullPathAndQuery</d2p1:CompareMode>
+                <d2p1:EquivalentUrls />
+                <d2p1:Fragment />
+                <d2p1:FriendlyName>DeveloperTools</d2p1:FriendlyName>
+                <d2p1:Path>http://www.telerik.com/support/demos/developer-tools-demos.aspx</d2p1:Path>
+                <d2p1:Query />
+                <d2p1:Title>Developer Tools</d2p1:Title>
+              </d7p1:Page>
+              <d7p1:Region i:nil="true" />
+              <d7p1:TechnologyType>Html</d7p1:TechnologyType>
+              <d7p1:Version>200</d7p1:Version>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+        </d2p1:Elements>
+        <d2p1:LogMessageOnFailure />
+        <d2p1:Pause>None</d2p1:Pause>
+        <d2p1:RunsAgainstVersion />
+        <d2p1:StepType>Action</d2p1:StepType>
+        <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+        <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+        <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+        <AjaxTimeout xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Extensibility">0</AjaxTimeout>
+        <ClosesBrowser xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Extensibility">false</ClosesBrowser>
+        <UseBackupSearch xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Extensibility">true</UseBackupSearch>
+        <UsejQuery xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Extensibility">true</UsejQuery>
+        <d2p1:SimulateRealClick>false</d2p1:SimulateRealClick>
+      </d2p1:Step>
+      <d2p1:StepImageKey>SilverLightDemoTestaokfr3km.yiz</d2p1:StepImageKey>
+      <d2p1:StepState>NoCode</d2p1:StepState>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:AutomationStep>
+    <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+      <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+      <d2p1:CustomDescription i:nil="true" />
+      <d2p1:Description>Click RadButtonRadbutton</d2p1:Description>
+      <d2p1:Enabled>true</d2p1:Enabled>
+      <d2p1:Id />
+      <d2p1:Order>3</d2p1:Order>
+      <d2p1:QcId>0</d2p1:QcId>
+      <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+      <d2p1:Runtime_x0020_ID>ca44f471-384b-4d70-b606-56b1815e0037</d2p1:Runtime_x0020_ID>
+      <d2p1:Step xmlns:d4p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0" i:type="d4p1:ButtonActionDescriptor">
+        <d2p1:Constraints>
+          <d4p1:ConstraintValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringstring>
+              <d6p1:Key>RunsAgainstVersion</d6p1:Key>
+              <d6p1:Value />
+            </d6p1:KeyValueOfstringstring>
+          </d4p1:ConstraintValues>
+        </d2p1:Constraints>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:EditorType />
+        <d2p1:Elements xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+            <d5p1:Key>target</d5p1:Key>
+            <d5p1:Value>
+              <d4p1:DomStateKey />
+              <d4p1:FindExpression>
+                <d4p1:BackupSearchClause>/mainpage[1]/grid[1]/grid[1]/frame[1]/contentpresenter[1]/homepageview[1]/grid[1]/grid[4]/radbutton[1]</d4p1:BackupSearchClause>
+                <d4p1:DataBindingExpressions />
+                <d4p1:FindExpressions xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Html</d9p1:key>
+                    <d9p1:value i:type="d4p1:HtmlFindExpression">
+                      <d4p1:ChainStops>
+                        <d5p1:int>1</d5p1:int>
+                      </d4p1:ChainStops>
+                      <d4p1:Clauses>
+                        <d4p1:HtmlFindClause>
+                          <d4p1:Clause>id=silverlightControlHost</d4p1:Clause>
+                        </d4p1:HtmlFindClause>
+                        <d4p1:HtmlFindClause>
+                          <d4p1:Clause>tagIndex=object:0</d4p1:Clause>
+                        </d4p1:HtmlFindClause>
+                      </d4p1:Clauses>
+                      <d4p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Silverlight</d9p1:key>
+                    <d9p1:value i:type="d4p1:XamlFindExpression">
+                      <d4p1:ChainStops />
+                      <d4p1:Clauses>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>AutomationId=radButton</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>XamlTag=radbutton</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                      </d4p1:Clauses>
+                      <d4p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                </d4p1:FindExpressions>
+                <d4p1:Name>RadButtonRadbutton</d4p1:Name>
+                <d4p1:NodeKind>5</d4p1:NodeKind>
+                <d4p1:TechnologyType>Silverlight</d4p1:TechnologyType>
+              </d4p1:FindExpression>
+              <d4p1:FindInfo i:nil="true" />
+              <d4p1:Frame i:nil="true" />
+              <d4p1:HtmlControlType>Telerik.WebAii.Controls.Xaml.RadButton</d4p1:HtmlControlType>
+              <d4p1:IsIndependent>false</d4p1:IsIndependent>
+              <d4p1:Name>target</d4p1:Name>
+              <d4p1:Page i:type="d2p1:PageUri">
+                <d2p1:AlwaysUseTitleInCompare>false</d2p1:AlwaysUseTitleInCompare>
+                <d2p1:BaseUrl />
+                <d2p1:CompareMode>FullPathAndQuery</d2p1:CompareMode>
+                <d2p1:EquivalentUrls />
+                <d2p1:Fragment>#</d2p1:Fragment>
+                <d2p1:FriendlyName>SilverlightControls</d2p1:FriendlyName>
+                <d2p1:Path>http://demos.telerik.com/silverlight/</d2p1:Path>
+                <d2p1:Query />
+                <d2p1:Title>Silverlight Controls Examples – Grid, Chart, Scheduler, Map, Code Samples</d2p1:Title>
+              </d4p1:Page>
+              <d4p1:Region i:nil="true" />
+              <d4p1:TechnologyType>Silverlight</d4p1:TechnologyType>
+              <d4p1:Version>200</d4p1:Version>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+        </d2p1:Elements>
+        <d2p1:LogMessageOnFailure />
+        <d2p1:Pause>None</d2p1:Pause>
+        <d2p1:RunsAgainstVersion />
+        <d2p1:StepType>Action</d2p1:StepType>
+        <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+        <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+        <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+        <d4p1:EnsureElementsClickable>true</d4p1:EnsureElementsClickable>
+        <d4p1:SimulateRealUser>true</d4p1:SimulateRealUser>
+        <d4p1:VirtualizingContainerOffset>0</d4p1:VirtualizingContainerOffset>
+        <d4p1:WaitForNoMotion>true</d4p1:WaitForNoMotion>
+        <d4p1:WaitForNoMotionCheckInterval>500</d4p1:WaitForNoMotionCheckInterval>
+        <d4p1:Offset>
+          <d2p1:ClickUnitType>Pixel</d2p1:ClickUnitType>
+          <d2p1:OffSetReference>TopLeftCorner</d2p1:OffSetReference>
+          <d2p1:X>100</d2p1:X>
+          <d2p1:Y>16</d2p1:Y>
+        </d4p1:Offset>
+        <d4p1:UseOffset>true</d4p1:UseOffset>
+      </d2p1:Step>
+      <d2p1:StepImageKey>SilverLightDemoTestt2ond5tf.lps</d2p1:StepImageKey>
+      <d2p1:StepState>NoCode</d2p1:StepState>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:AutomationStep>
+    <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+      <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+      <d2p1:CustomDescription i:nil="true" />
+      <d2p1:Description>Click GaugeRadbutton</d2p1:Description>
+      <d2p1:Enabled>true</d2p1:Enabled>
+      <d2p1:Id />
+      <d2p1:Order>4</d2p1:Order>
+      <d2p1:QcId>0</d2p1:QcId>
+      <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+      <d2p1:Runtime_x0020_ID>68d43df2-e647-4bd8-8126-b5be1390e735</d2p1:Runtime_x0020_ID>
+      <d2p1:Step xmlns:d4p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0" i:type="d4p1:ButtonActionDescriptor">
+        <d2p1:Constraints>
+          <d4p1:ConstraintValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringstring>
+              <d6p1:Key>RunsAgainstVersion</d6p1:Key>
+              <d6p1:Value />
+            </d6p1:KeyValueOfstringstring>
+          </d4p1:ConstraintValues>
+        </d2p1:Constraints>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:EditorType />
+        <d2p1:Elements xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+            <d5p1:Key>target</d5p1:Key>
+            <d5p1:Value>
+              <d4p1:DomStateKey />
+              <d4p1:FindExpression>
+                <d4p1:BackupSearchClause>/mainpage[1]/grid[1]/grid[1]/frame[1]/contentpresenter[1]/allcontrolsview[1]/grid[1]/grid[4]/itemscontrol[1]/itemspresenter[1]/raduniformgrid[1]/contentpresenter[31]/radbutton[1]</d4p1:BackupSearchClause>
+                <d4p1:DataBindingExpressions />
+                <d4p1:FindExpressions xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Html</d9p1:key>
+                    <d9p1:value i:type="d4p1:HtmlFindExpression">
+                      <d4p1:ChainStops>
+                        <d5p1:int>1</d5p1:int>
+                      </d4p1:ChainStops>
+                      <d4p1:Clauses>
+                        <d4p1:HtmlFindClause>
+                          <d4p1:Clause>id=silverlightControlHost</d4p1:Clause>
+                        </d4p1:HtmlFindClause>
+                        <d4p1:HtmlFindClause>
+                          <d4p1:Clause>tagIndex=object:0</d4p1:Clause>
+                        </d4p1:HtmlFindClause>
+                      </d4p1:Clauses>
+                      <d4p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Silverlight</d9p1:key>
+                    <d9p1:value i:type="d4p1:XamlFindExpression">
+                      <d4p1:ChainStops>
+                        <d5p1:int>2</d5p1:int>
+                      </d4p1:ChainStops>
+                      <d4p1:Clauses>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>XamlTag=itemscontrol</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>name=RestControlsItems</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>XamlPath=/itemspresenter[0]/raduniformgrid[0]/contentpresenter[30]/radbutton[0]</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                      </d4p1:Clauses>
+                      <d4p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                </d4p1:FindExpressions>
+                <d4p1:Name>GaugeRadbutton</d4p1:Name>
+                <d4p1:NodeKind>5</d4p1:NodeKind>
+                <d4p1:TechnologyType>Silverlight</d4p1:TechnologyType>
+              </d4p1:FindExpression>
+              <d4p1:FindInfo i:nil="true" />
+              <d4p1:Frame i:nil="true" />
+              <d4p1:HtmlControlType>Telerik.WebAii.Controls.Xaml.RadButton</d4p1:HtmlControlType>
+              <d4p1:IsIndependent>false</d4p1:IsIndependent>
+              <d4p1:Name>target</d4p1:Name>
+              <d4p1:Page i:type="d2p1:PageUri">
+                <d2p1:AlwaysUseTitleInCompare>false</d2p1:AlwaysUseTitleInCompare>
+                <d2p1:BaseUrl />
+                <d2p1:CompareMode>FullPathAndQuery</d2p1:CompareMode>
+                <d2p1:EquivalentUrls />
+                <d2p1:Fragment>#Controls</d2p1:Fragment>
+                <d2p1:FriendlyName>TelerikControlsFor</d2p1:FriendlyName>
+                <d2p1:Path>http://demos.telerik.com/silverlight/</d2p1:Path>
+                <d2p1:Query />
+                <d2p1:Title>Telerik Controls for Silverlight</d2p1:Title>
+              </d4p1:Page>
+              <d4p1:Region i:nil="true" />
+              <d4p1:TechnologyType>Silverlight</d4p1:TechnologyType>
+              <d4p1:Version>200</d4p1:Version>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+        </d2p1:Elements>
+        <d2p1:LogMessageOnFailure />
+        <d2p1:Pause>None</d2p1:Pause>
+        <d2p1:RunsAgainstVersion />
+        <d2p1:StepType>Action</d2p1:StepType>
+        <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+        <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+        <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+        <d4p1:EnsureElementsClickable>true</d4p1:EnsureElementsClickable>
+        <d4p1:SimulateRealUser>true</d4p1:SimulateRealUser>
+        <d4p1:VirtualizingContainerOffset>0</d4p1:VirtualizingContainerOffset>
+        <d4p1:WaitForNoMotion>true</d4p1:WaitForNoMotion>
+        <d4p1:WaitForNoMotionCheckInterval>500</d4p1:WaitForNoMotionCheckInterval>
+        <d4p1:Offset>
+          <d2p1:ClickUnitType>Pixel</d2p1:ClickUnitType>
+          <d2p1:OffSetReference>TopLeftCorner</d2p1:OffSetReference>
+          <d2p1:X>51</d2p1:X>
+          <d2p1:Y>6</d2p1:Y>
+        </d4p1:Offset>
+        <d4p1:UseOffset>true</d4p1:UseOffset>
+      </d2p1:Step>
+      <d2p1:StepImageKey>SilverLightDemoTestqyv2nazy.sto</d2p1:StepImageKey>
+      <d2p1:StepState>NoCode</d2p1:StepState>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:AutomationStep>
+    <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+      <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+      <d2p1:CustomDescription i:nil="true" />
+      <d2p1:Description>Click BtnNextExampleRadbutton</d2p1:Description>
+      <d2p1:Enabled>true</d2p1:Enabled>
+      <d2p1:Id />
+      <d2p1:Order>5</d2p1:Order>
+      <d2p1:QcId>0</d2p1:QcId>
+      <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+      <d2p1:Runtime_x0020_ID>74ac6ca3-b78a-4143-9fd5-641f1fa8a449</d2p1:Runtime_x0020_ID>
+      <d2p1:Step xmlns:d4p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0" i:type="d4p1:ButtonActionDescriptor">
+        <d2p1:Constraints>
+          <d4p1:ConstraintValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringstring>
+              <d6p1:Key>RunsAgainstVersion</d6p1:Key>
+              <d6p1:Value />
+            </d6p1:KeyValueOfstringstring>
+          </d4p1:ConstraintValues>
+        </d2p1:Constraints>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:EditorType />
+        <d2p1:Elements xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+            <d5p1:Key>target</d5p1:Key>
+            <d5p1:Value>
+              <d4p1:DomStateKey />
+              <d4p1:FindExpression>
+                <d4p1:BackupSearchClause>/mainpage[1]/grid[1]/grid[1]/frame[1]/contentpresenter[1]/singleexampleview[1]/grid[1]/grid[1]/stackpanel[1]/radbutton[4]</d4p1:BackupSearchClause>
+                <d4p1:DataBindingExpressions />
+                <d4p1:FindExpressions xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Html</d9p1:key>
+                    <d9p1:value i:type="d4p1:HtmlFindExpression">
+                      <d4p1:ChainStops>
+                        <d5p1:int>1</d5p1:int>
+                      </d4p1:ChainStops>
+                      <d4p1:Clauses>
+                        <d4p1:HtmlFindClause>
+                          <d4p1:Clause>id=silverlightControlHost</d4p1:Clause>
+                        </d4p1:HtmlFindClause>
+                        <d4p1:HtmlFindClause>
+                          <d4p1:Clause>tagIndex=object:0</d4p1:Clause>
+                        </d4p1:HtmlFindClause>
+                      </d4p1:Clauses>
+                      <d4p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Silverlight</d9p1:key>
+                    <d9p1:value i:type="d4p1:XamlFindExpression">
+                      <d4p1:ChainStops />
+                      <d4p1:Clauses>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>AutomationId=btnNextExample</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>XamlTag=radbutton</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                      </d4p1:Clauses>
+                      <d4p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                </d4p1:FindExpressions>
+                <d4p1:Name>BtnNextExampleRadbutton</d4p1:Name>
+                <d4p1:NodeKind>5</d4p1:NodeKind>
+                <d4p1:TechnologyType>Silverlight</d4p1:TechnologyType>
+              </d4p1:FindExpression>
+              <d4p1:FindInfo i:nil="true" />
+              <d4p1:Frame i:nil="true" />
+              <d4p1:HtmlControlType>Telerik.WebAii.Controls.Xaml.RadButton</d4p1:HtmlControlType>
+              <d4p1:IsIndependent>false</d4p1:IsIndependent>
+              <d4p1:Name>target</d4p1:Name>
+              <d4p1:Page i:type="d2p1:PageUri">
+                <d2p1:AlwaysUseTitleInCompare>false</d2p1:AlwaysUseTitleInCompare>
+                <d2p1:BaseUrl />
+                <d2p1:CompareMode>FullPathAndQuery</d2p1:CompareMode>
+                <d2p1:EquivalentUrls />
+                <d2p1:Fragment>#Gauge/FirstLook</d2p1:Fragment>
+                <d2p1:FriendlyName>TelerikGaugeForSilverlight</d2p1:FriendlyName>
+                <d2p1:Path>http://demos.telerik.com/silverlight/</d2p1:Path>
+                <d2p1:Query />
+                <d2p1:Title>Telerik Gauge for Silverlight</d2p1:Title>
+              </d4p1:Page>
+              <d4p1:Region i:nil="true" />
+              <d4p1:TechnologyType>Silverlight</d4p1:TechnologyType>
+              <d4p1:Version>200</d4p1:Version>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+        </d2p1:Elements>
+        <d2p1:LogMessageOnFailure />
+        <d2p1:Pause>None</d2p1:Pause>
+        <d2p1:RunsAgainstVersion />
+        <d2p1:StepType>Action</d2p1:StepType>
+        <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+        <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+        <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+        <d4p1:EnsureElementsClickable>true</d4p1:EnsureElementsClickable>
+        <d4p1:SimulateRealUser>true</d4p1:SimulateRealUser>
+        <d4p1:VirtualizingContainerOffset>0</d4p1:VirtualizingContainerOffset>
+        <d4p1:WaitForNoMotion>true</d4p1:WaitForNoMotion>
+        <d4p1:WaitForNoMotionCheckInterval>500</d4p1:WaitForNoMotionCheckInterval>
+        <d4p1:Offset>
+          <d2p1:ClickUnitType>Pixel</d2p1:ClickUnitType>
+          <d2p1:OffSetReference>TopLeftCorner</d2p1:OffSetReference>
+          <d2p1:X>7</d2p1:X>
+          <d2p1:Y>15</d2p1:Y>
+        </d4p1:Offset>
+        <d4p1:UseOffset>true</d4p1:UseOffset>
+      </d2p1:Step>
+      <d2p1:StepImageKey>SilverLightDemoTestf00hw1ss.rsq</d2p1:StepImageKey>
+      <d2p1:StepState>NoCode</d2p1:StepState>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:AutomationStep>
+    <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+      <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+      <d2p1:CustomDescription i:nil="true" />
+      <d2p1:Description>Click BtnNextExampleRadbutton</d2p1:Description>
+      <d2p1:Enabled>true</d2p1:Enabled>
+      <d2p1:Id />
+      <d2p1:Order>6</d2p1:Order>
+      <d2p1:QcId>0</d2p1:QcId>
+      <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+      <d2p1:Runtime_x0020_ID>d66d1844-0141-4c3c-893d-a627ee562b79</d2p1:Runtime_x0020_ID>
+      <d2p1:Step xmlns:d4p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0" i:type="d4p1:ButtonActionDescriptor">
+        <d2p1:Constraints>
+          <d4p1:ConstraintValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringstring>
+              <d6p1:Key>RunsAgainstVersion</d6p1:Key>
+              <d6p1:Value />
+            </d6p1:KeyValueOfstringstring>
+          </d4p1:ConstraintValues>
+        </d2p1:Constraints>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:EditorType />
+        <d2p1:Elements xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+            <d5p1:Key>target</d5p1:Key>
+            <d5p1:Value>
+              <d4p1:DomStateKey />
+              <d4p1:FindExpression>
+                <d4p1:BackupSearchClause>/mainpage[1]/grid[1]/grid[1]/frame[1]/contentpresenter[1]/singleexampleview[1]/grid[1]/grid[1]/stackpanel[1]/radbutton[4]</d4p1:BackupSearchClause>
+                <d4p1:DataBindingExpressions />
+                <d4p1:FindExpressions xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Html</d9p1:key>
+                    <d9p1:value i:type="d4p1:HtmlFindExpression">
+                      <d4p1:ChainStops>
+                        <d5p1:int>1</d5p1:int>
+                      </d4p1:ChainStops>
+                      <d4p1:Clauses>
+                        <d4p1:HtmlFindClause>
+                          <d4p1:Clause>id=silverlightControlHost</d4p1:Clause>
+                        </d4p1:HtmlFindClause>
+                        <d4p1:HtmlFindClause>
+                          <d4p1:Clause>tagIndex=object:0</d4p1:Clause>
+                        </d4p1:HtmlFindClause>
+                      </d4p1:Clauses>
+                      <d4p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Silverlight</d9p1:key>
+                    <d9p1:value i:type="d4p1:XamlFindExpression">
+                      <d4p1:ChainStops />
+                      <d4p1:Clauses>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>AutomationId=btnNextExample</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>XamlTag=radbutton</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                      </d4p1:Clauses>
+                      <d4p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                </d4p1:FindExpressions>
+                <d4p1:Name>BtnNextExampleRadbutton</d4p1:Name>
+                <d4p1:NodeKind>5</d4p1:NodeKind>
+                <d4p1:TechnologyType>Silverlight</d4p1:TechnologyType>
+              </d4p1:FindExpression>
+              <d4p1:FindInfo i:nil="true" />
+              <d4p1:Frame i:nil="true" />
+              <d4p1:HtmlControlType>Telerik.WebAii.Controls.Xaml.RadButton</d4p1:HtmlControlType>
+              <d4p1:IsIndependent>false</d4p1:IsIndependent>
+              <d4p1:Name>target</d4p1:Name>
+              <d4p1:Page i:type="d2p1:PageUri">
+                <d2p1:AlwaysUseTitleInCompare>false</d2p1:AlwaysUseTitleInCompare>
+                <d2p1:BaseUrl />
+                <d2p1:CompareMode>FullPathAndQuery</d2p1:CompareMode>
+                <d2p1:EquivalentUrls />
+                <d2p1:Fragment>#Gauge/SpeedRacer</d2p1:Fragment>
+                <d2p1:FriendlyName>TelerikGaugeForSilverlight0</d2p1:FriendlyName>
+                <d2p1:Path>http://demos.telerik.com/silverlight/</d2p1:Path>
+                <d2p1:Query />
+                <d2p1:Title>Telerik Gauge for Silverlight</d2p1:Title>
+              </d4p1:Page>
+              <d4p1:Region i:nil="true" />
+              <d4p1:TechnologyType>Silverlight</d4p1:TechnologyType>
+              <d4p1:Version>200</d4p1:Version>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+        </d2p1:Elements>
+        <d2p1:LogMessageOnFailure />
+        <d2p1:Pause>None</d2p1:Pause>
+        <d2p1:RunsAgainstVersion />
+        <d2p1:StepType>Action</d2p1:StepType>
+        <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+        <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+        <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+        <d4p1:EnsureElementsClickable>true</d4p1:EnsureElementsClickable>
+        <d4p1:SimulateRealUser>true</d4p1:SimulateRealUser>
+        <d4p1:VirtualizingContainerOffset>0</d4p1:VirtualizingContainerOffset>
+        <d4p1:WaitForNoMotion>true</d4p1:WaitForNoMotion>
+        <d4p1:WaitForNoMotionCheckInterval>500</d4p1:WaitForNoMotionCheckInterval>
+        <d4p1:Offset>
+          <d2p1:ClickUnitType>Pixel</d2p1:ClickUnitType>
+          <d2p1:OffSetReference>TopLeftCorner</d2p1:OffSetReference>
+          <d2p1:X>9</d2p1:X>
+          <d2p1:Y>9</d2p1:Y>
+        </d4p1:Offset>
+        <d4p1:UseOffset>true</d4p1:UseOffset>
+      </d2p1:Step>
+      <d2p1:StepImageKey>SilverLightDemoTest2rih1kmq.txx</d2p1:StepImageKey>
+      <d2p1:StepState>NoCode</d2p1:StepState>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:AutomationStep>
+    <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+      <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+      <d2p1:CustomDescription i:nil="true" />
+      <d2p1:Description>Verify 'WeatherStationTextblock' text Same 'Weather Station'</d2p1:Description>
+      <d2p1:Enabled>true</d2p1:Enabled>
+      <d2p1:Id />
+      <d2p1:Order>7</d2p1:Order>
+      <d2p1:QcId>0</d2p1:QcId>
+      <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+      <d2p1:Runtime_x0020_ID>e505df99-6905-444f-ac3e-c058235c1b69</d2p1:Runtime_x0020_ID>
+      <d2p1:Step xmlns:d4p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0" i:type="d4p1:TextBlockVerificationDescriptor">
+        <d2p1:Constraints>
+          <d4p1:ConstraintValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringstring>
+              <d6p1:Key>RunsAgainstVersion</d6p1:Key>
+              <d6p1:Value />
+            </d6p1:KeyValueOfstringstring>
+          </d4p1:ConstraintValues>
+        </d2p1:Constraints>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:EditorType />
+        <d2p1:Elements xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+            <d5p1:Key>TargetKey1</d5p1:Key>
+            <d5p1:Value>
+              <d4p1:DomStateKey />
+              <d4p1:FindExpression>
+                <d4p1:BackupSearchClause>/mainpage[1]/grid[1]/grid[1]/frame[1]/contentpresenter[1]/singleexampleview[1]/grid[1]/examplecontentcontrol[1]/grid[1]/contentpresenter[1]/headeredcontentcontrol[1]/grid[1]/contentcontrol[1]/contentpresenter[1]/textblock[1]</d4p1:BackupSearchClause>
+                <d4p1:DataBindingExpressions />
+                <d4p1:FindExpressions xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Html</d9p1:key>
+                    <d9p1:value i:type="d4p1:HtmlFindExpression">
+                      <d4p1:ChainStops>
+                        <d5p1:int>1</d5p1:int>
+                      </d4p1:ChainStops>
+                      <d4p1:Clauses>
+                        <d4p1:HtmlFindClause>
+                          <d4p1:Clause>id=silverlightControlHost</d4p1:Clause>
+                        </d4p1:HtmlFindClause>
+                        <d4p1:HtmlFindClause>
+                          <d4p1:Clause>tagIndex=object:0</d4p1:Clause>
+                        </d4p1:HtmlFindClause>
+                      </d4p1:Clauses>
+                      <d4p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Silverlight</d9p1:key>
+                    <d9p1:value i:type="d4p1:XamlFindExpression">
+                      <d4p1:ChainStops />
+                      <d4p1:Clauses>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>TextContent=Weather Station</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>XamlTag=textblock</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                      </d4p1:Clauses>
+                      <d4p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                </d4p1:FindExpressions>
+                <d4p1:Name>WeatherStationTextblock</d4p1:Name>
+                <d4p1:NodeKind>5</d4p1:NodeKind>
+                <d4p1:TechnologyType>Silverlight</d4p1:TechnologyType>
+              </d4p1:FindExpression>
+              <d4p1:FindInfo i:nil="true" />
+              <d4p1:Frame i:nil="true" />
+              <d4p1:HtmlControlType>ArtOfTest.WebAii.Silverlight.UI.TextBlock</d4p1:HtmlControlType>
+              <d4p1:IsIndependent>false</d4p1:IsIndependent>
+              <d4p1:Name>TargetKey1</d4p1:Name>
+              <d4p1:Page i:type="d2p1:PageUri">
+                <d2p1:AlwaysUseTitleInCompare>false</d2p1:AlwaysUseTitleInCompare>
+                <d2p1:BaseUrl />
+                <d2p1:CompareMode>FullPathAndQuery</d2p1:CompareMode>
+                <d2p1:EquivalentUrls />
+                <d2p1:Fragment>#Gauge/Weather</d2p1:Fragment>
+                <d2p1:FriendlyName>TelerikGaugeForSilverlight1</d2p1:FriendlyName>
+                <d2p1:Path>http://demos.telerik.com/silverlight/</d2p1:Path>
+                <d2p1:Query />
+                <d2p1:Title>Telerik Gauge for Silverlight</d2p1:Title>
+              </d4p1:Page>
+              <d4p1:Region i:nil="true" />
+              <d4p1:TechnologyType>Silverlight</d4p1:TechnologyType>
+              <d4p1:Version>200</d4p1:Version>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+        </d2p1:Elements>
+        <d2p1:LogMessageOnFailure />
+        <d2p1:Pause>None</d2p1:Pause>
+        <d2p1:RunsAgainstVersion />
+        <d2p1:StepType>Verification</d2p1:StepType>
+        <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+        <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+        <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+        <d2p1:CheckInterval>500</d2p1:CheckInterval>
+        <d2p1:DataBindVariableName i:nil="true" />
+        <d2p1:EnsureStateIsCurrent>false</d2p1:EnsureStateIsCurrent>
+        <d2p1:Timeout>30000</d2p1:Timeout>
+        <d4p1:VirtualizingContainerOffset>0</d4p1:VirtualizingContainerOffset>
+        <d4p1:WaitForNoMotion>true</d4p1:WaitForNoMotion>
+        <d4p1:WaitForNoMotionCheckInterval>500</d4p1:WaitForNoMotionCheckInterval>
+        <d4p1:Comparer i:type="d4p1:StringComparer" />
+        <d4p1:Comparison>Same</d4p1:Comparison>
+        <d4p1:Property xmlns:d5p1="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Silverlight">
+          <d5p1:AttachedPropertyOwner i:nil="true" />
+          <d5p1:Index i:nil="true" />
+          <d5p1:IsAttachedProperty>false</d5p1:IsAttachedProperty>
+          <d5p1:Name>Text</d5p1:Name>
+          <d5p1:TypeName>System.String</d5p1:TypeName>
+        </d4p1:Property>
+        <d4p1:Value xmlns:d5p1="http://www.w3.org/2001/XMLSchema" i:type="d5p1:string">Weather Station</d4p1:Value>
+      </d2p1:Step>
+      <d2p1:StepImageKey>SilverLightDemoTestqbjl4nog.0sw</d2p1:StepImageKey>
+      <d2p1:StepState>NoCode</d2p1:StepState>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:AutomationStep>
+    <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+      <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+      <d2p1:CustomDescription i:nil="true" />
+      <d2p1:Description>Verify 'ControlNameTextblock' text Same 'Gauge'</d2p1:Description>
+      <d2p1:Enabled>true</d2p1:Enabled>
+      <d2p1:Id />
+      <d2p1:Order>8</d2p1:Order>
+      <d2p1:QcId>0</d2p1:QcId>
+      <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+      <d2p1:Runtime_x0020_ID>8001d6b3-58d4-4bdc-9110-0c53cb60f3c5</d2p1:Runtime_x0020_ID>
+      <d2p1:Step xmlns:d4p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0" i:type="d4p1:TextBlockVerificationDescriptor">
+        <d2p1:Constraints>
+          <d4p1:ConstraintValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringstring>
+              <d6p1:Key>RunsAgainstVersion</d6p1:Key>
+              <d6p1:Value />
+            </d6p1:KeyValueOfstringstring>
+          </d4p1:ConstraintValues>
+        </d2p1:Constraints>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:EditorType />
+        <d2p1:Elements xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+            <d5p1:Key>TargetKey1</d5p1:Key>
+            <d5p1:Value>
+              <d4p1:DomStateKey />
+              <d4p1:FindExpression>
+                <d4p1:BackupSearchClause>/mainpage[1]/grid[1]/grid[1]/frame[1]/contentpresenter[1]/singleexampleview[1]/grid[1]/grid[2]/grid[1]/stackpanel[1]/textblock[1]</d4p1:BackupSearchClause>
+                <d4p1:DataBindingExpressions />
+                <d4p1:FindExpressions xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Html</d9p1:key>
+                    <d9p1:value i:type="d4p1:HtmlFindExpression">
+                      <d4p1:ChainStops>
+                        <d5p1:int>1</d5p1:int>
+                      </d4p1:ChainStops>
+                      <d4p1:Clauses>
+                        <d4p1:HtmlFindClause>
+                          <d4p1:Clause>id=silverlightControlHost</d4p1:Clause>
+                        </d4p1:HtmlFindClause>
+                        <d4p1:HtmlFindClause>
+                          <d4p1:Clause>tagIndex=object:0</d4p1:Clause>
+                        </d4p1:HtmlFindClause>
+                      </d4p1:Clauses>
+                      <d4p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Silverlight</d9p1:key>
+                    <d9p1:value i:type="d4p1:XamlFindExpression">
+                      <d4p1:ChainStops />
+                      <d4p1:Clauses>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>AutomationId=ControlName</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>XamlTag=textblock</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                      </d4p1:Clauses>
+                      <d4p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                </d4p1:FindExpressions>
+                <d4p1:Name>ControlNameTextblock</d4p1:Name>
+                <d4p1:NodeKind>5</d4p1:NodeKind>
+                <d4p1:TechnologyType>Silverlight</d4p1:TechnologyType>
+              </d4p1:FindExpression>
+              <d4p1:FindInfo i:nil="true" />
+              <d4p1:Frame i:nil="true" />
+              <d4p1:HtmlControlType>ArtOfTest.WebAii.Silverlight.UI.TextBlock</d4p1:HtmlControlType>
+              <d4p1:IsIndependent>false</d4p1:IsIndependent>
+              <d4p1:Name>TargetKey1</d4p1:Name>
+              <d4p1:Page i:type="d2p1:PageUri">
+                <d2p1:AlwaysUseTitleInCompare>false</d2p1:AlwaysUseTitleInCompare>
+                <d2p1:BaseUrl />
+                <d2p1:CompareMode>FullPathAndQuery</d2p1:CompareMode>
+                <d2p1:EquivalentUrls />
+                <d2p1:Fragment>#Gauge/Weather</d2p1:Fragment>
+                <d2p1:FriendlyName>TelerikGaugeForSilverlight1</d2p1:FriendlyName>
+                <d2p1:Path>http://demos.telerik.com/silverlight/</d2p1:Path>
+                <d2p1:Query />
+                <d2p1:Title>Telerik Gauge for Silverlight</d2p1:Title>
+              </d4p1:Page>
+              <d4p1:Region i:nil="true" />
+              <d4p1:TechnologyType>Silverlight</d4p1:TechnologyType>
+              <d4p1:Version>200</d4p1:Version>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+        </d2p1:Elements>
+        <d2p1:LogMessageOnFailure />
+        <d2p1:Pause>None</d2p1:Pause>
+        <d2p1:RunsAgainstVersion />
+        <d2p1:StepType>Verification</d2p1:StepType>
+        <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+        <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+        <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+        <d2p1:CheckInterval>500</d2p1:CheckInterval>
+        <d2p1:DataBindVariableName i:nil="true" />
+        <d2p1:EnsureStateIsCurrent>false</d2p1:EnsureStateIsCurrent>
+        <d2p1:Timeout>30000</d2p1:Timeout>
+        <d4p1:VirtualizingContainerOffset>0</d4p1:VirtualizingContainerOffset>
+        <d4p1:WaitForNoMotion>true</d4p1:WaitForNoMotion>
+        <d4p1:WaitForNoMotionCheckInterval>500</d4p1:WaitForNoMotionCheckInterval>
+        <d4p1:Comparer i:type="d4p1:StringComparer" />
+        <d4p1:Comparison>Same</d4p1:Comparison>
+        <d4p1:Property xmlns:d5p1="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Silverlight">
+          <d5p1:AttachedPropertyOwner i:nil="true" />
+          <d5p1:Index i:nil="true" />
+          <d5p1:IsAttachedProperty>false</d5p1:IsAttachedProperty>
+          <d5p1:Name>Text</d5p1:Name>
+          <d5p1:TypeName>System.String</d5p1:TypeName>
+        </d4p1:Property>
+        <d4p1:Value xmlns:d5p1="http://www.w3.org/2001/XMLSchema" i:type="d5p1:string">Gauge</d4p1:Value>
+      </d2p1:Step>
+      <d2p1:StepImageKey>SilverLightDemoTest0osqoewc.k5j</d2p1:StepImageKey>
+      <d2p1:StepState>NoCode</d2p1:StepState>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:AutomationStep>
+    <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+      <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+      <d2p1:CustomDescription i:nil="true" />
+      <d2p1:Description>Verify 'ExampleNameTextblock' text Same 'Weather'</d2p1:Description>
+      <d2p1:Enabled>true</d2p1:Enabled>
+      <d2p1:Id />
+      <d2p1:Order>9</d2p1:Order>
+      <d2p1:QcId>0</d2p1:QcId>
+      <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+      <d2p1:Runtime_x0020_ID>2e985e1c-1ac2-48b0-9879-c69cee71b634</d2p1:Runtime_x0020_ID>
+      <d2p1:Step xmlns:d4p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0" i:type="d4p1:TextBlockVerificationDescriptor">
+        <d2p1:Constraints>
+          <d4p1:ConstraintValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringstring>
+              <d6p1:Key>RunsAgainstVersion</d6p1:Key>
+              <d6p1:Value />
+            </d6p1:KeyValueOfstringstring>
+          </d4p1:ConstraintValues>
+        </d2p1:Constraints>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:EditorType />
+        <d2p1:Elements xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+            <d5p1:Key>TargetKey1</d5p1:Key>
+            <d5p1:Value>
+              <d4p1:DomStateKey />
+              <d4p1:FindExpression>
+                <d4p1:BackupSearchClause>/mainpage[1]/grid[1]/grid[1]/frame[1]/contentpresenter[1]/singleexampleview[1]/grid[1]/grid[2]/grid[1]/stackpanel[1]/textblock[2]</d4p1:BackupSearchClause>
+                <d4p1:DataBindingExpressions />
+                <d4p1:FindExpressions xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Html</d9p1:key>
+                    <d9p1:value i:type="d4p1:HtmlFindExpression">
+                      <d4p1:ChainStops>
+                        <d5p1:int>1</d5p1:int>
+                      </d4p1:ChainStops>
+                      <d4p1:Clauses>
+                        <d4p1:HtmlFindClause>
+                          <d4p1:Clause>id=silverlightControlHost</d4p1:Clause>
+                        </d4p1:HtmlFindClause>
+                        <d4p1:HtmlFindClause>
+                          <d4p1:Clause>tagIndex=object:0</d4p1:Clause>
+                        </d4p1:HtmlFindClause>
+                      </d4p1:Clauses>
+                      <d4p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Silverlight</d9p1:key>
+                    <d9p1:value i:type="d4p1:XamlFindExpression">
+                      <d4p1:ChainStops />
+                      <d4p1:Clauses>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>AutomationId=ExampleName</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>XamlTag=textblock</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                      </d4p1:Clauses>
+                      <d4p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                </d4p1:FindExpressions>
+                <d4p1:Name>ExampleNameTextblock</d4p1:Name>
+                <d4p1:NodeKind>5</d4p1:NodeKind>
+                <d4p1:TechnologyType>Silverlight</d4p1:TechnologyType>
+              </d4p1:FindExpression>
+              <d4p1:FindInfo i:nil="true" />
+              <d4p1:Frame i:nil="true" />
+              <d4p1:HtmlControlType>ArtOfTest.WebAii.Silverlight.UI.TextBlock</d4p1:HtmlControlType>
+              <d4p1:IsIndependent>false</d4p1:IsIndependent>
+              <d4p1:Name>TargetKey1</d4p1:Name>
+              <d4p1:Page i:type="d2p1:PageUri">
+                <d2p1:AlwaysUseTitleInCompare>false</d2p1:AlwaysUseTitleInCompare>
+                <d2p1:BaseUrl />
+                <d2p1:CompareMode>FullPathAndQuery</d2p1:CompareMode>
+                <d2p1:EquivalentUrls />
+                <d2p1:Fragment>#Gauge/Weather</d2p1:Fragment>
+                <d2p1:FriendlyName>TelerikGaugeForSilverlight1</d2p1:FriendlyName>
+                <d2p1:Path>http://demos.telerik.com/silverlight/</d2p1:Path>
+                <d2p1:Query />
+                <d2p1:Title>Telerik Gauge for Silverlight</d2p1:Title>
+              </d4p1:Page>
+              <d4p1:Region i:nil="true" />
+              <d4p1:TechnologyType>Silverlight</d4p1:TechnologyType>
+              <d4p1:Version>200</d4p1:Version>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+        </d2p1:Elements>
+        <d2p1:LogMessageOnFailure />
+        <d2p1:Pause>None</d2p1:Pause>
+        <d2p1:RunsAgainstVersion />
+        <d2p1:StepType>Verification</d2p1:StepType>
+        <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+        <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+        <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+        <d2p1:CheckInterval>500</d2p1:CheckInterval>
+        <d2p1:DataBindVariableName i:nil="true" />
+        <d2p1:EnsureStateIsCurrent>false</d2p1:EnsureStateIsCurrent>
+        <d2p1:Timeout>30000</d2p1:Timeout>
+        <d4p1:VirtualizingContainerOffset>0</d4p1:VirtualizingContainerOffset>
+        <d4p1:WaitForNoMotion>true</d4p1:WaitForNoMotion>
+        <d4p1:WaitForNoMotionCheckInterval>500</d4p1:WaitForNoMotionCheckInterval>
+        <d4p1:Comparer i:type="d4p1:StringComparer" />
+        <d4p1:Comparison>Same</d4p1:Comparison>
+        <d4p1:Property xmlns:d5p1="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Silverlight">
+          <d5p1:AttachedPropertyOwner i:nil="true" />
+          <d5p1:Index i:nil="true" />
+          <d5p1:IsAttachedProperty>false</d5p1:IsAttachedProperty>
+          <d5p1:Name>Text</d5p1:Name>
+          <d5p1:TypeName>System.String</d5p1:TypeName>
+        </d4p1:Property>
+        <d4p1:Value xmlns:d5p1="http://www.w3.org/2001/XMLSchema" i:type="d5p1:string">Weather</d4p1:Value>
+      </d2p1:Step>
+      <d2p1:StepImageKey>SilverLightDemoTestlup3vore.uxf</d2p1:StepImageKey>
+      <d2p1:StepState>NoCode</d2p1:StepState>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:AutomationStep>
+    <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+      <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+      <d2p1:CustomDescription i:nil="true" />
+      <d2p1:Description>Click Item5Radbutton</d2p1:Description>
+      <d2p1:Enabled>true</d2p1:Enabled>
+      <d2p1:Id />
+      <d2p1:Order>10</d2p1:Order>
+      <d2p1:QcId>0</d2p1:QcId>
+      <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+      <d2p1:Runtime_x0020_ID>d38bfb3c-59c7-45bc-8b6a-425f9eb24eb5</d2p1:Runtime_x0020_ID>
+      <d2p1:Step xmlns:d4p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0" i:type="d4p1:ButtonActionDescriptor">
+        <d2p1:Constraints>
+          <d4p1:ConstraintValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringstring>
+              <d6p1:Key>RunsAgainstVersion</d6p1:Key>
+              <d6p1:Value />
+            </d6p1:KeyValueOfstringstring>
+          </d4p1:ConstraintValues>
+        </d2p1:Constraints>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:EditorType />
+        <d2p1:Elements xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+            <d5p1:Key>target</d5p1:Key>
+            <d5p1:Value>
+              <d4p1:DomStateKey />
+              <d4p1:FindExpression>
+                <d4p1:BackupSearchClause>/mainpage[1]/grid[1]/grid[1]/frame[1]/contentpresenter[1]/singleexampleview[1]/grid[1]/examplecontentcontrol[1]/grid[1]/contentpresenter[1]/headeredcontentcontrol[1]/grid[1]/contentpresenter[1]/example[1]/grid[1]/grid[1]/grid[1]/radbutton[1]</d4p1:BackupSearchClause>
+                <d4p1:DataBindingExpressions />
+                <d4p1:FindExpressions xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Html</d9p1:key>
+                    <d9p1:value i:type="d4p1:HtmlFindExpression">
+                      <d4p1:ChainStops>
+                        <d5p1:int>1</d5p1:int>
+                      </d4p1:ChainStops>
+                      <d4p1:Clauses>
+                        <d4p1:HtmlFindClause>
+                          <d4p1:Clause>id=silverlightControlHost</d4p1:Clause>
+                        </d4p1:HtmlFindClause>
+                        <d4p1:HtmlFindClause>
+                          <d4p1:Clause>tagIndex=object:0</d4p1:Clause>
+                        </d4p1:HtmlFindClause>
+                      </d4p1:Clauses>
+                      <d4p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Silverlight</d9p1:key>
+                    <d9p1:value i:type="d4p1:XamlFindExpression">
+                      <d4p1:ChainStops>
+                        <d5p1:int>2</d5p1:int>
+                      </d4p1:ChainStops>
+                      <d4p1:Clauses>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>XamlTag=headeredcontentcontrol</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>name=headeredContentControl</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>XamlPath=/grid[0]/contentpresenter[0]/example[0]/grid[0]/grid[0]/grid[0]/radbutton[0]</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                      </d4p1:Clauses>
+                      <d4p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                </d4p1:FindExpressions>
+                <d4p1:Name>Item5Radbutton</d4p1:Name>
+                <d4p1:NodeKind>5</d4p1:NodeKind>
+                <d4p1:TechnologyType>Silverlight</d4p1:TechnologyType>
+              </d4p1:FindExpression>
+              <d4p1:FindInfo i:nil="true" />
+              <d4p1:Frame i:nil="true" />
+              <d4p1:HtmlControlType>Telerik.WebAii.Controls.Xaml.RadButton</d4p1:HtmlControlType>
+              <d4p1:IsIndependent>false</d4p1:IsIndependent>
+              <d4p1:Name>target</d4p1:Name>
+              <d4p1:Page i:type="d2p1:PageUri">
+                <d2p1:AlwaysUseTitleInCompare>false</d2p1:AlwaysUseTitleInCompare>
+                <d2p1:BaseUrl />
+                <d2p1:CompareMode>FullPathAndQuery</d2p1:CompareMode>
+                <d2p1:EquivalentUrls />
+                <d2p1:Fragment>#Gauge/Weather</d2p1:Fragment>
+                <d2p1:FriendlyName>TelerikGaugeForSilverlight1</d2p1:FriendlyName>
+                <d2p1:Path>http://demos.telerik.com/silverlight/</d2p1:Path>
+                <d2p1:Query />
+                <d2p1:Title>Telerik Gauge for Silverlight</d2p1:Title>
+              </d4p1:Page>
+              <d4p1:Region i:nil="true" />
+              <d4p1:TechnologyType>Silverlight</d4p1:TechnologyType>
+              <d4p1:Version>200</d4p1:Version>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+        </d2p1:Elements>
+        <d2p1:LogMessageOnFailure />
+        <d2p1:Pause>None</d2p1:Pause>
+        <d2p1:RunsAgainstVersion />
+        <d2p1:StepType>Action</d2p1:StepType>
+        <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+        <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+        <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+        <d4p1:EnsureElementsClickable>true</d4p1:EnsureElementsClickable>
+        <d4p1:SimulateRealUser>true</d4p1:SimulateRealUser>
+        <d4p1:VirtualizingContainerOffset>0</d4p1:VirtualizingContainerOffset>
+        <d4p1:WaitForNoMotion>true</d4p1:WaitForNoMotion>
+        <d4p1:WaitForNoMotionCheckInterval>500</d4p1:WaitForNoMotionCheckInterval>
+        <d4p1:Offset>
+          <d2p1:ClickUnitType>Pixel</d2p1:ClickUnitType>
+          <d2p1:OffSetReference>TopLeftCorner</d2p1:OffSetReference>
+          <d2p1:X>113</d2p1:X>
+          <d2p1:Y>17</d2p1:Y>
+        </d4p1:Offset>
+        <d4p1:UseOffset>true</d4p1:UseOffset>
+      </d2p1:Step>
+      <d2p1:StepImageKey>SilverLightDemoTestpjdw3gld.a5u</d2p1:StepImageKey>
+      <d2p1:StepState>NoCode</d2p1:StepState>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:AutomationStep>
+    <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+      <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+      <d2p1:CustomDescription i:nil="true" />
+      <d2p1:Description>Click Item5Radbutton</d2p1:Description>
+      <d2p1:Enabled>true</d2p1:Enabled>
+      <d2p1:Id />
+      <d2p1:Order>11</d2p1:Order>
+      <d2p1:QcId>0</d2p1:QcId>
+      <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+      <d2p1:Runtime_x0020_ID>0aa0b2b5-eb53-4a6c-870f-d51979744fab</d2p1:Runtime_x0020_ID>
+      <d2p1:Step xmlns:d4p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0" i:type="d4p1:ButtonActionDescriptor">
+        <d2p1:Constraints>
+          <d4p1:ConstraintValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringstring>
+              <d6p1:Key>RunsAgainstVersion</d6p1:Key>
+              <d6p1:Value />
+            </d6p1:KeyValueOfstringstring>
+          </d4p1:ConstraintValues>
+        </d2p1:Constraints>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:EditorType />
+        <d2p1:Elements xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+            <d5p1:Key>target</d5p1:Key>
+            <d5p1:Value>
+              <d4p1:DomStateKey />
+              <d4p1:FindExpression>
+                <d4p1:BackupSearchClause>/mainpage[1]/grid[1]/grid[1]/frame[1]/contentpresenter[1]/singleexampleview[1]/grid[1]/examplecontentcontrol[1]/grid[1]/contentpresenter[1]/headeredcontentcontrol[1]/grid[1]/contentpresenter[1]/example[1]/grid[1]/grid[1]/grid[1]/radbutton[1]</d4p1:BackupSearchClause>
+                <d4p1:DataBindingExpressions />
+                <d4p1:FindExpressions xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Html</d9p1:key>
+                    <d9p1:value i:type="d4p1:HtmlFindExpression">
+                      <d4p1:ChainStops>
+                        <d5p1:int>1</d5p1:int>
+                      </d4p1:ChainStops>
+                      <d4p1:Clauses>
+                        <d4p1:HtmlFindClause>
+                          <d4p1:Clause>id=silverlightControlHost</d4p1:Clause>
+                        </d4p1:HtmlFindClause>
+                        <d4p1:HtmlFindClause>
+                          <d4p1:Clause>tagIndex=object:0</d4p1:Clause>
+                        </d4p1:HtmlFindClause>
+                      </d4p1:Clauses>
+                      <d4p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Silverlight</d9p1:key>
+                    <d9p1:value i:type="d4p1:XamlFindExpression">
+                      <d4p1:ChainStops>
+                        <d5p1:int>2</d5p1:int>
+                      </d4p1:ChainStops>
+                      <d4p1:Clauses>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>XamlTag=headeredcontentcontrol</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>name=headeredContentControl</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                        <d4p1:XamlFindClause>
+                          <d4p1:Clause>XamlPath=/grid[0]/contentpresenter[0]/example[0]/grid[0]/grid[0]/grid[0]/radbutton[0]</d4p1:Clause>
+                        </d4p1:XamlFindClause>
+                      </d4p1:Clauses>
+                      <d4p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                </d4p1:FindExpressions>
+                <d4p1:Name>Item5Radbutton</d4p1:Name>
+                <d4p1:NodeKind>5</d4p1:NodeKind>
+                <d4p1:TechnologyType>Silverlight</d4p1:TechnologyType>
+              </d4p1:FindExpression>
+              <d4p1:FindInfo i:nil="true" />
+              <d4p1:Frame i:nil="true" />
+              <d4p1:HtmlControlType>Telerik.WebAii.Controls.Xaml.RadButton</d4p1:HtmlControlType>
+              <d4p1:IsIndependent>false</d4p1:IsIndependent>
+              <d4p1:Name>target</d4p1:Name>
+              <d4p1:Page i:type="d2p1:PageUri">
+                <d2p1:AlwaysUseTitleInCompare>false</d2p1:AlwaysUseTitleInCompare>
+                <d2p1:BaseUrl />
+                <d2p1:CompareMode>FullPathAndQuery</d2p1:CompareMode>
+                <d2p1:EquivalentUrls />
+                <d2p1:Fragment>#Gauge/Weather</d2p1:Fragment>
+                <d2p1:FriendlyName>TelerikGaugeForSilverlight1</d2p1:FriendlyName>
+                <d2p1:Path>http://demos.telerik.com/silverlight/</d2p1:Path>
+                <d2p1:Query />
+                <d2p1:Title>Telerik Gauge for Silverlight</d2p1:Title>
+              </d4p1:Page>
+              <d4p1:Region i:nil="true" />
+              <d4p1:TechnologyType>Silverlight</d4p1:TechnologyType>
+              <d4p1:Version>200</d4p1:Version>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+        </d2p1:Elements>
+        <d2p1:LogMessageOnFailure />
+        <d2p1:Pause>None</d2p1:Pause>
+        <d2p1:RunsAgainstVersion />
+        <d2p1:StepType>Action</d2p1:StepType>
+        <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+        <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+        <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+        <d4p1:EnsureElementsClickable>true</d4p1:EnsureElementsClickable>
+        <d4p1:SimulateRealUser>true</d4p1:SimulateRealUser>
+        <d4p1:VirtualizingContainerOffset>0</d4p1:VirtualizingContainerOffset>
+        <d4p1:WaitForNoMotion>true</d4p1:WaitForNoMotion>
+        <d4p1:WaitForNoMotionCheckInterval>500</d4p1:WaitForNoMotionCheckInterval>
+        <d4p1:Offset>
+          <d2p1:ClickUnitType>Pixel</d2p1:ClickUnitType>
+          <d2p1:OffSetReference>TopLeftCorner</d2p1:OffSetReference>
+          <d2p1:X>127</d2p1:X>
+          <d2p1:Y>21</d2p1:Y>
+        </d4p1:Offset>
+        <d4p1:UseOffset>true</d4p1:UseOffset>
+      </d2p1:Step>
+      <d2p1:StepImageKey>SilverLightDemoTesti3ulrkfo.dnq</d2p1:StepImageKey>
+      <d2p1:StepState>NoCode</d2p1:StepState>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:AutomationStep>
+    <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+      <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+      <d2p1:CustomDescription>[SilverLightDemoTest_CodedStep] : Verify 'TimeTextTextblock' text Same 'DateTime.Now', RequiresSilverlight=True</d2p1:CustomDescription>
+      <d2p1:Description>[SilverLightDemoTest_CodedStep] : Verify 'TimeTextTextblock' text Same '16:17:13', RequiresSilverlight=True</d2p1:Description>
+      <d2p1:Enabled>true</d2p1:Enabled>
+      <d2p1:Id>SilverLightDemoTest_CodedStep</d2p1:Id>
+      <d2p1:Order>12</d2p1:Order>
+      <d2p1:QcId>0</d2p1:QcId>
+      <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+      <d2p1:Runtime_x0020_ID>ba993784-25f7-4408-9579-9aa380e463bb</d2p1:Runtime_x0020_ID>
+      <d2p1:Step i:type="d2p1:CodedStepDescriptor">
+        <d2p1:Constraints xmlns:d5p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+          <d5p1:ConstraintValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        </d2p1:Constraints>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:EditorType />
+        <d2p1:Elements xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:LogMessageOnFailure />
+        <d2p1:Pause>None</d2p1:Pause>
+        <d2p1:RunsAgainstVersion />
+        <d2p1:StepType>Action</d2p1:StepType>
+        <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+        <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+        <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+        <d2p1:Code>            // Verify 'TimeTextTextblock' text Same 'DateTime.Now.ToString("MMM dd, yyyy").ToUpper()'
+            Assert.AreEqual(Pages.TelerikGaugeForSilverlight1.SilverlightApp.TimeTextTextblock.Text, DateTime.Now.ToString("HH:mm:ss").ToUpper());
+            </d2p1:Code>
+        <d2p1:RequiresSilverlight>true</d2p1:RequiresSilverlight>
+      </d2p1:Step>
+      <d2p1:StepImageKey>SilverLightDemoTestaaozfucz.u4y</d2p1:StepImageKey>
+      <d2p1:StepState>Coded</d2p1:StepState>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:AutomationStep>
+    <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+      <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+      <d2p1:CustomDescription i:nil="true" />
+      <d2p1:Description>[SilverLightDemoTest_CodedStep1] : Verify 'JUN172013Textblock' text Same 'JUN 17, 2013', RequiresSilverlight=True</d2p1:Description>
+      <d2p1:Enabled>true</d2p1:Enabled>
+      <d2p1:Id>SilverLightDemoTest_CodedStep1</d2p1:Id>
+      <d2p1:Order>13</d2p1:Order>
+      <d2p1:QcId>0</d2p1:QcId>
+      <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+      <d2p1:Runtime_x0020_ID>a50cda16-e5e3-4c40-b4c9-39b79edd270a</d2p1:Runtime_x0020_ID>
+      <d2p1:Step i:type="d2p1:CodedStepDescriptor">
+        <d2p1:Constraints xmlns:d5p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+          <d5p1:ConstraintValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        </d2p1:Constraints>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:EditorType />
+        <d2p1:Elements xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:LogMessageOnFailure />
+        <d2p1:Pause>None</d2p1:Pause>
+        <d2p1:RunsAgainstVersion />
+        <d2p1:StepType>Action</d2p1:StepType>
+        <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+        <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+        <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+        <d2p1:Code>            // Verify 'JUN172013Textblock' text Same 'JUN 17, 2013'
+            Assert.Equals(Pages.TelerikGaugeForSilverlight1.SilverlightApp.JUN172013Textblock.Text, DateTime.Now.ToString("MM dd, yyyy"));
+            </d2p1:Code>
+        <d2p1:RequiresSilverlight>true</d2p1:RequiresSilverlight>
+      </d2p1:Step>
+      <d2p1:StepImageKey>SilverLightDemoTestqzf3uv5e.gax</d2p1:StepImageKey>
+      <d2p1:StepState>Coded</d2p1:StepState>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:AutomationStep>
+  </Steps>
+  <StopTestListOnFailure>false</StopTestListOnFailure>
+  <TestAssembly>New Horizon.dll</TestAssembly>
+  <TestAssemblyPath>bin</TestAssemblyPath>
+  <TestClass>New_Horizon.SilverLightDemoTest</TestClass>
+  <TestLinks xmlns:d2p1="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.ProjectModel.TestLinks" />
+  <UseDefaultWpfAppPath>false</UseDefaultWpfAppPath>
+  <VSProperties xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <WebKitExecutionDelay>0</WebKitExecutionDelay>
+  <WpfAppPath i:nil="true" />
+</WebAiiTest>

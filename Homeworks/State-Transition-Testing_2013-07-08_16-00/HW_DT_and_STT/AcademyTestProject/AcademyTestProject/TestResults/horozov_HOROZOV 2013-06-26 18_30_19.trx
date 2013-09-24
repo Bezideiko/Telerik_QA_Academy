@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="fcef15e2-faeb-4ff9-8695-9b0ed11e5e72" name="horozov@HOROZOV 2013-06-26 18:30:19" runUser="TELERIK\horozov" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="5caffbde-c4c8-4ae6-af9c-c1a09e05a39a">
+    <Deployment runDeploymentRoot="horozov_HOROZOV 2013-06-26 18_30_19">
+      <DeploymentItem filename="C:\Work\TestExamples\AcademyTestProject\Wrappers\bin\Debug\Wrappers.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-06-26T18:30:19.0224507+03:00" queuing="2013-06-26T18:30:19.1144599+03:00" start="2013-06-26T18:30:19.1184603+03:00" finish="2013-06-26T18:30:36.2391722+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="VerticalLinearHorizontalLinearAxesTest" storage="c:\work\testexamples\academytestproject\tests\bin\debug\tests.dll" id="dff7cf56-3f9b-10d9-e05f-2874e8270591">
+      <Description>Check ChartView scenario with Linear and Linear axes combination</Description>
+      <Execution id="4ffef4b0-bc0b-4457-80e0-c7c37a28803a" />
+      <TestMethod codeBase="C:\Work\TestExamples\AcademyTestProject\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.Tests, Tests" name="VerticalLinearHorizontalLinearAxesTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="dff7cf56-3f9b-10d9-e05f-2874e8270591" executionId="4ffef4b0-bc0b-4457-80e0-c7c37a28803a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4ffef4b0-bc0b-4457-80e0-c7c37a28803a" testId="dff7cf56-3f9b-10d9-e05f-2874e8270591" testName="VerticalLinearHorizontalLinearAxesTest" computerName="HOROZOV" duration="00:00:05.9917316" startTime="2013-06-26T18:30:19.1204605+03:00" endTime="2013-06-26T18:30:25.2550739+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4ffef4b0-bc0b-4457-80e0-c7c37a28803a">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1f47f99b-6501-493e-a4f5-09b8eb5c7b72" name="horozov@HOROZOV 2013-06-26 18:29:43" runUser="TELERIK\horozov" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="bcbb387e-9ffe-4fc1-a270-5afc9c317591">
+    <Deployment runDeploymentRoot="horozov_HOROZOV 2013-06-26 18_29_43">
+      <DeploymentItem filename="C:\Work\TestExamples\AcademyTestProject\Wrappers\bin\Debug\Wrappers.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-06-26T18:29:43.2008689+03:00" queuing="2013-06-26T18:29:43.2968785+03:00" start="2013-06-26T18:29:43.3008789+03:00" finish="2013-06-26T18:30:00.0125499+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="VerticalLinearHorizontalLinearAxesTest" storage="c:\work\testexamples\academytestproject\tests\bin\debug\tests.dll" id="dff7cf56-3f9b-10d9-e05f-2874e8270591">
+      <Description>Check ChartView scenario with Linear and Linear axes combination</Description>
+      <Execution id="01ed8104-b18c-4d82-8e90-dff501a06279" />
+      <TestMethod codeBase="C:\Work\TestExamples\AcademyTestProject\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.Tests, Tests" name="VerticalLinearHorizontalLinearAxesTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="dff7cf56-3f9b-10d9-e05f-2874e8270591" executionId="01ed8104-b18c-4d82-8e90-dff501a06279" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="01ed8104-b18c-4d82-8e90-dff501a06279" testId="dff7cf56-3f9b-10d9-e05f-2874e8270591" testName="VerticalLinearHorizontalLinearAxesTest" computerName="HOROZOV" duration="00:00:05.5867912" startTime="2013-06-26T18:29:43.3028791+03:00" endTime="2013-06-26T18:29:49.0344522+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="01ed8104-b18c-4d82-8e90-dff501a06279">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected a difference no greater than &lt;3&gt; between expected value &lt;973&gt; and actual value &lt;983&gt;. Coordinates X2Value verification failed!</Message>
+          <StackTrace>   at Tests.ChartViewBase.CheckHorizontalLinearAxisCoordinates(LinearAxis axis, Double X1, Double X2, Double Y1, Double Y2, Double tolerance) in C:\Work\TestExamples\AcademyTestProject\Tests\ChartViewBase.cs:line 101
+   at Tests.Tests.VerticalLinearHorizontalLinearAxesTest() in C:\Work\TestExamples\AcademyTestProject\Tests\Tests.cs:line 37
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

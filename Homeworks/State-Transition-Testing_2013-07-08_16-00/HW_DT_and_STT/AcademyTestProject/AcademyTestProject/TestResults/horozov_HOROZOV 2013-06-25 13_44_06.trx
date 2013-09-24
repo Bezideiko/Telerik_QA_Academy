@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b7814e53-891f-4458-afcb-d79734d135e4" name="horozov@HOROZOV 2013-06-25 13:44:06" runUser="TELERIK\horozov" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="d762c598-2a56-415a-b330-6ee570c0069e">
+    <Deployment runDeploymentRoot="horozov_HOROZOV 2013-06-25 13_44_06">
+      <DeploymentItem filename="C:\Work\TestExamples\AcademyTestProject\Wrappers\bin\Debug\Wrappers.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-06-25T13:44:06.0412514+03:00" queuing="2013-06-25T13:44:06.1262599+03:00" start="2013-06-25T13:44:06.1302603+03:00" finish="2013-06-25T13:44:28.0604531+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ChartViewFirstTimeLoadTest" storage="c:\work\testexamples\academytestproject\tests\bin\debug\tests.dll" id="5acaf1af-af05-8a82-846a-7a71f76b208b">
+      <Description>Check ChartView scenario when chart is loaded for the first time</Description>
+      <Execution id="d6f7e06c-c121-4a05-9ecb-e208d52bc85e" />
+      <TestMethod codeBase="C:\Work\TestExamples\AcademyTestProject\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.Tests, Tests" name="ChartViewFirstTimeLoadTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5acaf1af-af05-8a82-846a-7a71f76b208b" executionId="d6f7e06c-c121-4a05-9ecb-e208d52bc85e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d6f7e06c-c121-4a05-9ecb-e208d52bc85e" testId="5acaf1af-af05-8a82-846a-7a71f76b208b" testName="ChartViewFirstTimeLoadTest" computerName="HOROZOV" duration="00:00:10.9931605" startTime="2013-06-25T13:44:06.1362609+03:00" endTime="2013-06-25T13:44:17.2683740+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6f7e06c-c121-4a05-9ecb-e208d52bc85e">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Tests.Tests.ChartViewFirstTimeLoadTest threw exception: 
+ArtOfTest.Common.Exceptions.FindElementException: Element Not found!
+FindExpression used: 
+[name 'Exact' Popup]
+</Message>
+          <StackTrace>    at ArtOfTest.Common.WaitSync.CheckResult(WaitSync wait, String extraExceptionInfo, Object target)
+   at ArtOfTest.Common.WaitSync.For[T](Predicate`1 predicate, T target, Boolean invertCondition, Int32 timeout, WaitResultType errorResultType)
+   at ArtOfTest.WebAii.Silverlight.VisualWait.ForExistsInternal(Int32 timeout, Boolean invertCondition)
+   at ArtOfTest.WebAii.Silverlight.VisualWait.ForVisible(Int32 timeout)
+   at ArtOfTest.WebAii.Silverlight.VisualFind.ReturnOrThrow(FrameworkElement e, String throwMessage)
+   at ArtOfTest.WebAii.Silverlight.VisualFind.ByName(String name)
+   at ArtOfTest.WebAii.Silverlight.VisualFind.ByName[T](String name)
+   at Tests.Tests.ChartViewFirstTimeLoadTest() in C:\Work\TestExamples\AcademyTestProject\Tests\Tests.cs:line 126
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

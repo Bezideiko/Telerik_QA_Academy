@@ -1,0 +1,14 @@
+C:\Work\TestExamples\AcademyTestProject\Tests\bin\Debug\Tests.dll
+C:\Work\TestExamples\AcademyTestProject\Tests\bin\Debug\Tests.pdb
+C:\Work\TestExamples\AcademyTestProject\Tests\bin\Debug\Wrappers.dll
+C:\Work\TestExamples\AcademyTestProject\Tests\bin\Debug\Wrappers.pdb
+C:\Work\TestExamples\AcademyTestProject\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Work\TestExamples\AcademyTestProject\Tests\obj\Debug\Tests.dll
+C:\Work\TestExamples\AcademyTestProject\Tests\obj\Debug\Tests.pdb
+C:\Users\Angel\Desktop\AcademyTestProject\AcademyTestProject\Tests\bin\Debug\Tests.dll
+C:\Users\Angel\Desktop\AcademyTestProject\AcademyTestProject\Tests\bin\Debug\Tests.pdb
+C:\Users\Angel\Desktop\AcademyTestProject\AcademyTestProject\Tests\bin\Debug\Wrappers.dll
+C:\Users\Angel\Desktop\AcademyTestProject\AcademyTestProject\Tests\bin\Debug\Wrappers.pdb
+C:\Users\Angel\Desktop\AcademyTestProject\AcademyTestProject\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Desktop\AcademyTestProject\AcademyTestProject\Tests\obj\Debug\Tests.dll
+C:\Users\Angel\Desktop\AcademyTestProject\AcademyTestProject\Tests\obj\Debug\Tests.pdb

@@ -1,0 +1,868 @@
+﻿<WebAiiTest xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://artoftest.com/schemas/WebAiiDesignCanvas/3.0.0">
+  <DataInfo xmlns:d2p1="http://artoftest.com/schemas/WebAiiDesignCanvas/1.0.0">
+    <d2p1:BuiltInData i:nil="true" />
+    <d2p1:BuiltInDocumentKey i:nil="true" />
+    <d2p1:ConnectionString />
+    <d2p1:DataEnabled>true</d2p1:DataEnabled>
+    <d2p1:DataProvider />
+    <d2p1:DataRange />
+    <d2p1:DataTableName />
+    <d2p1:DataType>None</d2p1:DataType>
+    <d2p1:DefaultToGrid>true</d2p1:DefaultToGrid>
+    <d2p1:HasBuiltinGrid>false</d2p1:HasBuiltinGrid>
+    <d2p1:LoadRecordsCount i:nil="true" />
+    <d2p1:TSQL />
+  </DataInfo>
+  <Description />
+  <IsManual>false</IsManual>
+  <Name>BookStoreIfElsePractice</Name>
+  <Owner i:nil="true" />
+  <Path>QA Academy\QA Part - II\Homework\TestStudioHomework\Flashback\BookStoreIfElsePractice.tstest</Path>
+  <Priority>0</Priority>
+  <TestType>Web</TestType>
+  <UniqueId>08664c34-2c59-421d-9581-8c55ed85ad49</UniqueId>
+  <Version>200</Version>
+  <BrowserType>NotSet</BrowserType>
+  <CurrentReferences xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:string>System</d2p1:string>
+    <d2p1:string>System.Core</d2p1:string>
+    <d2p1:string>ArtOfTest.WebAii, Version=2012.2.1420.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c</d2p1:string>
+    <d2p1:string>ArtOfTest.WebAii.Design, Version=2012.2.1420.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d</d2p1:string>
+    <d2p1:string>Telerik.WebAii.Controls.Html, Version=2012.2.1420.0, Culture=neutral, PublicKeyToken=528163f3e645de45</d2p1:string>
+    <d2p1:string>Telerik.WebAii.Controls.Xaml, Version=2012.2.1420.0, Culture=neutral, PublicKeyToken=528163f3e645de45</d2p1:string>
+    <d2p1:string>Telerik.WebAii.Controls.Xaml.Wpf, Version=2012.2.1420.0, Culture=neutral, PublicKeyToken=528163f3e645de45</d2p1:string>
+    <d2p1:string>Telerik.TestingFramework.Controls.KendoUI, Version=2012.2.1420.0, Culture=neutral, PublicKeyToken=528163f3e645de45</d2p1:string>
+  </CurrentReferences>
+  <DataInfo xmlns:d2p1="http://artoftest.com/schemas/WebAiiDesignCanvas/1.0.0">
+    <d2p1:BuiltInData i:nil="true" />
+    <d2p1:BuiltInDocumentKey i:nil="true" />
+    <d2p1:ConnectionString />
+    <d2p1:DataEnabled>true</d2p1:DataEnabled>
+    <d2p1:DataProvider />
+    <d2p1:DataRange />
+    <d2p1:DataTableName />
+    <d2p1:DataType>None</d2p1:DataType>
+    <d2p1:DefaultToGrid>true</d2p1:DefaultToGrid>
+    <d2p1:HasBuiltinGrid>false</d2p1:HasBuiltinGrid>
+    <d2p1:LoadRecordsCount i:nil="true" />
+    <d2p1:TSQL />
+  </DataInfo>
+  <DeploymentItems xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <DomStatesCounter xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <HasCodeBehind>true</HasCodeBehind>
+  <HtmlDescription />
+  <IndependentDescriptors xmlns:d2p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+    <d2p1:ElementDescriptor>
+      <d2p1:DomStateKey />
+      <d2p1:FindExpression i:type="d2p1:HtmlFindExpressionElement">
+        <d2p1:BackupSearchClause>/html[1]/body[1]/div[2]/div[1]/div[1]/div[2]/form[1]/div[1]/input[1]</d2p1:BackupSearchClause>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:FindExpressions xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+          <d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+            <d5p1:key>Html</d5p1:key>
+            <d5p1:value i:type="d2p1:HtmlFindExpression">
+              <d2p1:ChainStops xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <d2p1:Clauses>
+                <d2p1:HtmlFindClause>
+                  <d2p1:Clause>TagIndex=input:0</d2p1:Clause>
+                </d2p1:HtmlFindClause>
+              </d2p1:Clauses>
+              <d2p1:Constraints />
+            </d5p1:value>
+          </d5p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+        </d2p1:FindExpressions>
+        <d2p1:Name>SrchstrText0</d2p1:Name>
+        <d2p1:NodeKind>4</d2p1:NodeKind>
+        <d2p1:TechnologyType>Html</d2p1:TechnologyType>
+      </d2p1:FindExpression>
+      <d2p1:FindInfo i:nil="true" />
+      <d2p1:Frame i:nil="true" />
+      <d2p1:HtmlControlType>ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText</d2p1:HtmlControlType>
+      <d2p1:IsIndependent>true</d2p1:IsIndependent>
+      <d2p1:Name />
+      <d2p1:Page xmlns:d4p1="http://artoftest.com/schemas/WebAiiDesignCanvas/1.0.0" i:type="d4p1:PageUri">
+        <d4p1:AlwaysUseTitleInCompare>false</d4p1:AlwaysUseTitleInCompare>
+        <d4p1:BaseUrl />
+        <d4p1:CompareMode>FullPathAndQuery</d4p1:CompareMode>
+        <d4p1:EquivalentUrls xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d4p1:Fragment />
+        <d4p1:FriendlyName>StoreBgКнижарница</d4p1:FriendlyName>
+        <d4p1:Path>http://www.book.store.bg/</d4p1:Path>
+        <d4p1:Query />
+        <d4p1:Title>store.bg - Книжарница - Книги за всеки!</d4p1:Title>
+      </d2p1:Page>
+      <d2p1:Region i:nil="true" />
+      <d2p1:TechnologyType>Html</d2p1:TechnologyType>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:ElementDescriptor>
+  </IndependentDescriptors>
+  <InheritParentDataSource>false</InheritParentDataSource>
+  <IsSilverlightApp>false</IsSilverlightApp>
+  <IsTestFragment>false</IsTestFragment>
+  <ProfilerBenchmarkResultsFilePath i:nil="true" />
+  <ProfilerBenchmarkResultsId>00000000-0000-0000-0000-000000000000</ProfilerBenchmarkResultsId>
+  <ProfilerConfigurationFilePath>C:\Users\Angel\Desktop\Profiler Configurations\{08664c34-2c59-421d-9581-8c55ed85ad49}.tsprofconfig</ProfilerConfigurationFilePath>
+  <ProfilerConfigurationId>00000000-0000-0000-0000-000000000000</ProfilerConfigurationId>
+  <ProfilerConfigurations xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <ProfilerResultsDirectory i:nil="true" />
+  <ProfilerServerName i:nil="true" />
+  <QcFilePath i:nil="true" />
+  <QcId>0</QcId>
+  <QcTestVersionStamp>0</QcTestVersionStamp>
+  <ResourceFilePath>QA Academy\QA Part - II\Homework\TestStudioHomework\Flashback\BookStoreIfElsePractice.resx</ResourceFilePath>
+  <ReuseAppWindow>0</ReuseAppWindow>
+  <SilverlightAppLocalDirectory />
+  <SilverlightAppOriginUri i:nil="true" />
+  <SilverlightAppRecordLocal>false</SilverlightAppRecordLocal>
+  <SilverlightAppWebUrl />
+  <SilverlightEnabled>false</SilverlightEnabled>
+  <Steps xmlns:d2p1="http://artoftest.com/schemas/WebAiiDesignCanvas/1.0.0">
+    <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+      <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+      <d2p1:CustomDescription>Navigate to : 'http://www.book.store.bg/'</d2p1:CustomDescription>
+      <d2p1:Description>[BookStoreIfElsePractice_CodedStep1] : Navigate to : 'http://www.book.store.bg/'</d2p1:Description>
+      <d2p1:Enabled>true</d2p1:Enabled>
+      <d2p1:Id>BookStoreIfElsePractice_CodedStep1</d2p1:Id>
+      <d2p1:Order>1</d2p1:Order>
+      <d2p1:QcId>0</d2p1:QcId>
+      <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+      <d2p1:Runtime_x0020_ID>3eee4f6b-932d-4a38-80b5-694ab5c0e186</d2p1:Runtime_x0020_ID>
+      <d2p1:Step i:type="d2p1:CodedStepDescriptor">
+        <d2p1:Constraints xmlns:d5p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+          <d5p1:ConstraintValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringstring>
+              <d6p1:Key>RunsAgainstVersion</d6p1:Key>
+              <d6p1:Value />
+            </d6p1:KeyValueOfstringstring>
+          </d5p1:ConstraintValues>
+        </d2p1:Constraints>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:EditorType />
+        <d2p1:Elements xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:LogMessageOnFailure />
+        <d2p1:Pause>None</d2p1:Pause>
+        <d2p1:RunsAgainstVersion />
+        <d2p1:StepType>Action</d2p1:StepType>
+        <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+        <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+        <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+        <d2p1:Code>            // Navigate to : 'http://www.book.store.bg/'
+            ActiveBrowser.NavigateTo("http://www.book.store.bg/", true);
+            </d2p1:Code>
+        <d2p1:RequiresSilverlight>false</d2p1:RequiresSilverlight>
+      </d2p1:Step>
+      <d2p1:StepImageKey>BookStoreIfElsePractice4l0vlaiv.1hi</d2p1:StepImageKey>
+      <d2p1:StepState>Coded</d2p1:StepState>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:AutomationStep>
+    <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+      <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+      <d2p1:CustomDescription i:nil="true" />
+      <d2p1:Description>IF (Verify checked value is 'True' on 'SinRadio') THEN</d2p1:Description>
+      <d2p1:Enabled>true</d2p1:Enabled>
+      <d2p1:Id />
+      <d2p1:Order>2</d2p1:Order>
+      <d2p1:QcId>0</d2p1:QcId>
+      <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+      <d2p1:Runtime_x0020_ID>f108b68f-3df6-4da8-8da4-6ee7f7cbdbc2</d2p1:Runtime_x0020_ID>
+      <d2p1:Step i:type="d2p1:IfThenElseLogicalDescriptor">
+        <d2p1:Constraints xmlns:d5p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+          <d5p1:ConstraintValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringstring>
+              <d6p1:Key>RunsAgainstVersion</d6p1:Key>
+              <d6p1:Value />
+            </d6p1:KeyValueOfstringstring>
+          </d5p1:ConstraintValues>
+        </d2p1:Constraints>
+        <d2p1:DataBindingExpressions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <d2p1:EditorType />
+        <d2p1:Elements xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+            <d5p1:Key>check</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+              <d7p1:DomStateKey />
+              <d7p1:FindExpression i:type="d7p1:HtmlFindExpressionElement">
+                <d7p1:BackupSearchClause>/html[1]/body[1]/div[2]/div[1]/div[1]/div[2]/form[1]/table[1]/tbody[1]/tr[1]/td[1]/label[1]/input[1]</d7p1:BackupSearchClause>
+                <d7p1:DataBindingExpressions />
+                <d7p1:FindExpressions xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                  <d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                    <d9p1:key>Html</d9p1:key>
+                    <d9p1:value i:type="d7p1:HtmlFindExpression">
+                      <d7p1:ChainStops />
+                      <d7p1:Clauses>
+                        <d7p1:HtmlFindClause>
+                          <d7p1:Clause>TagIndex=input:1</d7p1:Clause>
+                        </d7p1:HtmlFindClause>
+                      </d7p1:Clauses>
+                      <d7p1:Constraints />
+                    </d9p1:value>
+                  </d9p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                </d7p1:FindExpressions>
+                <d7p1:Name>SinRadio</d7p1:Name>
+                <d7p1:NodeKind>4</d7p1:NodeKind>
+                <d7p1:TechnologyType>Html</d7p1:TechnologyType>
+              </d7p1:FindExpression>
+              <d7p1:FindInfo i:nil="true" />
+              <d7p1:Frame i:nil="true" />
+              <d7p1:HtmlControlType>ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputRadioButton</d7p1:HtmlControlType>
+              <d7p1:IsIndependent>false</d7p1:IsIndependent>
+              <d7p1:Name>check</d7p1:Name>
+              <d7p1:Page i:type="d2p1:PageUri">
+                <d2p1:AlwaysUseTitleInCompare>false</d2p1:AlwaysUseTitleInCompare>
+                <d2p1:BaseUrl />
+                <d2p1:CompareMode>FullPathAndQuery</d2p1:CompareMode>
+                <d2p1:EquivalentUrls />
+                <d2p1:Fragment />
+                <d2p1:FriendlyName>StoreBgКнижарница</d2p1:FriendlyName>
+                <d2p1:Path>http://www.book.store.bg/</d2p1:Path>
+                <d2p1:Query />
+                <d2p1:Title>store.bg - Книжарница - Книги за всеки!</d2p1:Title>
+              </d7p1:Page>
+              <d7p1:Region i:nil="true" />
+              <d7p1:TechnologyType>Html</d7p1:TechnologyType>
+              <d7p1:Version>200</d7p1:Version>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+        </d2p1:Elements>
+        <d2p1:LogMessageOnFailure />
+        <d2p1:Pause>None</d2p1:Pause>
+        <d2p1:RunsAgainstVersion />
+        <d2p1:StepType>Logical</d2p1:StepType>
+        <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+        <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+        <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+        <d2p1:Branches xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfintLogicalBranchDataM_Pcf9bkW>
+            <d5p1:Key>1</d5p1:Key>
+            <d5p1:Value>
+              <d2p1:Branch>1</d2p1:Branch>
+              <d2p1:CustomDescription i:nil="true" />
+              <d2p1:Description>IF ({0}) THEN</d2p1:Description>
+              <d2p1:Order>0</d2p1:Order>
+              <d2p1:StepList>
+                <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+                  <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+                  <d2p1:CustomDescription>Enter text 'Melanie Delon' in 'SrchstrText0'</d2p1:CustomDescription>
+                  <d2p1:Description>[BookStoreIfElsePractice_CodedStep] : Enter text 'Mel' in 'SrchstrText0'</d2p1:Description>
+                  <d2p1:Enabled>true</d2p1:Enabled>
+                  <d2p1:Id>BookStoreIfElsePractice_CodedStep</d2p1:Id>
+                  <d2p1:Order>1</d2p1:Order>
+                  <d2p1:QcId>0</d2p1:QcId>
+                  <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+                  <d2p1:Runtime_x0020_ID>e6fa77ae-d6ad-4335-8342-b2ccd5dfe291</d2p1:Runtime_x0020_ID>
+                  <d2p1:Step i:type="d2p1:CodedStepDescriptor">
+                    <d2p1:Constraints xmlns:d11p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+                      <d11p1:ConstraintValues>
+                        <d5p1:KeyValueOfstringstring>
+                          <d5p1:Key>RunsAgainstVersion</d5p1:Key>
+                          <d5p1:Value />
+                        </d5p1:KeyValueOfstringstring>
+                      </d11p1:ConstraintValues>
+                    </d2p1:Constraints>
+                    <d2p1:DataBindingExpressions />
+                    <d2p1:EditorType />
+                    <d2p1:Elements />
+                    <d2p1:LogMessageOnFailure />
+                    <d2p1:Pause>None</d2p1:Pause>
+                    <d2p1:RunsAgainstVersion />
+                    <d2p1:StepType>Action</d2p1:StepType>
+                    <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+                    <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+                    <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+                    <d2p1:Code>            // Enter text 'Mel' in 'SrchstrText0'
+            Actions.SetText(Pages.StoreBgКнижарница.SrchstrText0, "Melanie Delon");
+            
+            </d2p1:Code>
+                    <d2p1:RequiresSilverlight>false</d2p1:RequiresSilverlight>
+                  </d2p1:Step>
+                  <d2p1:StepImageKey>BookStoreIfElsePracticejied22nl.gsk</d2p1:StepImageKey>
+                  <d2p1:StepState>Coded</d2p1:StepState>
+                  <d2p1:Version>200</d2p1:Version>
+                </d2p1:AutomationStep>
+                <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+                  <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+                  <d2p1:CustomDescription i:nil="true" />
+                  <d2p1:Description>Click 'Submit'</d2p1:Description>
+                  <d2p1:Enabled>true</d2p1:Enabled>
+                  <d2p1:Id />
+                  <d2p1:Order>2</d2p1:Order>
+                  <d2p1:QcId>0</d2p1:QcId>
+                  <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+                  <d2p1:Runtime_x0020_ID>bc265f34-76aa-448a-98fd-00bcc1bfe5d8</d2p1:Runtime_x0020_ID>
+                  <d2p1:Step i:type="d2p1:ClickActionDescriptor">
+                    <d2p1:Constraints xmlns:d11p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+                      <d11p1:ConstraintValues>
+                        <d5p1:KeyValueOfstringstring>
+                          <d5p1:Key>RunsAgainstVersion</d5p1:Key>
+                          <d5p1:Value />
+                        </d5p1:KeyValueOfstringstring>
+                      </d11p1:ConstraintValues>
+                    </d2p1:Constraints>
+                    <d2p1:DataBindingExpressions />
+                    <d2p1:EditorType />
+                    <d2p1:Elements>
+                      <d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+                        <d5p1:Key>target</d5p1:Key>
+                        <d5p1:Value xmlns:d13p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+                          <d13p1:DomStateKey />
+                          <d13p1:FindExpression i:type="d13p1:HtmlFindExpressionElement">
+                            <d13p1:BackupSearchClause>/html[1]/body[1]/div[2]/div[1]/div[1]/div[2]/form[1]/table[1]/tbody[1]/tr[1]/td[2]/input[2]</d13p1:BackupSearchClause>
+                            <d13p1:DataBindingExpressions />
+                            <d13p1:FindExpressions xmlns:d15p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                              <d15p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                                <d15p1:key>Html</d15p1:key>
+                                <d15p1:value i:type="d13p1:HtmlFindExpression">
+                                  <d13p1:ChainStops />
+                                  <d13p1:Clauses>
+                                    <d13p1:HtmlFindClause>
+                                      <d13p1:Clause>value=Търси</d13p1:Clause>
+                                    </d13p1:HtmlFindClause>
+                                    <d13p1:HtmlFindClause>
+                                      <d13p1:Clause>tagname=input</d13p1:Clause>
+                                    </d13p1:HtmlFindClause>
+                                  </d13p1:Clauses>
+                                  <d13p1:Constraints />
+                                </d15p1:value>
+                              </d15p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                            </d13p1:FindExpressions>
+                            <d13p1:Name>Submit</d13p1:Name>
+                            <d13p1:NodeKind>4</d13p1:NodeKind>
+                            <d13p1:TechnologyType>Html</d13p1:TechnologyType>
+                          </d13p1:FindExpression>
+                          <d13p1:FindInfo i:nil="true" />
+                          <d13p1:Frame i:nil="true" />
+                          <d13p1:HtmlControlType>ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputSubmit</d13p1:HtmlControlType>
+                          <d13p1:IsIndependent>false</d13p1:IsIndependent>
+                          <d13p1:Name>target</d13p1:Name>
+                          <d13p1:Page i:type="d2p1:PageUri">
+                            <d2p1:AlwaysUseTitleInCompare>false</d2p1:AlwaysUseTitleInCompare>
+                            <d2p1:BaseUrl />
+                            <d2p1:CompareMode>FullPathAndQuery</d2p1:CompareMode>
+                            <d2p1:EquivalentUrls />
+                            <d2p1:Fragment />
+                            <d2p1:FriendlyName>StoreBgКнижарница</d2p1:FriendlyName>
+                            <d2p1:Path>http://www.book.store.bg/</d2p1:Path>
+                            <d2p1:Query />
+                            <d2p1:Title>store.bg - Книжарница - Книги за всеки!</d2p1:Title>
+                          </d13p1:Page>
+                          <d13p1:Region i:nil="true" />
+                          <d13p1:TechnologyType>Html</d13p1:TechnologyType>
+                          <d13p1:Version>200</d13p1:Version>
+                        </d5p1:Value>
+                      </d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+                    </d2p1:Elements>
+                    <d2p1:LogMessageOnFailure />
+                    <d2p1:Pause>None</d2p1:Pause>
+                    <d2p1:RunsAgainstVersion />
+                    <d2p1:StepType>Action</d2p1:StepType>
+                    <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+                    <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+                    <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+                    <AjaxTimeout xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Extensibility">0</AjaxTimeout>
+                    <ClosesBrowser xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Extensibility">false</ClosesBrowser>
+                    <UseBackupSearch xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Extensibility">true</UseBackupSearch>
+                    <UsejQuery xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Extensibility">true</UsejQuery>
+                    <d2p1:SimulateRealClick>false</d2p1:SimulateRealClick>
+                  </d2p1:Step>
+                  <d2p1:StepImageKey>BookStoreIfElsePracticedsiiikew.hpf</d2p1:StepImageKey>
+                  <d2p1:StepState>NoCode</d2p1:StepState>
+                  <d2p1:Version>200</d2p1:Version>
+                </d2p1:AutomationStep>
+                <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+                  <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+                  <d2p1:CustomDescription i:nil="true" />
+                  <d2p1:Description>Verify 'TextContent' 'Contains' 'Melanie Delon' on 'MelanieDelonBTag'</d2p1:Description>
+                  <d2p1:Enabled>true</d2p1:Enabled>
+                  <d2p1:Id />
+                  <d2p1:Order>3</d2p1:Order>
+                  <d2p1:QcId>0</d2p1:QcId>
+                  <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+                  <d2p1:Runtime_x0020_ID>363bf169-b2a4-44e5-857f-4c0dff9e0a98</d2p1:Runtime_x0020_ID>
+                  <d2p1:Step i:type="d2p1:ContentVerificationDescriptor">
+                    <d2p1:Constraints xmlns:d11p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+                      <d11p1:ConstraintValues>
+                        <d5p1:KeyValueOfstringstring>
+                          <d5p1:Key>RunsAgainstVersion</d5p1:Key>
+                          <d5p1:Value />
+                        </d5p1:KeyValueOfstringstring>
+                      </d11p1:ConstraintValues>
+                    </d2p1:Constraints>
+                    <d2p1:DataBindingExpressions />
+                    <d2p1:EditorType />
+                    <d2p1:Elements>
+                      <d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+                        <d5p1:Key>textTarget</d5p1:Key>
+                        <d5p1:Value xmlns:d13p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+                          <d13p1:DomStateKey />
+                          <d13p1:FindExpression i:type="d13p1:HtmlFindExpressionElement">
+                            <d13p1:BackupSearchClause>/html[1]/body[1]/div[2]/div[2]/div[2]/div[3]/div[4]/div[1]/span[1]/h5[1]/b[1]</d13p1:BackupSearchClause>
+                            <d13p1:DataBindingExpressions />
+                            <d13p1:FindExpressions xmlns:d15p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                              <d15p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                                <d15p1:key>Html</d15p1:key>
+                                <d15p1:value i:type="d13p1:HtmlFindExpression">
+                                  <d13p1:ChainStops />
+                                  <d13p1:Clauses>
+                                    <d13p1:HtmlFindClause>
+                                      <d13p1:Clause>TagIndex=b:4</d13p1:Clause>
+                                    </d13p1:HtmlFindClause>
+                                  </d13p1:Clauses>
+                                  <d13p1:Constraints />
+                                </d15p1:value>
+                              </d15p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                            </d13p1:FindExpressions>
+                            <d13p1:Name>MelanieDelonBTag</d13p1:Name>
+                            <d13p1:NodeKind>4</d13p1:NodeKind>
+                            <d13p1:TechnologyType>Html</d13p1:TechnologyType>
+                          </d13p1:FindExpression>
+                          <d13p1:FindInfo i:nil="true" />
+                          <d13p1:Frame i:nil="true" />
+                          <d13p1:HtmlControlType>ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl</d13p1:HtmlControlType>
+                          <d13p1:IsIndependent>false</d13p1:IsIndependent>
+                          <d13p1:Name>textTarget</d13p1:Name>
+                          <d13p1:Page i:type="d2p1:PageUri">
+                            <d2p1:AlwaysUseTitleInCompare>false</d2p1:AlwaysUseTitleInCompare>
+                            <d2p1:BaseUrl />
+                            <d2p1:CompareMode>FullPathAndQuery</d2p1:CompareMode>
+                            <d2p1:EquivalentUrls />
+                            <d2p1:Fragment />
+                            <d2p1:FriendlyName>StoreBgКнигиMelanie</d2p1:FriendlyName>
+                            <d2p1:Path>http://www.book.store.bg/search</d2p1:Path>
+                            <d2p1:Query>?srchstr=Melanie+Delon&amp;sin=0&amp;p=s&amp;=%D2%FA%F0%F1%E8</d2p1:Query>
+                            <d2p1:Title>store.bg - Книги - Melanie Delon</d2p1:Title>
+                          </d13p1:Page>
+                          <d13p1:Region i:nil="true" />
+                          <d13p1:TechnologyType>Html</d13p1:TechnologyType>
+                          <d13p1:Version>200</d13p1:Version>
+                        </d5p1:Value>
+                      </d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+                    </d2p1:Elements>
+                    <d2p1:LogMessageOnFailure />
+                    <d2p1:Pause>None</d2p1:Pause>
+                    <d2p1:RunsAgainstVersion />
+                    <d2p1:StepType>Verification</d2p1:StepType>
+                    <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+                    <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+                    <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+                    <d2p1:CheckInterval>500</d2p1:CheckInterval>
+                    <d2p1:DataBindVariableName i:nil="true" />
+                    <d2p1:EnsureStateIsCurrent>false</d2p1:EnsureStateIsCurrent>
+                    <d2p1:Timeout>30000</d2p1:Timeout>
+                    <d2p1:UseBackupSearch>true</d2p1:UseBackupSearch>
+                    <d2p1:CompareType>Contains</d2p1:CompareType>
+                    <d2p1:ExpectedString>Melanie Delon</d2p1:ExpectedString>
+                    <d2p1:SegmentType>TextContent</d2p1:SegmentType>
+                  </d2p1:Step>
+                  <d2p1:StepImageKey>BookStoreIfElsePracticepywtg3qv.jic</d2p1:StepImageKey>
+                  <d2p1:StepState>NoCode</d2p1:StepState>
+                  <d2p1:Version>200</d2p1:Version>
+                </d2p1:AutomationStep>
+              </d2p1:StepList>
+              <d2p1:Visible>true</d2p1:Visible>
+            </d5p1:Value>
+          </d5p1:KeyValueOfintLogicalBranchDataM_Pcf9bkW>
+          <d5p1:KeyValueOfintLogicalBranchDataM_Pcf9bkW>
+            <d5p1:Key>0</d5p1:Key>
+            <d5p1:Value>
+              <d2p1:Branch>0</d2p1:Branch>
+              <d2p1:CustomDescription i:nil="true" />
+              <d2p1:Description>ELSE</d2p1:Description>
+              <d2p1:Order>1</d2p1:Order>
+              <d2p1:StepList>
+                <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+                  <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+                  <d2p1:CustomDescription i:nil="true" />
+                  <d2p1:Description>Click 'SinRadio'</d2p1:Description>
+                  <d2p1:Enabled>true</d2p1:Enabled>
+                  <d2p1:Id />
+                  <d2p1:Order>1</d2p1:Order>
+                  <d2p1:QcId>0</d2p1:QcId>
+                  <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+                  <d2p1:Runtime_x0020_ID>ae824e96-c69d-48b4-9872-ed34c4c76a98</d2p1:Runtime_x0020_ID>
+                  <d2p1:Step i:type="d2p1:ClickActionDescriptor">
+                    <d2p1:Constraints xmlns:d11p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+                      <d11p1:ConstraintValues>
+                        <d5p1:KeyValueOfstringstring>
+                          <d5p1:Key>RunsAgainstVersion</d5p1:Key>
+                          <d5p1:Value />
+                        </d5p1:KeyValueOfstringstring>
+                      </d11p1:ConstraintValues>
+                    </d2p1:Constraints>
+                    <d2p1:DataBindingExpressions />
+                    <d2p1:EditorType />
+                    <d2p1:Elements>
+                      <d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+                        <d5p1:Key>target</d5p1:Key>
+                        <d5p1:Value xmlns:d13p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+                          <d13p1:DomStateKey />
+                          <d13p1:FindExpression i:type="d13p1:HtmlFindExpressionElement">
+                            <d13p1:BackupSearchClause>/html[1]/body[1]/div[2]/div[1]/div[1]/div[2]/form[1]/table[1]/tbody[1]/tr[1]/td[1]/label[1]/input[1]</d13p1:BackupSearchClause>
+                            <d13p1:DataBindingExpressions />
+                            <d13p1:FindExpressions xmlns:d15p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                              <d15p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                                <d15p1:key>Html</d15p1:key>
+                                <d15p1:value i:type="d13p1:HtmlFindExpression">
+                                  <d13p1:ChainStops />
+                                  <d13p1:Clauses>
+                                    <d13p1:HtmlFindClause>
+                                      <d13p1:Clause>TagIndex=input:1</d13p1:Clause>
+                                    </d13p1:HtmlFindClause>
+                                  </d13p1:Clauses>
+                                  <d13p1:Constraints />
+                                </d15p1:value>
+                              </d15p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                            </d13p1:FindExpressions>
+                            <d13p1:Name>SinRadio</d13p1:Name>
+                            <d13p1:NodeKind>4</d13p1:NodeKind>
+                            <d13p1:TechnologyType>Html</d13p1:TechnologyType>
+                          </d13p1:FindExpression>
+                          <d13p1:FindInfo i:nil="true" />
+                          <d13p1:Frame i:nil="true" />
+                          <d13p1:HtmlControlType>ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputRadioButton</d13p1:HtmlControlType>
+                          <d13p1:IsIndependent>false</d13p1:IsIndependent>
+                          <d13p1:Name>target</d13p1:Name>
+                          <d13p1:Page i:type="d2p1:PageUri">
+                            <d2p1:AlwaysUseTitleInCompare>false</d2p1:AlwaysUseTitleInCompare>
+                            <d2p1:BaseUrl />
+                            <d2p1:CompareMode>FullPathAndQuery</d2p1:CompareMode>
+                            <d2p1:EquivalentUrls />
+                            <d2p1:Fragment />
+                            <d2p1:FriendlyName>StoreBgКнигиMelanie</d2p1:FriendlyName>
+                            <d2p1:Path>http://www.book.store.bg/search</d2p1:Path>
+                            <d2p1:Query>?srchstr=Melanie+Delon&amp;sin=0&amp;p=s&amp;=%D2%FA%F0%F1%E8</d2p1:Query>
+                            <d2p1:Title>store.bg - Книги - Melanie Delon</d2p1:Title>
+                          </d13p1:Page>
+                          <d13p1:Region i:nil="true" />
+                          <d13p1:TechnologyType>Html</d13p1:TechnologyType>
+                          <d13p1:Version>200</d13p1:Version>
+                        </d5p1:Value>
+                      </d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+                    </d2p1:Elements>
+                    <d2p1:LogMessageOnFailure />
+                    <d2p1:Pause>None</d2p1:Pause>
+                    <d2p1:RunsAgainstVersion />
+                    <d2p1:StepType>Action</d2p1:StepType>
+                    <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+                    <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+                    <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+                    <AjaxTimeout xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Extensibility">0</AjaxTimeout>
+                    <ClosesBrowser xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Extensibility">false</ClosesBrowser>
+                    <UseBackupSearch xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Extensibility">true</UseBackupSearch>
+                    <UsejQuery xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Extensibility">true</UsejQuery>
+                    <d2p1:SimulateRealClick>false</d2p1:SimulateRealClick>
+                  </d2p1:Step>
+                  <d2p1:StepImageKey>BookStoreIfElsePractice1wj3td2g.wb2</d2p1:StepImageKey>
+                  <d2p1:StepState>NoCode</d2p1:StepState>
+                  <d2p1:Version>200</d2p1:Version>
+                </d2p1:AutomationStep>
+                <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+                  <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+                  <d2p1:CustomDescription>Enter text 'Melanie Delon' in 'SrchstrText0'</d2p1:CustomDescription>
+                  <d2p1:Description>[BookStoreIfElsePractice_CodedStep2] : Enter text 'Mel' in 'SrchstrText0'</d2p1:Description>
+                  <d2p1:Enabled>true</d2p1:Enabled>
+                  <d2p1:Id>BookStoreIfElsePractice_CodedStep2</d2p1:Id>
+                  <d2p1:Order>2</d2p1:Order>
+                  <d2p1:QcId>0</d2p1:QcId>
+                  <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+                  <d2p1:Runtime_x0020_ID>8bbf6f74-fbc0-4588-b217-937474fb2247</d2p1:Runtime_x0020_ID>
+                  <d2p1:Step i:type="d2p1:CodedStepDescriptor">
+                    <d2p1:Constraints xmlns:d11p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+                      <d11p1:ConstraintValues>
+                        <d5p1:KeyValueOfstringstring>
+                          <d5p1:Key>RunsAgainstVersion</d5p1:Key>
+                          <d5p1:Value />
+                        </d5p1:KeyValueOfstringstring>
+                      </d11p1:ConstraintValues>
+                    </d2p1:Constraints>
+                    <d2p1:DataBindingExpressions />
+                    <d2p1:EditorType />
+                    <d2p1:Elements />
+                    <d2p1:LogMessageOnFailure />
+                    <d2p1:Pause>None</d2p1:Pause>
+                    <d2p1:RunsAgainstVersion />
+                    <d2p1:StepType>Action</d2p1:StepType>
+                    <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+                    <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+                    <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+                    <d2p1:Code>            // Enter text 'Mel' in 'SrchstrText0'
+            Actions.SetText(Pages.StoreBgКнижарница.SrchstrText0, "Melanie Delon");
+            
+            </d2p1:Code>
+                    <d2p1:RequiresSilverlight>false</d2p1:RequiresSilverlight>
+                  </d2p1:Step>
+                  <d2p1:StepImageKey>BookStoreIfElsePracticeevwqz2xj.mna</d2p1:StepImageKey>
+                  <d2p1:StepState>Coded</d2p1:StepState>
+                  <d2p1:Version>200</d2p1:Version>
+                </d2p1:AutomationStep>
+                <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+                  <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+                  <d2p1:CustomDescription i:nil="true" />
+                  <d2p1:Description>Click 'Submit'</d2p1:Description>
+                  <d2p1:Enabled>true</d2p1:Enabled>
+                  <d2p1:Id />
+                  <d2p1:Order>3</d2p1:Order>
+                  <d2p1:QcId>0</d2p1:QcId>
+                  <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+                  <d2p1:Runtime_x0020_ID>12ee12ed-e9a7-448c-b944-485da69d70cb</d2p1:Runtime_x0020_ID>
+                  <d2p1:Step i:type="d2p1:ClickActionDescriptor">
+                    <d2p1:Constraints xmlns:d11p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+                      <d11p1:ConstraintValues>
+                        <d5p1:KeyValueOfstringstring>
+                          <d5p1:Key>RunsAgainstVersion</d5p1:Key>
+                          <d5p1:Value />
+                        </d5p1:KeyValueOfstringstring>
+                      </d11p1:ConstraintValues>
+                    </d2p1:Constraints>
+                    <d2p1:DataBindingExpressions />
+                    <d2p1:EditorType />
+                    <d2p1:Elements>
+                      <d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+                        <d5p1:Key>target</d5p1:Key>
+                        <d5p1:Value xmlns:d13p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+                          <d13p1:DomStateKey />
+                          <d13p1:FindExpression i:type="d13p1:HtmlFindExpressionElement">
+                            <d13p1:BackupSearchClause>/html[1]/body[1]/div[2]/div[1]/div[1]/div[2]/form[1]/table[1]/tbody[1]/tr[1]/td[2]/input[2]</d13p1:BackupSearchClause>
+                            <d13p1:DataBindingExpressions />
+                            <d13p1:FindExpressions xmlns:d15p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                              <d15p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                                <d15p1:key>Html</d15p1:key>
+                                <d15p1:value i:type="d13p1:HtmlFindExpression">
+                                  <d13p1:ChainStops />
+                                  <d13p1:Clauses>
+                                    <d13p1:HtmlFindClause>
+                                      <d13p1:Clause>tagname=input</d13p1:Clause>
+                                    </d13p1:HtmlFindClause>
+                                    <d13p1:HtmlFindClause>
+                                      <d13p1:Clause>value=Търси</d13p1:Clause>
+                                    </d13p1:HtmlFindClause>
+                                  </d13p1:Clauses>
+                                  <d13p1:Constraints />
+                                </d15p1:value>
+                              </d15p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                            </d13p1:FindExpressions>
+                            <d13p1:Name>Submit</d13p1:Name>
+                            <d13p1:NodeKind>4</d13p1:NodeKind>
+                            <d13p1:TechnologyType>Html</d13p1:TechnologyType>
+                          </d13p1:FindExpression>
+                          <d13p1:FindInfo i:nil="true" />
+                          <d13p1:Frame i:nil="true" />
+                          <d13p1:HtmlControlType>ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputSubmit</d13p1:HtmlControlType>
+                          <d13p1:IsIndependent>false</d13p1:IsIndependent>
+                          <d13p1:Name>target</d13p1:Name>
+                          <d13p1:Page i:type="d2p1:PageUri">
+                            <d2p1:AlwaysUseTitleInCompare>false</d2p1:AlwaysUseTitleInCompare>
+                            <d2p1:BaseUrl />
+                            <d2p1:CompareMode>FullPathAndQuery</d2p1:CompareMode>
+                            <d2p1:EquivalentUrls />
+                            <d2p1:Fragment />
+                            <d2p1:FriendlyName>StoreBgКнижарница</d2p1:FriendlyName>
+                            <d2p1:Path>http://www.book.store.bg/</d2p1:Path>
+                            <d2p1:Query />
+                            <d2p1:Title>store.bg - Книжарница - Книги за всеки!</d2p1:Title>
+                          </d13p1:Page>
+                          <d13p1:Region i:nil="true" />
+                          <d13p1:TechnologyType>Html</d13p1:TechnologyType>
+                          <d13p1:Version>200</d13p1:Version>
+                        </d5p1:Value>
+                      </d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+                    </d2p1:Elements>
+                    <d2p1:LogMessageOnFailure />
+                    <d2p1:Pause>None</d2p1:Pause>
+                    <d2p1:RunsAgainstVersion />
+                    <d2p1:StepType>Action</d2p1:StepType>
+                    <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+                    <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+                    <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+                    <AjaxTimeout xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Extensibility">0</AjaxTimeout>
+                    <ClosesBrowser xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Extensibility">false</ClosesBrowser>
+                    <UseBackupSearch xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Extensibility">true</UseBackupSearch>
+                    <UsejQuery xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Extensibility">true</UsejQuery>
+                    <d2p1:SimulateRealClick>false</d2p1:SimulateRealClick>
+                  </d2p1:Step>
+                  <d2p1:StepImageKey>BookStoreIfElsePractice5hcizdvc.4xv</d2p1:StepImageKey>
+                  <d2p1:StepState>NoCode</d2p1:StepState>
+                  <d2p1:Version>200</d2p1:Version>
+                </d2p1:AutomationStep>
+                <d2p1:AutomationStep i:type="d2p1:AutomationStep">
+                  <d2p1:ContinueOnFailure>false</d2p1:ContinueOnFailure>
+                  <d2p1:CustomDescription i:nil="true" />
+                  <d2p1:Description>Verify 'TextContent' 'Contains' 'Melanie Delon' on 'MelanieDelonBTag'</d2p1:Description>
+                  <d2p1:Enabled>true</d2p1:Enabled>
+                  <d2p1:Id />
+                  <d2p1:Order>4</d2p1:Order>
+                  <d2p1:QcId>0</d2p1:QcId>
+                  <d2p1:QcVersionStamp>0</d2p1:QcVersionStamp>
+                  <d2p1:Runtime_x0020_ID>f15a44ea-2acc-40e6-918b-96f47191e309</d2p1:Runtime_x0020_ID>
+                  <d2p1:Step i:type="d2p1:ContentVerificationDescriptor">
+                    <d2p1:Constraints xmlns:d11p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+                      <d11p1:ConstraintValues>
+                        <d5p1:KeyValueOfstringstring>
+                          <d5p1:Key>RunsAgainstVersion</d5p1:Key>
+                          <d5p1:Value />
+                        </d5p1:KeyValueOfstringstring>
+                      </d11p1:ConstraintValues>
+                    </d2p1:Constraints>
+                    <d2p1:DataBindingExpressions />
+                    <d2p1:EditorType />
+                    <d2p1:Elements>
+                      <d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+                        <d5p1:Key>textTarget</d5p1:Key>
+                        <d5p1:Value xmlns:d13p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+                          <d13p1:DomStateKey />
+                          <d13p1:FindExpression i:type="d13p1:HtmlFindExpressionElement">
+                            <d13p1:BackupSearchClause>/html[1]/body[1]/div[2]/div[2]/div[2]/div[3]/div[4]/div[1]/span[1]/h5[1]/b[1]</d13p1:BackupSearchClause>
+                            <d13p1:DataBindingExpressions />
+                            <d13p1:FindExpressions xmlns:d15p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                              <d15p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                                <d15p1:key>Html</d15p1:key>
+                                <d15p1:value i:type="d13p1:HtmlFindExpression">
+                                  <d13p1:ChainStops />
+                                  <d13p1:Clauses>
+                                    <d13p1:HtmlFindClause>
+                                      <d13p1:Clause>TagIndex=b:4</d13p1:Clause>
+                                    </d13p1:HtmlFindClause>
+                                  </d13p1:Clauses>
+                                  <d13p1:Constraints />
+                                </d15p1:value>
+                              </d15p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                            </d13p1:FindExpressions>
+                            <d13p1:Name>MelanieDelonBTag</d13p1:Name>
+                            <d13p1:NodeKind>4</d13p1:NodeKind>
+                            <d13p1:TechnologyType>Html</d13p1:TechnologyType>
+                          </d13p1:FindExpression>
+                          <d13p1:FindInfo i:nil="true" />
+                          <d13p1:Frame i:nil="true" />
+                          <d13p1:HtmlControlType>ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl</d13p1:HtmlControlType>
+                          <d13p1:IsIndependent>false</d13p1:IsIndependent>
+                          <d13p1:Name>textTarget</d13p1:Name>
+                          <d13p1:Page i:type="d2p1:PageUri">
+                            <d2p1:AlwaysUseTitleInCompare>false</d2p1:AlwaysUseTitleInCompare>
+                            <d2p1:BaseUrl />
+                            <d2p1:CompareMode>FullPathAndQuery</d2p1:CompareMode>
+                            <d2p1:EquivalentUrls />
+                            <d2p1:Fragment />
+                            <d2p1:FriendlyName>StoreBgКнигиMelanie</d2p1:FriendlyName>
+                            <d2p1:Path>http://www.book.store.bg/search</d2p1:Path>
+                            <d2p1:Query>?srchstr=Melanie+Delon&amp;sin=0&amp;p=s&amp;=%D2%FA%F0%F1%E8</d2p1:Query>
+                            <d2p1:Title>store.bg - Книги - Melanie Delon</d2p1:Title>
+                          </d13p1:Page>
+                          <d13p1:Region i:nil="true" />
+                          <d13p1:TechnologyType>Html</d13p1:TechnologyType>
+                          <d13p1:Version>200</d13p1:Version>
+                        </d5p1:Value>
+                      </d5p1:KeyValueOfstringElementDescriptorJagf4TWk>
+                    </d2p1:Elements>
+                    <d2p1:LogMessageOnFailure />
+                    <d2p1:Pause>None</d2p1:Pause>
+                    <d2p1:RunsAgainstVersion />
+                    <d2p1:StepType>Verification</d2p1:StepType>
+                    <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+                    <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+                    <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+                    <d2p1:CheckInterval>500</d2p1:CheckInterval>
+                    <d2p1:DataBindVariableName i:nil="true" />
+                    <d2p1:EnsureStateIsCurrent>false</d2p1:EnsureStateIsCurrent>
+                    <d2p1:Timeout>30000</d2p1:Timeout>
+                    <d2p1:UseBackupSearch>true</d2p1:UseBackupSearch>
+                    <d2p1:CompareType>Contains</d2p1:CompareType>
+                    <d2p1:ExpectedString>Melanie Delon</d2p1:ExpectedString>
+                    <d2p1:SegmentType>TextContent</d2p1:SegmentType>
+                  </d2p1:Step>
+                  <d2p1:StepImageKey>BookStoreIfElsePractice5zv0tfys.xrt</d2p1:StepImageKey>
+                  <d2p1:StepState>NoCode</d2p1:StepState>
+                  <d2p1:Version>200</d2p1:Version>
+                </d2p1:AutomationStep>
+              </d2p1:StepList>
+              <d2p1:Visible>true</d2p1:Visible>
+            </d5p1:Value>
+          </d5p1:KeyValueOfintLogicalBranchDataM_Pcf9bkW>
+        </d2p1:Branches>
+        <d2p1:Verification i:type="d2p1:CheckVerificationDescriptor">
+          <d2p1:Constraints xmlns:d6p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+            <d6p1:ConstraintValues xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:KeyValueOfstringstring>
+                <d7p1:Key>RunsAgainstVersion</d7p1:Key>
+                <d7p1:Value />
+              </d7p1:KeyValueOfstringstring>
+            </d6p1:ConstraintValues>
+          </d2p1:Constraints>
+          <d2p1:DataBindingExpressions xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <d2p1:EditorType />
+          <d2p1:Elements xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringElementDescriptorJagf4TWk>
+              <d6p1:Key>check</d6p1:Key>
+              <d6p1:Value xmlns:d8p1="http://artoftest.com/schemas/WebAiiDesignCanvas/2.0.0">
+                <d8p1:DomStateKey />
+                <d8p1:FindExpression i:type="d8p1:HtmlFindExpressionElement">
+                  <d8p1:BackupSearchClause>/html[1]/body[1]/div[2]/div[1]/div[1]/div[2]/form[1]/table[1]/tbody[1]/tr[1]/td[1]/label[1]/input[1]</d8p1:BackupSearchClause>
+                  <d8p1:DataBindingExpressions />
+                  <d8p1:FindExpressions xmlns:d10p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                    <d10p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                      <d10p1:key>Html</d10p1:key>
+                      <d10p1:value i:type="d8p1:HtmlFindExpression">
+                        <d8p1:ChainStops />
+                        <d8p1:Clauses>
+                          <d8p1:HtmlFindClause>
+                            <d8p1:Clause>TagIndex=input:1</d8p1:Clause>
+                          </d8p1:HtmlFindClause>
+                        </d8p1:Clauses>
+                        <d8p1:Constraints />
+                      </d10p1:value>
+                    </d10p1:KeyValuePairOfTechnologyTypeanyTypeHXKb0FV5>
+                  </d8p1:FindExpressions>
+                  <d8p1:Name>SinRadio</d8p1:Name>
+                  <d8p1:NodeKind>4</d8p1:NodeKind>
+                  <d8p1:TechnologyType>Html</d8p1:TechnologyType>
+                </d8p1:FindExpression>
+                <d8p1:FindInfo i:nil="true" />
+                <d8p1:Frame i:nil="true" />
+                <d8p1:HtmlControlType>ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputRadioButton</d8p1:HtmlControlType>
+                <d8p1:IsIndependent>false</d8p1:IsIndependent>
+                <d8p1:Name>check</d8p1:Name>
+                <d8p1:Page i:type="d2p1:PageUri">
+                  <d2p1:AlwaysUseTitleInCompare>false</d2p1:AlwaysUseTitleInCompare>
+                  <d2p1:BaseUrl />
+                  <d2p1:CompareMode>FullPathAndQuery</d2p1:CompareMode>
+                  <d2p1:EquivalentUrls />
+                  <d2p1:Fragment />
+                  <d2p1:FriendlyName>StoreBgКнижарница</d2p1:FriendlyName>
+                  <d2p1:Path>http://www.book.store.bg/</d2p1:Path>
+                  <d2p1:Query />
+                  <d2p1:Title>store.bg - Книжарница - Книги за всеки!</d2p1:Title>
+                </d8p1:Page>
+                <d8p1:Region i:nil="true" />
+                <d8p1:TechnologyType>Html</d8p1:TechnologyType>
+                <d8p1:Version>200</d8p1:Version>
+              </d6p1:Value>
+            </d6p1:KeyValueOfstringElementDescriptorJagf4TWk>
+          </d2p1:Elements>
+          <d2p1:LogMessageOnFailure />
+          <d2p1:Pause>None</d2p1:Pause>
+          <d2p1:RunsAgainstVersion />
+          <d2p1:StepType>Verification</d2p1:StepType>
+          <d2p1:UseStepWaitOnElementsTimout>false</d2p1:UseStepWaitOnElementsTimout>
+          <d2p1:WaitOnElements>true</d2p1:WaitOnElements>
+          <d2p1:WaitOnElementsTimeout>30000</d2p1:WaitOnElementsTimeout>
+          <d2p1:CheckInterval>500</d2p1:CheckInterval>
+          <d2p1:DataBindVariableName i:nil="true" />
+          <d2p1:EnsureStateIsCurrent>false</d2p1:EnsureStateIsCurrent>
+          <d2p1:Timeout>30000</d2p1:Timeout>
+          <d2p1:UseBackupSearch>true</d2p1:UseBackupSearch>
+          <d2p1:Checked>true</d2p1:Checked>
+        </d2p1:Verification>
+      </d2p1:Step>
+      <d2p1:StepImageKey>BookStoreIfElsePracticeezwr2my4.0uy</d2p1:StepImageKey>
+      <d2p1:StepState>NoCode</d2p1:StepState>
+      <d2p1:Version>200</d2p1:Version>
+    </d2p1:AutomationStep>
+  </Steps>
+  <StopTestListOnFailure>false</StopTestListOnFailure>
+  <TestAssembly>Desktop.dll</TestAssembly>
+  <TestAssemblyPath>bin</TestAssemblyPath>
+  <TestClass>Desktop.BookStoreIfElsePractice</TestClass>
+  <TestLinks xmlns:d2p1="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.ProjectModel.TestLinks" />
+  <UseDefaultWpfAppPath>false</UseDefaultWpfAppPath>
+  <VSProperties xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <WebKitExecutionDelay>0</WebKitExecutionDelay>
+  <WpfAppPath i:nil="true" />
+</WebAiiTest>

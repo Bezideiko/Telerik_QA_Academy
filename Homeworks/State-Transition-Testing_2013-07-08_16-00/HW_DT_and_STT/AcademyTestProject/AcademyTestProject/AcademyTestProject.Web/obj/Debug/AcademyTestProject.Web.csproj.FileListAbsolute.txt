@@ -1,0 +1,10 @@
+C:\Work\TestExamples\AcademyTestProject\AcademyTestProject.Web\bin\AcademyTestProject.Web.dll
+C:\Work\TestExamples\AcademyTestProject\AcademyTestProject.Web\bin\AcademyTestProject.Web.pdb
+C:\Work\TestExamples\AcademyTestProject\AcademyTestProject.Web\obj\Debug\AcademyTestProject.Web.dll
+C:\Work\TestExamples\AcademyTestProject\AcademyTestProject.Web\obj\Debug\AcademyTestProject.Web.pdb
+C:\Work\TestExamples\AcademyTestProject\AcademyTestProject.Web\obj\Debug\AcademyTestProject.Web.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Desktop\AcademyTestProject\AcademyTestProject\AcademyTestProject.Web\bin\AcademyTestProject.Web.dll
+C:\Users\Angel\Desktop\AcademyTestProject\AcademyTestProject\AcademyTestProject.Web\bin\AcademyTestProject.Web.pdb
+C:\Users\Angel\Desktop\AcademyTestProject\AcademyTestProject\AcademyTestProject.Web\obj\Debug\AcademyTestProject.Web.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Desktop\AcademyTestProject\AcademyTestProject\AcademyTestProject.Web\obj\Debug\AcademyTestProject.Web.dll
+C:\Users\Angel\Desktop\AcademyTestProject\AcademyTestProject\AcademyTestProject.Web\obj\Debug\AcademyTestProject.Web.pdb

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7f53ec90-3293-469c-9ab1-cfed71c2a44a" name="horozov@HOROZOV 2013-06-25 13:55:24" runUser="TELERIK\horozov" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="129557e1-5110-4827-af79-761bff078b6e">
+    <Deployment runDeploymentRoot="horozov_HOROZOV 2013-06-25 13_55_24">
+      <DeploymentItem filename="C:\Work\TestExamples\AcademyTestProject\Wrappers\bin\Debug\Wrappers.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-06-25T13:55:24.2210626+03:00" queuing="2013-06-25T13:55:24.3370742+03:00" start="2013-06-25T13:55:24.3410746+03:00" finish="2013-06-25T13:55:41.0787482+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ChartViewFirstTimeLoadTest" storage="c:\work\testexamples\academytestproject\tests\bin\debug\tests.dll" id="5acaf1af-af05-8a82-846a-7a71f76b208b">
+      <Description>Check ChartView scenario when chart is loaded for the first time</Description>
+      <Execution id="6f5c8253-8c60-42a0-ac13-7eaba8e8728b" />
+      <TestMethod codeBase="C:\Work\TestExamples\AcademyTestProject\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.Tests, Tests" name="ChartViewFirstTimeLoadTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5acaf1af-af05-8a82-846a-7a71f76b208b" executionId="6f5c8253-8c60-42a0-ac13-7eaba8e8728b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="6f5c8253-8c60-42a0-ac13-7eaba8e8728b" testId="5acaf1af-af05-8a82-846a-7a71f76b208b" testName="ChartViewFirstTimeLoadTest" computerName="HOROZOV" duration="00:00:05.7988515" startTime="2013-06-25T13:55:24.3490754+03:00" endTime="2013-06-25T13:55:30.2876692+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f5c8253-8c60-42a0-ac13-7eaba8e8728b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

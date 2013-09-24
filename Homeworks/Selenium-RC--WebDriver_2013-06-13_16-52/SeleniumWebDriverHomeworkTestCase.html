@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://test.telerikacademy.com/SoftwareAcademy/Candidate" />
+<title>SeleniumWebDriverHomeworkTestCase</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">SeleniumWebDriverHomeworkTestCase</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>http://test.telerikacademy.com/SoftwareAcademy/Candidate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UsernameOrEmail</td>
+	<td>qaacademy2013</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Password</td>
+	<td>qastudent</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.submit-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=FirstName</td>
+	<td>QA</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=SecondName</td>
+	<td>QA</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LastName</td>
+	<td>QA</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.k-icon.k-i-calendar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=1900 - 1909</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=1900</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=ян</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Phone</td>
+	<td>0881235467</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=SchoolName</td>
+	<td>myschool</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Email</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//*[@id=&quot;SendButton&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//html/body/div/div/section/form/fieldset/div[12]/span/span</td>
+	<td>Имейл адресът е задължителен.</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>generateUniqueAccountName(&quot;email&quot;)</td>
+	<td>newUniqueEmail</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${newUniqueEmail}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>${newUniqueEmail}@abv.bg</td>
+	<td>newUniqueEmail</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${newUniqueEmail}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//*[@id=&quot;Email&quot;]</td>
+	<td>${newUniqueEmail}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//*[@id=&quot;Email&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//*[@id=&quot;FacultyName&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//*[@id=&quot;SendButton&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>Имейл адресът е задължителен.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//*[@id=&quot;ExitMI&quot;]</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

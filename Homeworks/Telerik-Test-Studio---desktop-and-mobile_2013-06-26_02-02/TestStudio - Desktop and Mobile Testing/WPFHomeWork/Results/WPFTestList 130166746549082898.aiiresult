@@ -1,0 +1,3010 @@
+<RunResult Type="ArtOfTest.WebAii.Design.Execution.RunResult" Version="2012.2.1420.0">
+  <__DataMember_FileName IsDataContractSerialized="True" PropertyName="FileName" PropertyType="System.String">
+    <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">WPFTestList 130166746549082898</string>
+  </__DataMember_FileName>
+  <__DataMember_Id IsDataContractSerialized="True" PropertyName="Id" PropertyType="System.Guid">
+    <guid xmlns="http://schemas.microsoft.com/2003/10/Serialization/">5515f4b3-3942-41e5-932b-28ee4f2fd84f</guid>
+  </__DataMember_Id>
+  <__DataMember_Machine IsDataContractSerialized="True" PropertyName="Machine" PropertyType="ArtOfTest.WebAii.Design.Execution.Scheduling.Machine">
+    <Machine xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Execution.Scheduling" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+      <DBState>0</DBState>
+      <Id>00000000-0000-0000-0000-000000000000</Id>
+      <InstalledBrowsers>
+        <BrowserInformation>
+          <Type>InternetExplorer</Type>
+          <Version>9.10.9200.16599</Version>
+        </BrowserInformation>
+        <BrowserInformation>
+          <Type>FireFox</Type>
+          <Version>21.0 (en-US)</Version>
+        </BrowserInformation>
+        <BrowserInformation>
+          <Type>Safari</Type>
+          <Version>5.1.7</Version>
+        </BrowserInformation>
+        <BrowserInformation>
+          <Type>Chrome</Type>
+          <Version />
+        </BrowserInformation>
+      </InstalledBrowsers>
+      <NetworkName>LENAPC</NetworkName>
+      <OperatingSystem>Windows 8</OperatingSystem>
+      <ServiceUri i:nil="true" />
+      <Status>Ready</Status>
+      <UserName>Angel</UserName>
+    </Machine>
+  </__DataMember_Machine>
+  <__DataMember_RunId IsDataContractSerialized="True" PropertyName="RunId" PropertyType="System.Guid">
+    <guid xmlns="http://schemas.microsoft.com/2003/10/Serialization/">5515f4b3-3942-41e5-932b-28ee4f2fd84f</guid>
+  </__DataMember_RunId>
+  <__DataMember_TestListId IsDataContractSerialized="True" PropertyName="TestListId" PropertyType="System.Guid">
+    <guid xmlns="http://schemas.microsoft.com/2003/10/Serialization/">37a875c8-8f8e-4a7b-b3f1-debe76bc1f1c</guid>
+  </__DataMember_TestListId>
+  <TestListName Type="System.String">WPFTestList</TestListName>
+  <StartTime Type="System.DateTime">2013-06-25 22:52:19Z+0000000</StartTime>
+  <EndTime Type="System.DateTime">2013-06-25 22:57:34Z+9032918</EndTime>
+  <DataCollectors />
+  <TestResults>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestResult" Version="2012.2.1420.0">
+      <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+      <TestName Type="System.String">CalculatorTestCase</TestName>
+      <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+      <TestDescription Type="System.String">
+      </TestDescription>
+      <ProjectPath Type="System.String">
+      </ProjectPath>
+      <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+      <AutomationStepResults>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on GridViewTextblock</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">0</TestStepNumber>
+          <Order Type="System.Int32">1</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983131</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on IndustryTextblock</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">1</TestStepNumber>
+          <Order Type="System.Int32">2</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983132</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on Item24Textblock</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">2</TestStepNumber>
+          <Order Type="System.Int32">3</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983133</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on SmallNameTextblock</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">3</TestStepNumber>
+          <Order Type="System.Int32">4</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983134</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click Input2ButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">4</TestStepNumber>
+          <Order Type="System.Int32">5</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235165</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click AddButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">5</TestStepNumber>
+          <Order Type="System.Int32">6</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235164</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click Input5ButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">6</TestStepNumber>
+          <Order Type="System.Int32">7</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235163</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click EqualsButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">7</TestStepNumber>
+          <Order Type="System.Int32">8</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235162</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'x7Textblock' text Same '7'</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">8</TestStepNumber>
+          <Order Type="System.Int32">9</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1420807022</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click Input9ButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">9</TestStepNumber>
+          <Order Type="System.Int32">10</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235160</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click SubstractButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">10</TestStepNumber>
+          <Order Type="System.Int32">11</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235159</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click Input7ButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">11</TestStepNumber>
+          <Order Type="System.Int32">12</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235158</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click EqualsButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">12</TestStepNumber>
+          <Order Type="System.Int32">13</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235157</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'x7Textblock' text Same '2'</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">13</TestStepNumber>
+          <Order Type="System.Int32">14</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1420807017</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click ClearEverythingButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">14</TestStepNumber>
+          <Order Type="System.Int32">15</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235155</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click Input1ButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">15</TestStepNumber>
+          <Order Type="System.Int32">16</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235154</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click Input2ButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">16</TestStepNumber>
+          <Order Type="System.Int32">17</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235153</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click Input3ButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">17</TestStepNumber>
+          <Order Type="System.Int32">18</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235152</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click Input4ButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">18</TestStepNumber>
+          <Order Type="System.Int32">19</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235151</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click Input5ButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">19</TestStepNumber>
+          <Order Type="System.Int32">20</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235150</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click Input6ButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">20</TestStepNumber>
+          <Order Type="System.Int32">21</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235149</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click Input7ButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">21</TestStepNumber>
+          <Order Type="System.Int32">22</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235148</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click Input9ButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">22</TestStepNumber>
+          <Order Type="System.Int32">23</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235147</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click MultiplyButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">23</TestStepNumber>
+          <Order Type="System.Int32">24</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235146</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click Input8ButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">24</TestStepNumber>
+          <Order Type="System.Int32">25</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235145</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click EqualsButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">25</TestStepNumber>
+          <Order Type="System.Int32">26</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235144</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'x98765432Textblock' text Same '98765432'</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">26</TestStepNumber>
+          <Order Type="System.Int32">27</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1420807004</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click Input8ButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">27</TestStepNumber>
+          <Order Type="System.Int32">28</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235142</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click Input1ButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">28</TestStepNumber>
+          <Order Type="System.Int32">29</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235141</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click DivideButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">29</TestStepNumber>
+          <Order Type="System.Int32">30</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235140</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click Input9ButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">30</TestStepNumber>
+          <Order Type="System.Int32">31</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235139</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click EqualsButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">31</TestStepNumber>
+          <Order Type="System.Int32">32</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235138</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'x7Textblock' text Same '9'</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">32</TestStepNumber>
+          <Order Type="System.Int32">33</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1420806998</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click Input8ButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">33</TestStepNumber>
+          <Order Type="System.Int32">34</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235136</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click DivideButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">34</TestStepNumber>
+          <Order Type="System.Int32">35</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235135</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click Input0ButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">35</TestStepNumber>
+          <Order Type="System.Int32">36</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235134</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click EqualsButtonRadbutton</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">36</TestStepNumber>
+          <Order Type="System.Int32">37</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235133</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'CannotDivideTextblock' text Same 'Cannot divide by zero'</StepDescription>
+          <TestId Type="System.String">acb7ee7b-a571-4fdd-812f-f443a69e6abf</TestId>
+          <TestName Type="System.String">CalculatorTestCase</TestName>
+          <TestPath Type="System.String">CalculatorTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">37</TestStepNumber>
+          <Order Type="System.Int32">38</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1420806993</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+      </AutomationStepResults>
+      <NotRunStepDescriptions />
+      <PerStepMessages Type="System.String">Overall Result: Pass
+------------------------------------------------------------
+'26.6.2013 г. 1:52:20' - Using .Net Runtime version: '4.0.30319.18046' for test execution. Build version is '2012.2.1420.0'.
+'26.6.2013 г. 1:52:20' - Starting execution....
+------------------------------------------------------------
+------------------------------------------------------------
+'26.6.2013 г. 1:52:22' - Using 'C:\Users\Angel\AppData\Local\Apps\2.0\JYYNV9BC.AD2\CCMB18PJ.1E5\wpfd..tion_1dcf05cf98ac3011_07dd.0002_86a7363a5cb8bc77\WPF Demos.exe' application.
+'26.6.2013 г. 1:52:23' - 'Pass' : 1. LeftClick on GridViewTextblock
+'26.6.2013 г. 1:52:25' - 'Pass' : 2. LeftClick on IndustryTextblock
+'26.6.2013 г. 1:52:27' - 'Pass' : 3. LeftClick on Item24Textblock
+'26.6.2013 г. 1:52:28' - 'Pass' : 4. LeftClick on SmallNameTextblock
+'26.6.2013 г. 1:52:33' - 'Pass' : 5. Click Input2ButtonRadbutton
+'26.6.2013 г. 1:52:35' - 'Pass' : 6. Click AddButtonRadbutton
+'26.6.2013 г. 1:52:36' - 'Pass' : 7. Click Input5ButtonRadbutton
+'26.6.2013 г. 1:52:37' - 'Pass' : 8. Click EqualsButtonRadbutton
+'26.6.2013 г. 1:52:38' - 'Pass' : 9. Verify 'x7Textblock' text Same '7'
+'26.6.2013 г. 1:52:40' - 'Pass' : 10. Click Input9ButtonRadbutton
+'26.6.2013 г. 1:52:41' - 'Pass' : 11. Click SubstractButtonRadbutton
+'26.6.2013 г. 1:52:42' - 'Pass' : 12. Click Input7ButtonRadbutton
+'26.6.2013 г. 1:52:44' - 'Pass' : 13. Click EqualsButtonRadbutton
+'26.6.2013 г. 1:52:46' - 'Pass' : 14. Verify 'x7Textblock' text Same '2'
+'26.6.2013 г. 1:52:47' - 'Pass' : 15. Click ClearEverythingButtonRadbutton
+'26.6.2013 г. 1:52:48' - 'Pass' : 16. Click Input1ButtonRadbutton
+'26.6.2013 г. 1:52:50' - 'Pass' : 17. Click Input2ButtonRadbutton
+'26.6.2013 г. 1:52:51' - 'Pass' : 18. Click Input3ButtonRadbutton
+'26.6.2013 г. 1:52:52' - 'Pass' : 19. Click Input4ButtonRadbutton
+'26.6.2013 г. 1:52:54' - 'Pass' : 20. Click Input5ButtonRadbutton
+'26.6.2013 г. 1:52:55' - 'Pass' : 21. Click Input6ButtonRadbutton
+'26.6.2013 г. 1:52:57' - 'Pass' : 22. Click Input7ButtonRadbutton
+'26.6.2013 г. 1:52:58' - 'Pass' : 23. Click Input9ButtonRadbutton
+'26.6.2013 г. 1:52:59' - 'Pass' : 24. Click MultiplyButtonRadbutton
+'26.6.2013 г. 1:53:01' - 'Pass' : 25. Click Input8ButtonRadbutton
+'26.6.2013 г. 1:53:03' - 'Pass' : 26. Click EqualsButtonRadbutton
+'26.6.2013 г. 1:53:04' - 'Pass' : 27. Verify 'x98765432Textblock' text Same '98765432'
+'26.6.2013 г. 1:53:06' - 'Pass' : 28. Click Input8ButtonRadbutton
+'26.6.2013 г. 1:53:07' - 'Pass' : 29. Click Input1ButtonRadbutton
+'26.6.2013 г. 1:53:08' - 'Pass' : 30. Click DivideButtonRadbutton
+'26.6.2013 г. 1:53:10' - 'Pass' : 31. Click Input9ButtonRadbutton
+'26.6.2013 г. 1:53:12' - 'Pass' : 32. Click EqualsButtonRadbutton
+'26.6.2013 г. 1:53:13' - 'Pass' : 33. Verify 'x7Textblock' text Same '9'
+'26.6.2013 г. 1:53:14' - 'Pass' : 34. Click Input8ButtonRadbutton
+'26.6.2013 г. 1:53:15' - 'Pass' : 35. Click DivideButtonRadbutton
+'26.6.2013 г. 1:53:17' - 'Pass' : 36. Click Input0ButtonRadbutton
+'26.6.2013 г. 1:53:18' - 'Pass' : 37. Click EqualsButtonRadbutton
+'26.6.2013 г. 1:53:20' - 'Pass' : 38. Verify 'CannotDivideTextblock' text Same 'Cannot divide by zero'
+------------------------------------------------------------
+'26.6.2013 г. 1:53:20' - Overall Result: Pass
+'26.6.2013 г. 1:53:20' - Duration: [0 min: 58 sec: 18 msec]
+------------------------------------------------------------
+'26.6.2013 г. 1:53:20' - Test completed!
+</PerStepMessages>
+      <TotalNumberOfPassedSteps Type="System.Int32">38</TotalNumberOfPassedSteps>
+      <ExecutingTestStepCount Type="System.Int32">38</ExecutingTestStepCount>
+      <TotalNumberOfNotRunSteps Type="System.Int32">0</TotalNumberOfNotRunSteps>
+      <IsDataDrivenResult Type="System.Boolean">False</IsDataDrivenResult>
+      <SeparatorLineCharCount Type="System.Int32">60</SeparatorLineCharCount>
+      <ExecutionType Type="ArtOfTest.Common.Design.ExecutionType">QuickExecution</ExecutionType>
+      <EndTime Type="System.DateTime">2013-06-25 22:53:20Z+0846179</EndTime>
+      <StarTime Type="System.DateTime">2013-06-25 22:52:22Z+0664654</StarTime>
+      <DataIterationResults />
+      <VersionGroupKey Type="System.String">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+      <__DataMembers />
+    </Item>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestResult" Version="2012.2.1420.0">
+      <TestId Type="System.String">b2a800ab-5eed-4982-b05b-af2297f034e3</TestId>
+      <TestName Type="System.String">CalendarTestCase</TestName>
+      <TestPath Type="System.String">CalendarTestCase.tstest</TestPath>
+      <TestDescription Type="System.String">
+      </TestDescription>
+      <ProjectPath Type="System.String">
+      </ProjectPath>
+      <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+      <AutomationStepResults>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on GridViewTextblock</StepDescription>
+          <TestId Type="System.String">b2a800ab-5eed-4982-b05b-af2297f034e3</TestId>
+          <TestName Type="System.String">CalendarTestCase</TestName>
+          <TestPath Type="System.String">CalendarTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">0</TestStepNumber>
+          <Order Type="System.Int32">1</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983131</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on IndustryTextblock</StepDescription>
+          <TestId Type="System.String">b2a800ab-5eed-4982-b05b-af2297f034e3</TestId>
+          <TestName Type="System.String">CalendarTestCase</TestName>
+          <TestPath Type="System.String">CalendarTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">1</TestStepNumber>
+          <Order Type="System.Int32">2</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983132</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on Item24Textblock</StepDescription>
+          <TestId Type="System.String">b2a800ab-5eed-4982-b05b-af2297f034e3</TestId>
+          <TestName Type="System.String">CalendarTestCase</TestName>
+          <TestPath Type="System.String">CalendarTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">2</TestStepNumber>
+          <Order Type="System.Int32">3</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983133</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on SmallNameTextblock0</StepDescription>
+          <TestId Type="System.String">b2a800ab-5eed-4982-b05b-af2297f034e3</TestId>
+          <TestName Type="System.String">CalendarTestCase</TestName>
+          <TestPath Type="System.String">CalendarTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">3</TestStepNumber>
+          <Order Type="System.Int32">4</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983134</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.Execution.LogicalStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">WHILE (Verify 'TextTextblock' text Same 'June - 2013') THEN</StepDescription>
+          <TestId Type="System.String">b2a800ab-5eed-4982-b05b-af2297f034e3</TestId>
+          <TestName Type="System.String">CalendarTestCase</TestName>
+          <TestPath Type="System.String">CalendarTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">4</TestStepNumber>
+          <Order Type="System.Int32">5</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1749053879</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <logicDetails Type="System.String">Condition Evaluation Details:
+
+Parameters:
+-----------
+Comparison      = 'NotSame'
+Value           = Expected:[June - 2013] , Actual:[June - 2013]
+</logicDetails>
+          <loopIteration Type="System.Int32">1</loopIteration>
+          <isLoop Type="System.Boolean">True</isLoop>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">calendarview: select '28' action.</StepDescription>
+          <TestId Type="System.String">b2a800ab-5eed-4982-b05b-af2297f034e3</TestId>
+          <TestName Type="System.String">CalendarTestCase</TestName>
+          <TestPath Type="System.String">CalendarTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">5</TestStepNumber>
+          <Order Type="System.Int32">7</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">912362547</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'EventDateTextblock' text Same 'петък, юни 28'</StepDescription>
+          <TestId Type="System.String">b2a800ab-5eed-4982-b05b-af2297f034e3</TestId>
+          <TestName Type="System.String">CalendarTestCase</TestName>
+          <TestPath Type="System.String">CalendarTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">6</TestStepNumber>
+          <Order Type="System.Int32">8</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1420807024</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'EventTitleTextblock' text Same 'Integrating WPF and WCF'</StepDescription>
+          <TestId Type="System.String">b2a800ab-5eed-4982-b05b-af2297f034e3</TestId>
+          <TestName Type="System.String">CalendarTestCase</TestName>
+          <TestPath Type="System.String">CalendarTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">7</TestStepNumber>
+          <Order Type="System.Int32">9</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1420807023</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+      </AutomationStepResults>
+      <NotRunStepDescriptions />
+      <PerStepMessages Type="System.String">Overall Result: Pass
+------------------------------------------------------------
+'26.6.2013 г. 1:53:20' - Using .Net Runtime version: '4.0.30319.18046' for test execution. Build version is '2012.2.1420.0'.
+'26.6.2013 г. 1:53:20' - Starting execution....
+'26.6.2013 г. 1:53:22' - Detected custom code in test. Locating test assembly: WPFHomeWork.dll.
+'26.6.2013 г. 1:53:22' - Assembly Found: C:\Users\Angel\Desktop\QA Academy\QA Part - II\Homework\TestStudio - Desktop and Mobile Testing\WPFHomeWork\bin\WPFHomeWork.dll
+'26.6.2013 г. 1:53:22' - Loading code class: 'WPFHomeWork.CalendarTestCase'.
+------------------------------------------------------------
+------------------------------------------------------------
+'26.6.2013 г. 1:53:22' - Using 'C:\Users\Angel\AppData\Local\Apps\2.0\JYYNV9BC.AD2\CCMB18PJ.1E5\wpfd..tion_1dcf05cf98ac3011_07dd.0002_86a7363a5cb8bc77\WPF Demos.exe' application.
+'26.6.2013 г. 1:53:24' - 'Pass' : 1. LeftClick on GridViewTextblock
+'26.6.2013 г. 1:53:25' - 'Pass' : 2. LeftClick on IndustryTextblock
+'26.6.2013 г. 1:53:27' - 'Pass' : 3. LeftClick on Item24Textblock
+'26.6.2013 г. 1:53:28' - 'Pass' : 4. LeftClick on SmallNameTextblock0
+'26.6.2013 г. 1:53:34' - 'Pass' : 5. WHILE (Verify 'TextTextblock' text Same 'June - 2013') THEN
+Logical step encountered. Executing branch =&gt; WHILE (Verify 'TextTextblock' text Same 'June - 2013') THEN, Iteration (1):
+------------------------------------------------------------
+Condition Evaluation Details:
+
+Parameters:
+-----------
+Comparison      = 'NotSame'
+Value           = Expected:[June - 2013] , Actual:[June - 2013]
+
+------------------------------------------------------------
+'26.6.2013 г. 1:53:35' - 'Pass' : 7. calendarview: select '28' action.
+'26.6.2013 г. 1:53:38' - 'Pass' : 8. Verify 'EventDateTextblock' text Same 'петък, юни 28'
+'26.6.2013 г. 1:53:41' - 'Pass' : 9. Verify 'EventTitleTextblock' text Same 'Integrating WPF and WCF'
+------------------------------------------------------------
+'26.6.2013 г. 1:53:41' - Overall Result: Pass
+'26.6.2013 г. 1:53:41' - Duration: [0 min: 18 sec: 824 msec]
+------------------------------------------------------------
+'26.6.2013 г. 1:53:41' - Test completed!
+</PerStepMessages>
+      <TotalNumberOfPassedSteps Type="System.Int32">8</TotalNumberOfPassedSteps>
+      <ExecutingTestStepCount Type="System.Int32">8</ExecutingTestStepCount>
+      <TotalNumberOfNotRunSteps Type="System.Int32">0</TotalNumberOfNotRunSteps>
+      <IsDataDrivenResult Type="System.Boolean">False</IsDataDrivenResult>
+      <SeparatorLineCharCount Type="System.Int32">60</SeparatorLineCharCount>
+      <ExecutionType Type="ArtOfTest.Common.Design.ExecutionType">QuickExecution</ExecutionType>
+      <EndTime Type="System.DateTime">2013-06-25 22:53:41Z+4535630</EndTime>
+      <StarTime Type="System.DateTime">2013-06-25 22:53:22Z+6290563</StarTime>
+      <DataIterationResults />
+      <VersionGroupKey Type="System.String">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+      <__DataMembers />
+    </Item>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestResult" Version="2012.2.1420.0">
+      <TestId Type="System.String">8cfb9e74-1509-450c-b143-e98c29d2d82c</TestId>
+      <TestName Type="System.String">DateFilterTestCase</TestName>
+      <TestPath Type="System.String">DateFilterTestCase.tstest</TestPath>
+      <TestDescription Type="System.String">
+      </TestDescription>
+      <ProjectPath Type="System.String">
+      </ProjectPath>
+      <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+      <AutomationStepResults>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on GridViewTextblock</StepDescription>
+          <TestId Type="System.String">8cfb9e74-1509-450c-b143-e98c29d2d82c</TestId>
+          <TestName Type="System.String">DateFilterTestCase</TestName>
+          <TestPath Type="System.String">DateFilterTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">0</TestStepNumber>
+          <Order Type="System.Int32">1</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983131</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on IndustryTextblock</StepDescription>
+          <TestId Type="System.String">8cfb9e74-1509-450c-b143-e98c29d2d82c</TestId>
+          <TestName Type="System.String">DateFilterTestCase</TestName>
+          <TestPath Type="System.String">DateFilterTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">1</TestStepNumber>
+          <Order Type="System.Int32">2</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983132</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on Item24Textblock</StepDescription>
+          <TestId Type="System.String">8cfb9e74-1509-450c-b143-e98c29d2d82c</TestId>
+          <TestName Type="System.String">DateFilterTestCase</TestName>
+          <TestPath Type="System.String">DateFilterTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">2</TestStepNumber>
+          <Order Type="System.Int32">3</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983133</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on SmallNameTextblock3</StepDescription>
+          <TestId Type="System.String">8cfb9e74-1509-450c-b143-e98c29d2d82c</TestId>
+          <TestName Type="System.String">DateFilterTestCase</TestName>
+          <TestPath Type="System.String">DateFilterTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">3</TestStepNumber>
+          <Order Type="System.Int32">4</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983134</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click PARTAddFilterButtonRadbutton</StepDescription>
+          <TestId Type="System.String">8cfb9e74-1509-450c-b143-e98c29d2d82c</TestId>
+          <TestName Type="System.String">DateFilterTestCase</TestName>
+          <TestPath Type="System.String">DateFilterTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">4</TestStepNumber>
+          <Order Type="System.Int32">5</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235165</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on Item0Textboxview</StepDescription>
+          <TestId Type="System.String">8cfb9e74-1509-450c-b143-e98c29d2d82c</TestId>
+          <TestName Type="System.String">DateFilterTestCase</TestName>
+          <TestPath Type="System.String">DateFilterTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">5</TestStepNumber>
+          <Order Type="System.Int32">6</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983136</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Type '73' into Item0Textbox</StepDescription>
+          <TestId Type="System.String">8cfb9e74-1509-450c-b143-e98c29d2d82c</TestId>
+          <TestName Type="System.String">DateFilterTestCase</TestName>
+          <TestPath Type="System.String">DateFilterTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">6</TestStepNumber>
+          <Order Type="System.Int32">7</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">775450712</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click PARTToCompositeFilterButtonRadbutton</StepDescription>
+          <TestId Type="System.String">8cfb9e74-1509-450c-b143-e98c29d2d82c</TestId>
+          <TestName Type="System.String">DateFilterTestCase</TestName>
+          <TestPath Type="System.String">DateFilterTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">7</TestStepNumber>
+          <Order Type="System.Int32">8</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235162</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">radcombobox: drop down 'Open' action.</StepDescription>
+          <TestId Type="System.String">8cfb9e74-1509-450c-b143-e98c29d2d82c</TestId>
+          <TestName Type="System.String">DateFilterTestCase</TestName>
+          <TestPath Type="System.String">DateFilterTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">8</TestStepNumber>
+          <Order Type="System.Int32">9</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1752410775</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">radcombobox: selecting item 'Name'</StepDescription>
+          <TestId Type="System.String">8cfb9e74-1509-450c-b143-e98c29d2d82c</TestId>
+          <TestName Type="System.String">DateFilterTestCase</TestName>
+          <TestPath Type="System.String">DateFilterTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">9</TestStepNumber>
+          <Order Type="System.Int32">10</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">317018226</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on Item2Textboxview</StepDescription>
+          <TestId Type="System.String">8cfb9e74-1509-450c-b143-e98c29d2d82c</TestId>
+          <TestName Type="System.String">DateFilterTestCase</TestName>
+          <TestPath Type="System.String">DateFilterTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">10</TestStepNumber>
+          <Order Type="System.Int32">11</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983141</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Type 'Lamb soup' into Item2Textbox</StepDescription>
+          <TestId Type="System.String">8cfb9e74-1509-450c-b143-e98c29d2d82c</TestId>
+          <TestName Type="System.String">DateFilterTestCase</TestName>
+          <TestPath Type="System.String">DateFilterTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">11</TestStepNumber>
+          <Order Type="System.Int32">12</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">775450717</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on AndBorder</StepDescription>
+          <TestId Type="System.String">8cfb9e74-1509-450c-b143-e98c29d2d82c</TestId>
+          <TestName Type="System.String">DateFilterTestCase</TestName>
+          <TestPath Type="System.String">DateFilterTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">12</TestStepNumber>
+          <Order Type="System.Int32">13</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983143</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'DateTimePickerTextblock' text Same 'DataFilter'</StepDescription>
+          <TestId Type="System.String">8cfb9e74-1509-450c-b143-e98c29d2d82c</TestId>
+          <TestName Type="System.String">DateFilterTestCase</TestName>
+          <TestPath Type="System.String">DateFilterTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">13</TestStepNumber>
+          <Order Type="System.Int32">14</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1420807017</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+      </AutomationStepResults>
+      <NotRunStepDescriptions />
+      <PerStepMessages Type="System.String">Overall Result: Pass
+------------------------------------------------------------
+'26.6.2013 г. 1:53:42' - Using .Net Runtime version: '4.0.30319.18046' for test execution. Build version is '2012.2.1420.0'.
+'26.6.2013 г. 1:53:42' - Starting execution....
+------------------------------------------------------------
+------------------------------------------------------------
+'26.6.2013 г. 1:53:43' - Using 'C:\Users\Angel\AppData\Local\Apps\2.0\JYYNV9BC.AD2\CCMB18PJ.1E5\wpfd..tion_1dcf05cf98ac3011_07dd.0002_86a7363a5cb8bc77\WPF Demos.exe' application.
+'26.6.2013 г. 1:53:45' - 'Pass' : 1. LeftClick on GridViewTextblock
+'26.6.2013 г. 1:53:46' - 'Pass' : 2. LeftClick on IndustryTextblock
+'26.6.2013 г. 1:53:47' - 'Pass' : 3. LeftClick on Item24Textblock
+'26.6.2013 г. 1:53:49' - 'Pass' : 4. LeftClick on SmallNameTextblock3
+'26.6.2013 г. 1:53:56' - 'Pass' : 5. Click PARTAddFilterButtonRadbutton
+'26.6.2013 г. 1:53:58' - 'Pass' : 6. LeftClick on Item0Textboxview
+'26.6.2013 г. 1:54:00' - 'Pass' : 7. Type '73' into Item0Textbox
+'26.6.2013 г. 1:54:01' - 'Pass' : 8. Click PARTToCompositeFilterButtonRadbutton
+'26.6.2013 г. 1:54:03' - 'Pass' : 9. radcombobox: drop down 'Open' action.
+'26.6.2013 г. 1:54:05' - 'Pass' : 10. radcombobox: selecting item 'Name'
+'26.6.2013 г. 1:54:06' - 'Pass' : 11. LeftClick on Item2Textboxview
+'26.6.2013 г. 1:54:09' - 'Pass' : 12. Type 'Lamb soup' into Item2Textbox
+'26.6.2013 г. 1:54:10' - 'Pass' : 13. LeftClick on AndBorder
+'26.6.2013 г. 1:54:11' - 'Pass' : 14. Verify 'DateTimePickerTextblock' text Same 'DataFilter'
+------------------------------------------------------------
+'26.6.2013 г. 1:54:11' - Overall Result: Pass
+'26.6.2013 г. 1:54:11' - Duration: [0 min: 28 sec: 56 msec]
+------------------------------------------------------------
+'26.6.2013 г. 1:54:12' - Test completed!
+</PerStepMessages>
+      <TotalNumberOfPassedSteps Type="System.Int32">14</TotalNumberOfPassedSteps>
+      <ExecutingTestStepCount Type="System.Int32">14</ExecutingTestStepCount>
+      <TotalNumberOfNotRunSteps Type="System.Int32">0</TotalNumberOfNotRunSteps>
+      <IsDataDrivenResult Type="System.Boolean">False</IsDataDrivenResult>
+      <SeparatorLineCharCount Type="System.Int32">60</SeparatorLineCharCount>
+      <ExecutionType Type="ArtOfTest.Common.Design.ExecutionType">QuickExecution</ExecutionType>
+      <EndTime Type="System.DateTime">2013-06-25 22:54:11Z+8532822</EndTime>
+      <StarTime Type="System.DateTime">2013-06-25 22:53:43Z+7972144</StarTime>
+      <DataIterationResults />
+      <VersionGroupKey Type="System.String">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+      <__DataMembers />
+    </Item>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestResult" Version="2012.2.1420.0">
+      <TestId Type="System.String">9b16a1ee-cc85-4c5d-bec3-a850c647b29e</TestId>
+      <TestName Type="System.String">DateTimePickerInvalidDataTestCase</TestName>
+      <TestPath Type="System.String">DateTimePickerInvalidDataTestCase.tstest</TestPath>
+      <TestDescription Type="System.String">
+      </TestDescription>
+      <ProjectPath Type="System.String">
+      </ProjectPath>
+      <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+      <AutomationStepResults>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on GridViewTextblock</StepDescription>
+          <TestId Type="System.String">9b16a1ee-cc85-4c5d-bec3-a850c647b29e</TestId>
+          <TestName Type="System.String">DateTimePickerInvalidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerInvalidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">0</TestStepNumber>
+          <Order Type="System.Int32">1</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983131</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on IndustryTextblock</StepDescription>
+          <TestId Type="System.String">9b16a1ee-cc85-4c5d-bec3-a850c647b29e</TestId>
+          <TestName Type="System.String">DateTimePickerInvalidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerInvalidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">1</TestStepNumber>
+          <Order Type="System.Int32">2</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983132</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on Item24Textblock</StepDescription>
+          <TestId Type="System.String">9b16a1ee-cc85-4c5d-bec3-a850c647b29e</TestId>
+          <TestName Type="System.String">DateTimePickerInvalidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerInvalidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">2</TestStepNumber>
+          <Order Type="System.Int32">3</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983133</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on SmallNameTextblock1</StepDescription>
+          <TestId Type="System.String">9b16a1ee-cc85-4c5d-bec3-a850c647b29e</TestId>
+          <TestName Type="System.String">DateTimePickerInvalidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerInvalidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">3</TestStepNumber>
+          <Order Type="System.Int32">4</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983134</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'DateTimePickerTextblock' text Same 'DateTimePicker'</StepDescription>
+          <TestId Type="System.String">9b16a1ee-cc85-4c5d-bec3-a850c647b29e</TestId>
+          <TestName Type="System.String">DateTimePickerInvalidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerInvalidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">4</TestStepNumber>
+          <Order Type="System.Int32">5</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1420807026</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">raddatetimepicker: popup 'Open' action.</StepDescription>
+          <TestId Type="System.String">9b16a1ee-cc85-4c5d-bec3-a850c647b29e</TestId>
+          <TestName Type="System.String">DateTimePickerInvalidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerInvalidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">5</TestStepNumber>
+          <Order Type="System.Int32">6</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1731443781</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">calendarview: select '29' action.</StepDescription>
+          <TestId Type="System.String">9b16a1ee-cc85-4c5d-bec3-a850c647b29e</TestId>
+          <TestName Type="System.String">DateTimePickerInvalidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerInvalidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">6</TestStepNumber>
+          <Order Type="System.Int32">7</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">912362548</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">datetimepickerclock: select time '8:00'.</StepDescription>
+          <TestId Type="System.String">9b16a1ee-cc85-4c5d-bec3-a850c647b29e</TestId>
+          <TestName Type="System.String">DateTimePickerInvalidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerInvalidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">7</TestStepNumber>
+          <Order Type="System.Int32">8</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-348248315</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">raddatetimepicker: popup 'Close' action.</StepDescription>
+          <TestId Type="System.String">9b16a1ee-cc85-4c5d-bec3-a850c647b29e</TestId>
+          <TestName Type="System.String">DateTimePickerInvalidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerInvalidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">8</TestStepNumber>
+          <Order Type="System.Int32">9</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1731443784</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">raddatetimepicker: popup 'Open' action.</StepDescription>
+          <TestId Type="System.String">9b16a1ee-cc85-4c5d-bec3-a850c647b29e</TestId>
+          <TestName Type="System.String">DateTimePickerInvalidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerInvalidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">9</TestStepNumber>
+          <Order Type="System.Int32">10</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1731443785</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">calendarview: select '24' action.</StepDescription>
+          <TestId Type="System.String">9b16a1ee-cc85-4c5d-bec3-a850c647b29e</TestId>
+          <TestName Type="System.String">DateTimePickerInvalidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerInvalidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">10</TestStepNumber>
+          <Order Type="System.Int32">11</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">912362552</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">raddatetimepicker: popup 'Close' action.</StepDescription>
+          <TestId Type="System.String">9b16a1ee-cc85-4c5d-bec3-a850c647b29e</TestId>
+          <TestName Type="System.String">DateTimePickerInvalidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerInvalidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">11</TestStepNumber>
+          <Order Type="System.Int32">12</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1731443787</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">radcombobox: drop down 'Open' action.</StepDescription>
+          <TestId Type="System.String">9b16a1ee-cc85-4c5d-bec3-a850c647b29e</TestId>
+          <TestName Type="System.String">DateTimePickerInvalidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerInvalidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">12</TestStepNumber>
+          <Order Type="System.Int32">13</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1752410771</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">radcombobox: selecting item 'Selene Hall Theater style 80 ppl'</StepDescription>
+          <TestId Type="System.String">9b16a1ee-cc85-4c5d-bec3-a850c647b29e</TestId>
+          <TestName Type="System.String">DateTimePickerInvalidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerInvalidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">13</TestStepNumber>
+          <Order Type="System.Int32">14</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">317018230</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click BookNowRadbutton</StepDescription>
+          <TestId Type="System.String">9b16a1ee-cc85-4c5d-bec3-a850c647b29e</TestId>
+          <TestName Type="System.String">DateTimePickerInvalidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerInvalidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">14</TestStepNumber>
+          <Order Type="System.Int32">15</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235155</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'NoSelectionTextTextblock' text Same 'Please, enter check in and check out dates, and choose a hall to reserve it. The check in date should be before check out dates.'</StepDescription>
+          <TestId Type="System.String">9b16a1ee-cc85-4c5d-bec3-a850c647b29e</TestId>
+          <TestName Type="System.String">DateTimePickerInvalidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerInvalidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">15</TestStepNumber>
+          <Order Type="System.Int32">16</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1420807015</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+      </AutomationStepResults>
+      <NotRunStepDescriptions />
+      <PerStepMessages Type="System.String">Overall Result: Pass
+------------------------------------------------------------
+'26.6.2013 г. 1:54:12' - Using .Net Runtime version: '4.0.30319.18046' for test execution. Build version is '2012.2.1420.0'.
+'26.6.2013 г. 1:54:12' - Starting execution....
+------------------------------------------------------------
+------------------------------------------------------------
+'26.6.2013 г. 1:54:14' - Using 'C:\Users\Angel\AppData\Local\Apps\2.0\JYYNV9BC.AD2\CCMB18PJ.1E5\wpfd..tion_1dcf05cf98ac3011_07dd.0002_86a7363a5cb8bc77\WPF Demos.exe' application.
+'26.6.2013 г. 1:54:15' - 'Pass' : 1. LeftClick on GridViewTextblock
+'26.6.2013 г. 1:54:16' - 'Pass' : 2. LeftClick on IndustryTextblock
+'26.6.2013 г. 1:54:18' - 'Pass' : 3. LeftClick on Item24Textblock
+'26.6.2013 г. 1:54:19' - 'Pass' : 4. LeftClick on SmallNameTextblock1
+'26.6.2013 г. 1:54:25' - 'Pass' : 5. Verify 'DateTimePickerTextblock' text Same 'DateTimePicker'
+'26.6.2013 г. 1:54:27' - 'Pass' : 6. raddatetimepicker: popup 'Open' action.
+'26.6.2013 г. 1:54:29' - 'Pass' : 7. calendarview: select '29' action.
+'26.6.2013 г. 1:54:30' - 'Pass' : 8. datetimepickerclock: select time '8:00'.
+'26.6.2013 г. 1:54:32' - 'Pass' : 9. raddatetimepicker: popup 'Close' action.
+'26.6.2013 г. 1:54:34' - 'Pass' : 10. raddatetimepicker: popup 'Open' action.
+'26.6.2013 г. 1:54:35' - 'Pass' : 11. calendarview: select '24' action.
+'26.6.2013 г. 1:54:37' - 'Pass' : 12. raddatetimepicker: popup 'Close' action.
+'26.6.2013 г. 1:54:39' - 'Pass' : 13. radcombobox: drop down 'Open' action.
+'26.6.2013 г. 1:54:41' - 'Pass' : 14. radcombobox: selecting item 'Selene Hall Theater style 80 ppl'
+'26.6.2013 г. 1:54:42' - 'Pass' : 15. Click BookNowRadbutton
+'26.6.2013 г. 1:54:43' - 'Pass' : 16. Verify 'NoSelectionTextTextblock' text Same 'Please, enter check in and check out dates, and choose a hall to reserve it. The check in date should be before check out dates.'
+------------------------------------------------------------
+'26.6.2013 г. 1:54:43' - Overall Result: Pass
+'26.6.2013 г. 1:54:43' - Duration: [0 min: 29 sec: 574 msec]
+------------------------------------------------------------
+'26.6.2013 г. 1:54:44' - Test completed!
+</PerStepMessages>
+      <TotalNumberOfPassedSteps Type="System.Int32">16</TotalNumberOfPassedSteps>
+      <ExecutingTestStepCount Type="System.Int32">16</ExecutingTestStepCount>
+      <TotalNumberOfNotRunSteps Type="System.Int32">0</TotalNumberOfNotRunSteps>
+      <IsDataDrivenResult Type="System.Boolean">False</IsDataDrivenResult>
+      <SeparatorLineCharCount Type="System.Int32">60</SeparatorLineCharCount>
+      <ExecutionType Type="ArtOfTest.Common.Design.ExecutionType">QuickExecution</ExecutionType>
+      <EndTime Type="System.DateTime">2013-06-25 22:54:43Z+7988971</EndTime>
+      <StarTime Type="System.DateTime">2013-06-25 22:54:14Z+2242071</StarTime>
+      <DataIterationResults />
+      <VersionGroupKey Type="System.String">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+      <__DataMembers />
+    </Item>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestResult" Version="2012.2.1420.0">
+      <TestId Type="System.String">63b89b64-285c-4420-9acf-d3fc6f9d3dc4</TestId>
+      <TestName Type="System.String">DateTimePickerValidDataTestCase</TestName>
+      <TestPath Type="System.String">DateTimePickerValidDataTestCase.tstest</TestPath>
+      <TestDescription Type="System.String">
+      </TestDescription>
+      <ProjectPath Type="System.String">
+      </ProjectPath>
+      <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+      <AutomationStepResults>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on GridViewTextblock</StepDescription>
+          <TestId Type="System.String">63b89b64-285c-4420-9acf-d3fc6f9d3dc4</TestId>
+          <TestName Type="System.String">DateTimePickerValidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerValidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">0</TestStepNumber>
+          <Order Type="System.Int32">1</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983131</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on IndustryTextblock</StepDescription>
+          <TestId Type="System.String">63b89b64-285c-4420-9acf-d3fc6f9d3dc4</TestId>
+          <TestName Type="System.String">DateTimePickerValidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerValidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">1</TestStepNumber>
+          <Order Type="System.Int32">2</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983132</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on Item24Textblock</StepDescription>
+          <TestId Type="System.String">63b89b64-285c-4420-9acf-d3fc6f9d3dc4</TestId>
+          <TestName Type="System.String">DateTimePickerValidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerValidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">2</TestStepNumber>
+          <Order Type="System.Int32">3</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983133</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on SmallNameTextblock1</StepDescription>
+          <TestId Type="System.String">63b89b64-285c-4420-9acf-d3fc6f9d3dc4</TestId>
+          <TestName Type="System.String">DateTimePickerValidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerValidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">3</TestStepNumber>
+          <Order Type="System.Int32">4</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983134</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'DateTimePickerTextblock' text Same 'DateTimePicker'</StepDescription>
+          <TestId Type="System.String">63b89b64-285c-4420-9acf-d3fc6f9d3dc4</TestId>
+          <TestName Type="System.String">DateTimePickerValidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerValidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">4</TestStepNumber>
+          <Order Type="System.Int32">5</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1420807026</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">raddatetimepicker: popup 'Open' action.</StepDescription>
+          <TestId Type="System.String">63b89b64-285c-4420-9acf-d3fc6f9d3dc4</TestId>
+          <TestName Type="System.String">DateTimePickerValidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerValidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">5</TestStepNumber>
+          <Order Type="System.Int32">6</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1731443781</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">calendarview: select '29' action.</StepDescription>
+          <TestId Type="System.String">63b89b64-285c-4420-9acf-d3fc6f9d3dc4</TestId>
+          <TestName Type="System.String">DateTimePickerValidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerValidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">6</TestStepNumber>
+          <Order Type="System.Int32">7</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">912362548</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">datetimepickerclock: select time '8:00'.</StepDescription>
+          <TestId Type="System.String">63b89b64-285c-4420-9acf-d3fc6f9d3dc4</TestId>
+          <TestName Type="System.String">DateTimePickerValidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerValidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">7</TestStepNumber>
+          <Order Type="System.Int32">8</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-348248315</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">raddatetimepicker: popup 'Close' action.</StepDescription>
+          <TestId Type="System.String">63b89b64-285c-4420-9acf-d3fc6f9d3dc4</TestId>
+          <TestName Type="System.String">DateTimePickerValidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerValidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">8</TestStepNumber>
+          <Order Type="System.Int32">9</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1731443784</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">radwatermarktextbox: Type '30.6.2013 18:00' into PARTDateTimeInputRadwatermarktextbox</StepDescription>
+          <TestId Type="System.String">63b89b64-285c-4420-9acf-d3fc6f9d3dc4</TestId>
+          <TestName Type="System.String">DateTimePickerValidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerValidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">9</TestStepNumber>
+          <Order Type="System.Int32">10</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1781364329</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">radcombobox: drop down 'Open' action.</StepDescription>
+          <TestId Type="System.String">63b89b64-285c-4420-9acf-d3fc6f9d3dc4</TestId>
+          <TestName Type="System.String">DateTimePickerValidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerValidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">10</TestStepNumber>
+          <Order Type="System.Int32">11</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1752410773</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">radcombobox: selecting item 'Selene Hall Theater style 80 ppl'</StepDescription>
+          <TestId Type="System.String">63b89b64-285c-4420-9acf-d3fc6f9d3dc4</TestId>
+          <TestName Type="System.String">DateTimePickerValidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerValidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">11</TestStepNumber>
+          <Order Type="System.Int32">12</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">317018228</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click BookNowRadbutton</StepDescription>
+          <TestId Type="System.String">63b89b64-285c-4420-9acf-d3fc6f9d3dc4</TestId>
+          <TestName Type="System.String">DateTimePickerValidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerValidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">12</TestStepNumber>
+          <Order Type="System.Int32">13</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235157</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'SeleneHallTextblock' text Same 'Selene Hall'</StepDescription>
+          <TestId Type="System.String">63b89b64-285c-4420-9acf-d3fc6f9d3dc4</TestId>
+          <TestName Type="System.String">DateTimePickerValidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerValidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">13</TestStepNumber>
+          <Order Type="System.Int32">14</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1420807017</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'x29Jun0800AMTextblock' text Same '29 Jun 08:00 AM'</StepDescription>
+          <TestId Type="System.String">63b89b64-285c-4420-9acf-d3fc6f9d3dc4</TestId>
+          <TestName Type="System.String">DateTimePickerValidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerValidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">14</TestStepNumber>
+          <Order Type="System.Int32">15</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1420807016</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify Exists 'EndConferenceTextBox'</StepDescription>
+          <TestId Type="System.String">63b89b64-285c-4420-9acf-d3fc6f9d3dc4</TestId>
+          <TestName Type="System.String">DateTimePickerValidDataTestCase</TestName>
+          <TestPath Type="System.String">DateTimePickerValidDataTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">15</TestStepNumber>
+          <Order Type="System.Int32">16</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-898084775</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+      </AutomationStepResults>
+      <NotRunStepDescriptions />
+      <PerStepMessages Type="System.String">Overall Result: Pass
+------------------------------------------------------------
+'26.6.2013 г. 1:54:44' - Using .Net Runtime version: '4.0.30319.18046' for test execution. Build version is '2012.2.1420.0'.
+'26.6.2013 г. 1:54:44' - Starting execution....
+------------------------------------------------------------
+------------------------------------------------------------
+'26.6.2013 г. 1:54:46' - Using 'C:\Users\Angel\AppData\Local\Apps\2.0\JYYNV9BC.AD2\CCMB18PJ.1E5\wpfd..tion_1dcf05cf98ac3011_07dd.0002_86a7363a5cb8bc77\WPF Demos.exe' application.
+'26.6.2013 г. 1:54:47' - 'Pass' : 1. LeftClick on GridViewTextblock
+'26.6.2013 г. 1:54:49' - 'Pass' : 2. LeftClick on IndustryTextblock
+'26.6.2013 г. 1:54:50' - 'Pass' : 3. LeftClick on Item24Textblock
+'26.6.2013 г. 1:54:51' - 'Pass' : 4. LeftClick on SmallNameTextblock1
+'26.6.2013 г. 1:54:57' - 'Pass' : 5. Verify 'DateTimePickerTextblock' text Same 'DateTimePicker'
+'26.6.2013 г. 1:54:59' - 'Pass' : 6. raddatetimepicker: popup 'Open' action.
+'26.6.2013 г. 1:55:00' - 'Pass' : 7. calendarview: select '29' action.
+'26.6.2013 г. 1:55:02' - 'Pass' : 8. datetimepickerclock: select time '8:00'.
+'26.6.2013 г. 1:55:03' - 'Pass' : 9. raddatetimepicker: popup 'Close' action.
+'26.6.2013 г. 1:55:06' - 'Pass' : 10. radwatermarktextbox: Type '30.6.2013 18:00' into PARTDateTimeInputRadwatermarktextbox
+'26.6.2013 г. 1:55:08' - 'Pass' : 11. radcombobox: drop down 'Open' action.
+'26.6.2013 г. 1:55:10' - 'Pass' : 12. radcombobox: selecting item 'Selene Hall Theater style 80 ppl'
+'26.6.2013 г. 1:55:11' - 'Pass' : 13. Click BookNowRadbutton
+'26.6.2013 г. 1:55:13' - 'Pass' : 14. Verify 'SeleneHallTextblock' text Same 'Selene Hall'
+'26.6.2013 г. 1:55:14' - 'Pass' : 15. Verify 'x29Jun0800AMTextblock' text Same '29 Jun 08:00 AM'
+'26.6.2013 г. 1:55:14' - 'Pass' : 16. Verify Exists 'EndConferenceTextBox'
+------------------------------------------------------------
+'26.6.2013 г. 1:55:14' - Overall Result: Pass
+'26.6.2013 г. 1:55:14' - Duration: [0 min: 28 sec: 69 msec]
+------------------------------------------------------------
+'26.6.2013 г. 1:55:14' - Test completed!
+</PerStepMessages>
+      <TotalNumberOfPassedSteps Type="System.Int32">16</TotalNumberOfPassedSteps>
+      <ExecutingTestStepCount Type="System.Int32">16</ExecutingTestStepCount>
+      <TotalNumberOfNotRunSteps Type="System.Int32">0</TotalNumberOfNotRunSteps>
+      <IsDataDrivenResult Type="System.Boolean">False</IsDataDrivenResult>
+      <SeparatorLineCharCount Type="System.Int32">60</SeparatorLineCharCount>
+      <ExecutionType Type="ArtOfTest.Common.Design.ExecutionType">QuickExecution</ExecutionType>
+      <EndTime Type="System.DateTime">2013-06-25 22:55:14Z+4089036</EndTime>
+      <StarTime Type="System.DateTime">2013-06-25 22:54:46Z+3389847</StarTime>
+      <DataIterationResults />
+      <VersionGroupKey Type="System.String">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+      <__DataMembers />
+    </Item>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestResult" Version="2012.2.1420.0">
+      <TestId Type="System.String">d81bb1bd-c035-4d76-8476-8dd5866a601e</TestId>
+      <TestName Type="System.String">DragAndDropTestCase</TestName>
+      <TestPath Type="System.String">DragAndDropTestCase.tstest</TestPath>
+      <TestDescription Type="System.String">
+      </TestDescription>
+      <ProjectPath Type="System.String">
+      </ProjectPath>
+      <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+      <AutomationStepResults>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on GridViewTextblock</StepDescription>
+          <TestId Type="System.String">d81bb1bd-c035-4d76-8476-8dd5866a601e</TestId>
+          <TestName Type="System.String">DragAndDropTestCase</TestName>
+          <TestPath Type="System.String">DragAndDropTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">0</TestStepNumber>
+          <Order Type="System.Int32">1</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983131</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on IndustryTextblock</StepDescription>
+          <TestId Type="System.String">d81bb1bd-c035-4d76-8476-8dd5866a601e</TestId>
+          <TestName Type="System.String">DragAndDropTestCase</TestName>
+          <TestPath Type="System.String">DragAndDropTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">1</TestStepNumber>
+          <Order Type="System.Int32">2</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983132</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on Item24Textblock</StepDescription>
+          <TestId Type="System.String">d81bb1bd-c035-4d76-8476-8dd5866a601e</TestId>
+          <TestName Type="System.String">DragAndDropTestCase</TestName>
+          <TestPath Type="System.String">DragAndDropTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">2</TestStepNumber>
+          <Order Type="System.Int32">3</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983133</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on SmallNameTextblock2</StepDescription>
+          <TestId Type="System.String">d81bb1bd-c035-4d76-8476-8dd5866a601e</TestId>
+          <TestName Type="System.String">DragAndDropTestCase</TestName>
+          <TestPath Type="System.String">DragAndDropTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">3</TestStepNumber>
+          <Order Type="System.Int32">4</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983134</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'DateTimePickerTextblock' text Same 'DragAndDrop'</StepDescription>
+          <TestId Type="System.String">d81bb1bd-c035-4d76-8476-8dd5866a601e</TestId>
+          <TestName Type="System.String">DragAndDropTestCase</TestName>
+          <TestPath Type="System.String">DragAndDropTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">4</TestStepNumber>
+          <Order Type="System.Int32">5</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1420807026</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify image of 'LargeColliderListboxitem'. Allow 1% error tolerance.</StepDescription>
+          <TestId Type="System.String">d81bb1bd-c035-4d76-8476-8dd5866a601e</TestId>
+          <TestName Type="System.String">DragAndDropTestCase</TestName>
+          <TestPath Type="System.String">DragAndDropTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">5</TestStepNumber>
+          <Order Type="System.Int32">6</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1407773901</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Drag LargeColliderListboxitem to application at (1031, 286) from TopLeftCorner</StepDescription>
+          <TestId Type="System.String">d81bb1bd-c035-4d76-8476-8dd5866a601e</TestId>
+          <TestName Type="System.String">DragAndDropTestCase</TestName>
+          <TestPath Type="System.String">DragAndDropTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">6</TestStepNumber>
+          <Order Type="System.Int32">7</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-2089790189</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify LargeColliderListboxitem0 is Enabled.</StepDescription>
+          <TestId Type="System.String">d81bb1bd-c035-4d76-8476-8dd5866a601e</TestId>
+          <TestName Type="System.String">DragAndDropTestCase</TestName>
+          <TestPath Type="System.String">DragAndDropTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">7</TestStepNumber>
+          <Order Type="System.Int32">8</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">555440875</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'LargeColliderTextblock' text Same 'Large Collider'</StepDescription>
+          <TestId Type="System.String">d81bb1bd-c035-4d76-8476-8dd5866a601e</TestId>
+          <TestName Type="System.String">DragAndDropTestCase</TestName>
+          <TestPath Type="System.String">DragAndDropTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">8</TestStepNumber>
+          <Order Type="System.Int32">9</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1420807022</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+      </AutomationStepResults>
+      <NotRunStepDescriptions />
+      <PerStepMessages Type="System.String">Overall Result: Pass
+------------------------------------------------------------
+'26.6.2013 г. 1:55:15' - Using .Net Runtime version: '4.0.30319.18046' for test execution. Build version is '2012.2.1420.0'.
+'26.6.2013 г. 1:55:15' - Starting execution....
+------------------------------------------------------------
+------------------------------------------------------------
+'26.6.2013 г. 1:55:16' - Using 'C:\Users\Angel\AppData\Local\Apps\2.0\JYYNV9BC.AD2\CCMB18PJ.1E5\wpfd..tion_1dcf05cf98ac3011_07dd.0002_86a7363a5cb8bc77\WPF Demos.exe' application.
+'26.6.2013 г. 1:55:18' - 'Pass' : 1. LeftClick on GridViewTextblock
+'26.6.2013 г. 1:55:19' - 'Pass' : 2. LeftClick on IndustryTextblock
+'26.6.2013 г. 1:55:20' - 'Pass' : 3. LeftClick on Item24Textblock
+'26.6.2013 г. 1:55:22' - 'Pass' : 4. LeftClick on SmallNameTextblock2
+'26.6.2013 г. 1:55:27' - 'Pass' : 5. Verify 'DateTimePickerTextblock' text Same 'DragAndDrop'
+'26.6.2013 г. 1:55:27' - 'Pass' : 6. Verify image of 'LargeColliderListboxitem'. Allow 1% error tolerance.
+'26.6.2013 г. 1:55:30' - 'Pass' : 7. Drag LargeColliderListboxitem to application at (1031, 286) from TopLeftCorner
+'26.6.2013 г. 1:55:32' - 'Pass' : 8. Verify LargeColliderListboxitem0 is Enabled.
+'26.6.2013 г. 1:55:33' - 'Pass' : 9. Verify 'LargeColliderTextblock' text Same 'Large Collider'
+------------------------------------------------------------
+'26.6.2013 г. 1:55:33' - Overall Result: Pass
+'26.6.2013 г. 1:55:33' - Duration: [0 min: 16 sec: 569 msec]
+------------------------------------------------------------
+'26.6.2013 г. 1:55:33' - Test completed!
+</PerStepMessages>
+      <TotalNumberOfPassedSteps Type="System.Int32">9</TotalNumberOfPassedSteps>
+      <ExecutingTestStepCount Type="System.Int32">9</ExecutingTestStepCount>
+      <TotalNumberOfNotRunSteps Type="System.Int32">0</TotalNumberOfNotRunSteps>
+      <IsDataDrivenResult Type="System.Boolean">False</IsDataDrivenResult>
+      <SeparatorLineCharCount Type="System.Int32">60</SeparatorLineCharCount>
+      <ExecutionType Type="ArtOfTest.Common.Design.ExecutionType">QuickExecution</ExecutionType>
+      <EndTime Type="System.DateTime">2013-06-25 22:55:33Z+3507365</EndTime>
+      <StarTime Type="System.DateTime">2013-06-25 22:55:16Z+7811197</StarTime>
+      <DataIterationResults />
+      <VersionGroupKey Type="System.String">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+      <__DataMembers />
+    </Item>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestResult" Version="2012.2.1420.0">
+      <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+      <TestName Type="System.String">GridViewTestCase</TestName>
+      <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+      <TestDescription Type="System.String">
+      </TestDescription>
+      <ProjectPath Type="System.String">
+      </ProjectPath>
+      <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+      <AutomationStepResults>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on GridViewTextblock</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">0</TestStepNumber>
+          <Order Type="System.Int32">1</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983131</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on IndustryTextblock</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">1</TestStepNumber>
+          <Order Type="System.Int32">2</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983132</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on GridViewTextblock</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">2</TestStepNumber>
+          <Order Type="System.Int32">3</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983133</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on CellElement20Gridviewtogglebutton</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">3</TestStepNumber>
+          <Order Type="System.Int32">4</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983134</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'LeverlingTextblock0' text Same 'Leverling'</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">4</TestStepNumber>
+          <Order Type="System.Int32">5</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1420807026</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'JanetTextblock' text Same 'Janet'</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">5</TestStepNumber>
+          <Order Type="System.Int32">6</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1420807025</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'SalesTextblock' text Same 'Sales Representative'</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">6</TestStepNumber>
+          <Order Type="System.Int32">7</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1420807024</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'x722MossBayTextblock' text Same '722 Moss Bay Blvd.'</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">7</TestStepNumber>
+          <Order Type="System.Int32">8</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1420807023</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'x98033Textblock' text Same '98033'</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">8</TestStepNumber>
+          <Order Type="System.Int32">9</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1420807022</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'KirklandTextblock' text Same 'Kirkland'</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">9</TestStepNumber>
+          <Order Type="System.Int32">10</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1420807021</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'x2065553412Textblock' text Same '(206) 555-3412'</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">10</TestStepNumber>
+          <Order Type="System.Int32">11</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1420807020</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on Item1Gridviewtogglebutton</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">11</TestStepNumber>
+          <Order Type="System.Int32">12</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983142</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on Item1Gridviewtogglebutton</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">12</TestStepNumber>
+          <Order Type="System.Int32">13</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983143</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on CellElement20Gridviewtogglebutton</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">13</TestStepNumber>
+          <Order Type="System.Int32">14</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983144</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify image of 'Item0Image'. Allow 1% error tolerance.</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">14</TestStepNumber>
+          <Order Type="System.Int32">15</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1407773910</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on PARTCellBorderBorder</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">15</TestStepNumber>
+          <Order Type="System.Int32">16</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983146</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify image of 'Item65Gridviewcell'. Allow 1% error tolerance.</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">16</TestStepNumber>
+          <Order Type="System.Int32">17</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1407773912</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click PARTDropDownButtonButton</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">17</TestStepNumber>
+          <Order Type="System.Int32">18</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235152</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click on AndrewCheckbox</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">18</TestStepNumber>
+          <Order Type="System.Int32">19</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1135332072</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click on AnneCheckbox</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">19</TestStepNumber>
+          <Order Type="System.Int32">20</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1135332071</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click on JanetCheckbox</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">20</TestStepNumber>
+          <Order Type="System.Int32">21</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1135332070</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click on LauraCheckbox</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">21</TestStepNumber>
+          <Order Type="System.Int32">22</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1135332069</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click on MargaretCheckbox</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">22</TestStepNumber>
+          <Order Type="System.Int32">23</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1135332068</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click PARTApplyFilterButtonButton</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">23</TestStepNumber>
+          <Order Type="System.Int32">24</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235146</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click PARTFilterCloseButtonRadbutton</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">24</TestStepNumber>
+          <Order Type="System.Int32">25</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235145</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on FullerTextblock</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">25</TestStepNumber>
+          <Order Type="System.Int32">26</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983156</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on PARTCellBorderBorder0</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">26</TestStepNumber>
+          <Order Type="System.Int32">27</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983157</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">gridviewheadercell: sort column at index '2'.</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">27</TestStepNumber>
+          <Order Type="System.Int32">28</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-973408336</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify image of 'Item0Image'. Allow 1% error tolerance.</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">28</TestStepNumber>
+          <Order Type="System.Int32">29</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1407773924</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on CellElement42Textblock</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">29</TestStepNumber>
+          <Order Type="System.Int32">30</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983160</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify image of 'CellElement41Image'. Allow 1% error tolerance.</StepDescription>
+          <TestId Type="System.String">aa419b25-32b5-448a-93c6-67ec729aebcf</TestId>
+          <TestName Type="System.String">GridViewTestCase</TestName>
+          <TestPath Type="System.String">GridViewTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">30</TestStepNumber>
+          <Order Type="System.Int32">31</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1407773926</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+      </AutomationStepResults>
+      <NotRunStepDescriptions />
+      <PerStepMessages Type="System.String">Overall Result: Pass
+------------------------------------------------------------
+'26.6.2013 г. 1:55:34' - Using .Net Runtime version: '4.0.30319.18046' for test execution. Build version is '2012.2.1420.0'.
+'26.6.2013 г. 1:55:34' - Starting execution....
+'26.6.2013 г. 1:55:35' - Detected custom code in test. Locating test assembly: WPFHomeWork.dll.
+'26.6.2013 г. 1:55:35' - Assembly Found: C:\Users\Angel\Desktop\QA Academy\QA Part - II\Homework\TestStudio - Desktop and Mobile Testing\WPFHomeWork\bin\WPFHomeWork.dll
+'26.6.2013 г. 1:55:35' - Loading code class: 'WPFHomeWork.GridViewTestCase'.
+------------------------------------------------------------
+------------------------------------------------------------
+'26.6.2013 г. 1:55:35' - Using 'C:\Users\Angel\AppData\Local\Apps\2.0\JYYNV9BC.AD2\CCMB18PJ.1E5\wpfd..tion_1dcf05cf98ac3011_07dd.0002_86a7363a5cb8bc77\WPF Demos.exe' application.
+'26.6.2013 г. 1:55:37' - 'Pass' : 1. LeftClick on GridViewTextblock
+'26.6.2013 г. 1:55:38' - 'Pass' : 2. LeftClick on IndustryTextblock
+'26.6.2013 г. 1:55:40' - 'Pass' : 3. LeftClick on GridViewTextblock
+'26.6.2013 г. 1:55:47' - 'Pass' : 4. LeftClick on CellElement20Gridviewtogglebutton
+'26.6.2013 г. 1:55:49' - 'Pass' : 5. Verify 'LeverlingTextblock0' text Same 'Leverling'
+'26.6.2013 г. 1:55:50' - 'Pass' : 6. Verify 'JanetTextblock' text Same 'Janet'
+'26.6.2013 г. 1:55:51' - 'Pass' : 7. Verify 'SalesTextblock' text Same 'Sales Representative'
+'26.6.2013 г. 1:55:53' - 'Pass' : 8. Verify 'x722MossBayTextblock' text Same '722 Moss Bay Blvd.'
+'26.6.2013 г. 1:55:54' - 'Pass' : 9. Verify 'x98033Textblock' text Same '98033'
+'26.6.2013 г. 1:55:55' - 'Pass' : 10. Verify 'KirklandTextblock' text Same 'Kirkland'
+'26.6.2013 г. 1:55:57' - 'Pass' : 11. Verify 'x2065553412Textblock' text Same '(206) 555-3412'
+'26.6.2013 г. 1:55:58' - 'Pass' : 12. LeftClick on Item1Gridviewtogglebutton
+'26.6.2013 г. 1:55:59' - 'Pass' : 13. LeftClick on Item1Gridviewtogglebutton
+'26.6.2013 г. 1:56:01' - 'Pass' : 14. LeftClick on CellElement20Gridviewtogglebutton
+'26.6.2013 г. 1:56:01' - 'Pass' : 15. Verify image of 'Item0Image'. Allow 1% error tolerance.
+'26.6.2013 г. 1:56:03' - 'Pass' : 16. LeftClick on PARTCellBorderBorder
+'26.6.2013 г. 1:56:03' - 'Pass' : 17. Verify image of 'Item65Gridviewcell'. Allow 1% error tolerance.
+'26.6.2013 г. 1:56:05' - 'Pass' : 18. Click PARTDropDownButtonButton
+'26.6.2013 г. 1:56:08' - 'Pass' : 19. Click on AndrewCheckbox
+'26.6.2013 г. 1:56:11' - 'Pass' : 20. Click on AnneCheckbox
+'26.6.2013 г. 1:56:14' - 'Pass' : 21. Click on JanetCheckbox
+'26.6.2013 г. 1:56:17' - 'Pass' : 22. Click on LauraCheckbox
+'26.6.2013 г. 1:56:20' - 'Pass' : 23. Click on MargaretCheckbox
+'26.6.2013 г. 1:56:22' - 'Pass' : 24. Click PARTApplyFilterButtonButton
+'26.6.2013 г. 1:56:23' - 'Pass' : 25. Click PARTFilterCloseButtonRadbutton
+'26.6.2013 г. 1:56:25' - 'Pass' : 26. LeftClick on FullerTextblock
+'26.6.2013 г. 1:56:26' - 'Pass' : 27. LeftClick on PARTCellBorderBorder0
+'26.6.2013 г. 1:56:28' - 'Pass' : 28. gridviewheadercell: sort column at index '2'.
+'26.6.2013 г. 1:56:29' - 'Pass' : 29. Verify image of 'Item0Image'. Allow 1% error tolerance.
+'26.6.2013 г. 1:56:30' - 'Pass' : 30. LeftClick on CellElement42Textblock
+'26.6.2013 г. 1:56:31' - 'Pass' : 31. Verify image of 'CellElement41Image'. Allow 1% error tolerance.
+------------------------------------------------------------
+'26.6.2013 г. 1:56:31' - Overall Result: Pass
+'26.6.2013 г. 1:56:31' - Duration: [0 min: 55 sec: 346 msec]
+------------------------------------------------------------
+'26.6.2013 г. 1:56:31' - Test completed!
+</PerStepMessages>
+      <TotalNumberOfPassedSteps Type="System.Int32">31</TotalNumberOfPassedSteps>
+      <ExecutingTestStepCount Type="System.Int32">31</ExecutingTestStepCount>
+      <TotalNumberOfNotRunSteps Type="System.Int32">0</TotalNumberOfNotRunSteps>
+      <IsDataDrivenResult Type="System.Boolean">False</IsDataDrivenResult>
+      <SeparatorLineCharCount Type="System.Int32">60</SeparatorLineCharCount>
+      <ExecutionType Type="ArtOfTest.Common.Design.ExecutionType">QuickExecution</ExecutionType>
+      <EndTime Type="System.DateTime">2013-06-25 22:56:31Z+0083562</EndTime>
+      <StarTime Type="System.DateTime">2013-06-25 22:55:35Z+6614025</StarTime>
+      <DataIterationResults />
+      <VersionGroupKey Type="System.String">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+      <__DataMembers />
+    </Item>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestResult" Version="2012.2.1420.0">
+      <TestId Type="System.String">af21fbcf-2a5f-4de7-8e22-1501364387d2</TestId>
+      <TestName Type="System.String">DateFormTestCase</TestName>
+      <TestPath Type="System.String">DateFormTestCase.tstest</TestPath>
+      <TestDescription Type="System.String">
+      </TestDescription>
+      <ProjectPath Type="System.String">
+      </ProjectPath>
+      <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+      <AutomationStepResults>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on GridViewTextblock</StepDescription>
+          <TestId Type="System.String">af21fbcf-2a5f-4de7-8e22-1501364387d2</TestId>
+          <TestName Type="System.String">DateFormTestCase</TestName>
+          <TestPath Type="System.String">DateFormTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">0</TestStepNumber>
+          <Order Type="System.Int32">1</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983131</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on IndustryTextblock</StepDescription>
+          <TestId Type="System.String">af21fbcf-2a5f-4de7-8e22-1501364387d2</TestId>
+          <TestName Type="System.String">DateFormTestCase</TestName>
+          <TestPath Type="System.String">DateFormTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">1</TestStepNumber>
+          <Order Type="System.Int32">2</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983132</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on Item24Textblock</StepDescription>
+          <TestId Type="System.String">af21fbcf-2a5f-4de7-8e22-1501364387d2</TestId>
+          <TestName Type="System.String">DateFormTestCase</TestName>
+          <TestPath Type="System.String">DateFormTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">2</TestStepNumber>
+          <Order Type="System.Int32">3</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983133</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on SmallNameTextblock4</StepDescription>
+          <TestId Type="System.String">af21fbcf-2a5f-4de7-8e22-1501364387d2</TestId>
+          <TestName Type="System.String">DateFormTestCase</TestName>
+          <TestPath Type="System.String">DateFormTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">3</TestStepNumber>
+          <Order Type="System.Int32">4</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983134</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'DateTimePickerTextblock' text Same 'DataForm'</StepDescription>
+          <TestId Type="System.String">af21fbcf-2a5f-4de7-8e22-1501364387d2</TestId>
+          <TestName Type="System.String">DateFormTestCase</TestName>
+          <TestPath Type="System.String">DateFormTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">4</TestStepNumber>
+          <Order Type="System.Int32">5</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1420807026</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Desktop command: LeftClick on MoveLastButton</StepDescription>
+          <TestId Type="System.String">af21fbcf-2a5f-4de7-8e22-1501364387d2</TestId>
+          <TestName Type="System.String">DateFormTestCase</TestName>
+          <TestPath Type="System.String">DateFormTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">5</TestStepNumber>
+          <Order Type="System.Int32">6</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">737168330</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Desktop command: LeftClick on AddNewEmployeeRadbutton</StepDescription>
+          <TestId Type="System.String">af21fbcf-2a5f-4de7-8e22-1501364387d2</TestId>
+          <TestName Type="System.String">DateFormTestCase</TestName>
+          <TestPath Type="System.String">DateFormTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">6</TestStepNumber>
+          <Order Type="System.Int32">7</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">737168331</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on Item0Textboxview0</StepDescription>
+          <TestId Type="System.String">af21fbcf-2a5f-4de7-8e22-1501364387d2</TestId>
+          <TestName Type="System.String">DateFormTestCase</TestName>
+          <TestPath Type="System.String">DateFormTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">7</TestStepNumber>
+          <Order Type="System.Int32">8</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983138</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Type 'qa' into Item0Textbox0</StepDescription>
+          <TestId Type="System.String">af21fbcf-2a5f-4de7-8e22-1501364387d2</TestId>
+          <TestName Type="System.String">DateFormTestCase</TestName>
+          <TestPath Type="System.String">DateFormTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">8</TestStepNumber>
+          <Order Type="System.Int32">9</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">775450714</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on Item1Textboxview</StepDescription>
+          <TestId Type="System.String">af21fbcf-2a5f-4de7-8e22-1501364387d2</TestId>
+          <TestName Type="System.String">DateFormTestCase</TestName>
+          <TestPath Type="System.String">DateFormTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">9</TestStepNumber>
+          <Order Type="System.Int32">10</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983140</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Type 'wannabe' into Item1Textbox</StepDescription>
+          <TestId Type="System.String">af21fbcf-2a5f-4de7-8e22-1501364387d2</TestId>
+          <TestName Type="System.String">DateFormTestCase</TestName>
+          <TestPath Type="System.String">DateFormTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">10</TestStepNumber>
+          <Order Type="System.Int32">11</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">775450716</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">radcombobox: drop down 'Open' action.</StepDescription>
+          <TestId Type="System.String">af21fbcf-2a5f-4de7-8e22-1501364387d2</TestId>
+          <TestName Type="System.String">DateFormTestCase</TestName>
+          <TestPath Type="System.String">DateFormTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">11</TestStepNumber>
+          <Order Type="System.Int32">12</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1752410772</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">radcombobox: selecting item 'Security'</StepDescription>
+          <TestId Type="System.String">af21fbcf-2a5f-4de7-8e22-1501364387d2</TestId>
+          <TestName Type="System.String">DateFormTestCase</TestName>
+          <TestPath Type="System.String">DateFormTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">12</TestStepNumber>
+          <Order Type="System.Int32">13</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">317018229</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftDoubleClick on Item2Textboxview0</StepDescription>
+          <TestId Type="System.String">af21fbcf-2a5f-4de7-8e22-1501364387d2</TestId>
+          <TestName Type="System.String">DateFormTestCase</TestName>
+          <TestPath Type="System.String">DateFormTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">13</TestStepNumber>
+          <Order Type="System.Int32">14</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983144</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">radwatermarktextbox: Type '05.09.2013' into PARTDateTimeInputRadwatermarktextbox0</StepDescription>
+          <TestId Type="System.String">af21fbcf-2a5f-4de7-8e22-1501364387d2</TestId>
+          <TestName Type="System.String">DateFormTestCase</TestName>
+          <TestPath Type="System.String">DateFormTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">14</TestStepNumber>
+          <Order Type="System.Int32">15</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1781364334</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on Item3Textboxview</StepDescription>
+          <TestId Type="System.String">af21fbcf-2a5f-4de7-8e22-1501364387d2</TestId>
+          <TestName Type="System.String">DateFormTestCase</TestName>
+          <TestPath Type="System.String">DateFormTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">15</TestStepNumber>
+          <Order Type="System.Int32">16</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983146</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Type '11223344' into Item2Textbox0</StepDescription>
+          <TestId Type="System.String">af21fbcf-2a5f-4de7-8e22-1501364387d2</TestId>
+          <TestName Type="System.String">DateFormTestCase</TestName>
+          <TestPath Type="System.String">DateFormTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">16</TestStepNumber>
+          <Order Type="System.Int32">17</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">775450722</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on Item4Textboxview</StepDescription>
+          <TestId Type="System.String">af21fbcf-2a5f-4de7-8e22-1501364387d2</TestId>
+          <TestName Type="System.String">DateFormTestCase</TestName>
+          <TestPath Type="System.String">DateFormTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">17</TestStepNumber>
+          <Order Type="System.Int32">18</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983148</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Press Back</StepDescription>
+          <TestId Type="System.String">af21fbcf-2a5f-4de7-8e22-1501364387d2</TestId>
+          <TestName Type="System.String">DateFormTestCase</TestName>
+          <TestPath Type="System.String">DateFormTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">18</TestStepNumber>
+          <Order Type="System.Int32">19</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">325740503</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Type '2000' into Item3Textbox</StepDescription>
+          <TestId Type="System.String">af21fbcf-2a5f-4de7-8e22-1501364387d2</TestId>
+          <TestName Type="System.String">DateFormTestCase</TestName>
+          <TestPath Type="System.String">DateFormTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">19</TestStepNumber>
+          <Order Type="System.Int32">20</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">775450725</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click PARTCommitButtonRadbutton</StepDescription>
+          <TestId Type="System.String">af21fbcf-2a5f-4de7-8e22-1501364387d2</TestId>
+          <TestName Type="System.String">DateFormTestCase</TestName>
+          <TestPath Type="System.String">DateFormTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">20</TestStepNumber>
+          <Order Type="System.Int32">21</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235149</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify Item0Textbox0's text content Same 'qa'</StepDescription>
+          <TestId Type="System.String">af21fbcf-2a5f-4de7-8e22-1501364387d2</TestId>
+          <TestName Type="System.String">DateFormTestCase</TestName>
+          <TestPath Type="System.String">DateFormTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">21</TestStepNumber>
+          <Order Type="System.Int32">22</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">123957467</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify Item1Textbox's text content Same 'wannabe'</StepDescription>
+          <TestId Type="System.String">af21fbcf-2a5f-4de7-8e22-1501364387d2</TestId>
+          <TestName Type="System.String">DateFormTestCase</TestName>
+          <TestPath Type="System.String">DateFormTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">22</TestStepNumber>
+          <Order Type="System.Int32">23</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">123957468</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Desktop command: LeftClick on DeleteRadbutton</StepDescription>
+          <TestId Type="System.String">af21fbcf-2a5f-4de7-8e22-1501364387d2</TestId>
+          <TestName Type="System.String">DateFormTestCase</TestName>
+          <TestPath Type="System.String">DateFormTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">23</TestStepNumber>
+          <Order Type="System.Int32">24</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">737168348</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify MoveLastButton.IsEnabled 'Equal' 'False'</StepDescription>
+          <TestId Type="System.String">af21fbcf-2a5f-4de7-8e22-1501364387d2</TestId>
+          <TestName Type="System.String">DateFormTestCase</TestName>
+          <TestPath Type="System.String">DateFormTestCase.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">24</TestStepNumber>
+          <Order Type="System.Int32">25</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">969114955</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+      </AutomationStepResults>
+      <NotRunStepDescriptions />
+      <PerStepMessages Type="System.String">Overall Result: Pass
+------------------------------------------------------------
+'26.6.2013 г. 1:56:31' - Using .Net Runtime version: '4.0.30319.18046' for test execution. Build version is '2012.2.1420.0'.
+'26.6.2013 г. 1:56:31' - Starting execution....
+------------------------------------------------------------
+------------------------------------------------------------
+'26.6.2013 г. 1:56:33' - Using 'C:\Users\Angel\AppData\Local\Apps\2.0\JYYNV9BC.AD2\CCMB18PJ.1E5\wpfd..tion_1dcf05cf98ac3011_07dd.0002_86a7363a5cb8bc77\WPF Demos.exe' application.
+'26.6.2013 г. 1:56:34' - 'Pass' : 1. LeftClick on GridViewTextblock
+'26.6.2013 г. 1:56:36' - 'Pass' : 2. LeftClick on IndustryTextblock
+'26.6.2013 г. 1:56:37' - 'Pass' : 3. LeftClick on Item24Textblock
+'26.6.2013 г. 1:56:38' - 'Pass' : 4. LeftClick on SmallNameTextblock4
+'26.6.2013 г. 1:56:44' - 'Pass' : 5. Verify 'DateTimePickerTextblock' text Same 'DataForm'
+'26.6.2013 г. 1:56:45' - 'Pass' : 6. Desktop command: LeftClick on MoveLastButton
+'26.6.2013 г. 1:56:46' - 'Pass' : 7. Desktop command: LeftClick on AddNewEmployeeRadbutton
+'26.6.2013 г. 1:56:49' - 'Pass' : 8. LeftClick on Item0Textboxview0
+'26.6.2013 г. 1:56:52' - 'Pass' : 9. Type 'qa' into Item0Textbox0
+'26.6.2013 г. 1:56:54' - 'Pass' : 10. LeftClick on Item1Textboxview
+'26.6.2013 г. 1:56:58' - 'Pass' : 11. Type 'wannabe' into Item1Textbox
+'26.6.2013 г. 1:57:00' - 'Pass' : 12. radcombobox: drop down 'Open' action.
+'26.6.2013 г. 1:57:03' - 'Pass' : 13. radcombobox: selecting item 'Security'
+'26.6.2013 г. 1:57:06' - 'Pass' : 14. LeftDoubleClick on Item2Textboxview0
+'26.6.2013 г. 1:57:11' - 'Pass' : 15. radwatermarktextbox: Type '05.09.2013' into PARTDateTimeInputRadwatermarktextbox0
+'26.6.2013 г. 1:57:13' - 'Pass' : 16. LeftClick on Item3Textboxview
+'26.6.2013 г. 1:57:17' - 'Pass' : 17. Type '11223344' into Item2Textbox0
+'26.6.2013 г. 1:57:19' - 'Pass' : 18. LeftClick on Item4Textboxview
+'26.6.2013 г. 1:57:22' - 'Pass' : 19. Press Back
+'26.6.2013 г. 1:57:25' - 'Pass' : 20. Type '2000' into Item3Textbox
+'26.6.2013 г. 1:57:26' - 'Pass' : 21. Click PARTCommitButtonRadbutton
+'26.6.2013 г. 1:57:29' - 'Pass' : 22. Verify Item0Textbox0's text content Same 'qa'
+'26.6.2013 г. 1:57:31' - 'Pass' : 23. Verify Item1Textbox's text content Same 'wannabe'
+'26.6.2013 г. 1:57:32' - 'Pass' : 24. Desktop command: LeftClick on DeleteRadbutton
+'26.6.2013 г. 1:57:34' - 'Pass' : 25. Verify MoveLastButton.IsEnabled 'Equal' 'False'
+------------------------------------------------------------
+'26.6.2013 г. 1:57:34' - Overall Result: Pass
+'26.6.2013 г. 1:57:34' - Duration: [1 min: 0 sec: 671 msec]
+------------------------------------------------------------
+'26.6.2013 г. 1:57:34' - Test completed!
+</PerStepMessages>
+      <TotalNumberOfPassedSteps Type="System.Int32">25</TotalNumberOfPassedSteps>
+      <ExecutingTestStepCount Type="System.Int32">25</ExecutingTestStepCount>
+      <TotalNumberOfNotRunSteps Type="System.Int32">0</TotalNumberOfNotRunSteps>
+      <IsDataDrivenResult Type="System.Boolean">False</IsDataDrivenResult>
+      <SeparatorLineCharCount Type="System.Int32">60</SeparatorLineCharCount>
+      <ExecutionType Type="ArtOfTest.Common.Design.ExecutionType">QuickExecution</ExecutionType>
+      <EndTime Type="System.DateTime">2013-06-25 22:57:34Z+1396410</EndTime>
+      <StarTime Type="System.DateTime">2013-06-25 22:56:33Z+4678458</StarTime>
+      <DataIterationResults />
+      <VersionGroupKey Type="System.String">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+      <__DataMembers />
+    </Item>
+  </TestResults>
+  <ResultId Type="System.String">5515f4b3-3942-41e5-932b-28ee4f2fd84f</ResultId>
+  <Machine Type="ArtOfTest.WebAii.Design.Execution.Scheduling.Machine" Version="2012.2.1420.0">
+    <__DataMember_Id IsDataContractSerialized="True" PropertyName="Id" PropertyType="System.Guid">
+      <guid xmlns="http://schemas.microsoft.com/2003/10/Serialization/">00000000-0000-0000-0000-000000000000</guid>
+    </__DataMember_Id>
+    <__DataMember_NetworkName IsDataContractSerialized="True" PropertyName="NetworkName" PropertyType="System.String">
+      <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">LENAPC</string>
+    </__DataMember_NetworkName>
+    <__DataMember_OperatingSystem IsDataContractSerialized="True" PropertyName="OperatingSystem" PropertyType="System.String">
+      <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">Windows 8</string>
+    </__DataMember_OperatingSystem>
+    <__DataMember_InstalledBrowsers IsDataContractSerialized="True" PropertyName="InstalledBrowsers" PropertyType="ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation[]">
+      <ArrayOfBrowserInformation xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Execution.Scheduling" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <BrowserInformation>
+          <Type>InternetExplorer</Type>
+          <Version>9.10.9200.16599</Version>
+        </BrowserInformation>
+        <BrowserInformation>
+          <Type>FireFox</Type>
+          <Version>21.0 (en-US)</Version>
+        </BrowserInformation>
+        <BrowserInformation>
+          <Type>Safari</Type>
+          <Version>5.1.7</Version>
+        </BrowserInformation>
+        <BrowserInformation>
+          <Type>Chrome</Type>
+          <Version />
+        </BrowserInformation>
+      </ArrayOfBrowserInformation>
+    </__DataMember_InstalledBrowsers>
+    <__DataMember_Status IsDataContractSerialized="True" PropertyName="Status" PropertyType="ArtOfTest.WebAii.Design.Execution.Scheduling.MachineStatus">
+      <MachineStatus xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Execution.Scheduling">Ready</MachineStatus>
+    </__DataMember_Status>
+    <__DataMember_ServiceUri IsDataContractSerialized="True" PropertyName="ServiceUri" PropertyType="System.String">
+      <string i:nil="true" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" />
+    </__DataMember_ServiceUri>
+    <__DataMember_DBState IsDataContractSerialized="True" PropertyName="DBState" PropertyType="System.Int32">
+      <int xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0</int>
+    </__DataMember_DBState>
+    <__DataMember_UserName IsDataContractSerialized="True" PropertyName="UserName" PropertyType="System.String">
+      <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">Angel</string>
+    </__DataMember_UserName>
+    <Id Type="System.String">00000000-0000-0000-0000-000000000000</Id>
+    <NetworkName Type="System.String">LENAPC</NetworkName>
+    <OperatingSystem Type="System.String">Windows 8</OperatingSystem>
+    <InstalledBrowsers>
+      <Item Type="ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation" Version="2012.2.1420.0">
+        <__DataMember_Type IsDataContractSerialized="True" PropertyName="Type" PropertyType="ArtOfTest.WebAii.Core.BrowserType">
+          <BrowserType xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Core">InternetExplorer</BrowserType>
+        </__DataMember_Type>
+        <__DataMember_Version IsDataContractSerialized="True" PropertyName="Version" PropertyType="System.String">
+          <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">9.10.9200.16599</string>
+        </__DataMember_Version>
+        <BrowserType Type="ArtOfTest.WebAii.Core.BrowserType">InternetExplorer</BrowserType>
+        <Version Type="System.String">9.10.9200.16599</Version>
+        <__DataMembers>
+          <Item Type="System.String">__DataMember_Type</Item>
+          <Item Type="System.String">__DataMember_Version</Item>
+        </__DataMembers>
+      </Item>
+      <Item Type="ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation" Version="2012.2.1420.0">
+        <__DataMember_Type IsDataContractSerialized="True" PropertyName="Type" PropertyType="ArtOfTest.WebAii.Core.BrowserType">
+          <BrowserType xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Core">FireFox</BrowserType>
+        </__DataMember_Type>
+        <__DataMember_Version IsDataContractSerialized="True" PropertyName="Version" PropertyType="System.String">
+          <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">21.0 (en-US)</string>
+        </__DataMember_Version>
+        <BrowserType Type="ArtOfTest.WebAii.Core.BrowserType">FireFox</BrowserType>
+        <Version Type="System.String">21.0 (en-US)</Version>
+        <__DataMembers>
+          <Item Type="System.String">__DataMember_Type</Item>
+          <Item Type="System.String">__DataMember_Version</Item>
+        </__DataMembers>
+      </Item>
+      <Item Type="ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation" Version="2012.2.1420.0">
+        <__DataMember_Type IsDataContractSerialized="True" PropertyName="Type" PropertyType="ArtOfTest.WebAii.Core.BrowserType">
+          <BrowserType xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Core">Safari</BrowserType>
+        </__DataMember_Type>
+        <__DataMember_Version IsDataContractSerialized="True" PropertyName="Version" PropertyType="System.String">
+          <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">5.1.7</string>
+        </__DataMember_Version>
+        <BrowserType Type="ArtOfTest.WebAii.Core.BrowserType">Safari</BrowserType>
+        <Version Type="System.String">5.1.7</Version>
+        <__DataMembers>
+          <Item Type="System.String">__DataMember_Type</Item>
+          <Item Type="System.String">__DataMember_Version</Item>
+        </__DataMembers>
+      </Item>
+      <Item Type="ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation" Version="2012.2.1420.0">
+        <__DataMember_Type IsDataContractSerialized="True" PropertyName="Type" PropertyType="ArtOfTest.WebAii.Core.BrowserType">
+          <BrowserType xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Core">Chrome</BrowserType>
+        </__DataMember_Type>
+        <__DataMember_Version IsDataContractSerialized="True" PropertyName="Version" PropertyType="System.String">
+          <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </__DataMember_Version>
+        <BrowserType Type="ArtOfTest.WebAii.Core.BrowserType">Chrome</BrowserType>
+        <Version Type="System.String">
+        </Version>
+        <__DataMembers>
+          <Item Type="System.String">__DataMember_Type</Item>
+          <Item Type="System.String">__DataMember_Version</Item>
+        </__DataMembers>
+      </Item>
+    </InstalledBrowsers>
+    <Status Type="ArtOfTest.WebAii.Design.Execution.Scheduling.MachineStatus">Ready</Status>
+    <DBState Type="System.Int32">0</DBState>
+    <__DataMembers>
+      <Item Type="System.String">__DataMember_Id</Item>
+      <Item Type="System.String">__DataMember_NetworkName</Item>
+      <Item Type="System.String">__DataMember_OperatingSystem</Item>
+      <Item Type="System.String">__DataMember_InstalledBrowsers</Item>
+      <Item Type="System.String">__DataMember_Status</Item>
+      <Item Type="System.String">__DataMember_ServiceUri</Item>
+      <Item Type="System.String">__DataMember_DBState</Item>
+      <Item Type="System.String">__DataMember_UserName</Item>
+    </__DataMembers>
+  </Machine>
+  <IsManual Type="System.Boolean">False</IsManual>
+  <TestListId Type="System.String">37a875c8-8f8e-4a7b-b3f1-debe76bc1f1c</TestListId>
+  <IsComplete Type="System.Boolean">True</IsComplete>
+  <__DataMembers>
+    <Item Type="System.String">__DataMember_FileName</Item>
+    <Item Type="System.String">__DataMember_Id</Item>
+    <Item Type="System.String">__DataMember_Machine</Item>
+    <Item Type="System.String">__DataMember_RunId</Item>
+    <Item Type="System.String">__DataMember_TestListId</Item>
+  </__DataMembers>
+</RunResult>

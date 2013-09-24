@@ -1,0 +1,18 @@
+c:\users\angel\documents\visual studio 2012\Projects\C#ForDummie\FrameworkHomework\FrameworkHomework\bin\Debug\FrameworkHomework.dll
+c:\users\angel\documents\visual studio 2012\Projects\C#ForDummie\FrameworkHomework\FrameworkHomework\bin\Debug\FrameworkHomework.pdb
+c:\users\angel\documents\visual studio 2012\Projects\C#ForDummie\FrameworkHomework\FrameworkHomework\obj\Debug\FrameworkHomework.csprojResolveAssemblyReference.cache
+c:\users\angel\documents\visual studio 2012\Projects\C#ForDummie\FrameworkHomework\FrameworkHomework\obj\Debug\FrameworkHomework.dll
+c:\users\angel\documents\visual studio 2012\Projects\C#ForDummie\FrameworkHomework\FrameworkHomework\obj\Debug\FrameworkHomework.pdb
+C:\Users\Angel\documents\visual studio 2012\Projects\C#ForDummie\FrameworkHomework\FrameworkHomework\bin\Debug\FrameworkHomework.dll.config
+C:\Users\Angel\documents\visual studio 2012\Projects\C#ForDummie\FrameworkHomework\FrameworkHomework\bin\Debug\nunit.framework.dll
+C:\Users\Angel\documents\visual studio 2012\Projects\C#ForDummie\FrameworkHomework\FrameworkHomework\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\Angel\documents\visual studio 2012\Projects\C#ForDummie\FrameworkHomework\FrameworkHomework\bin\Debug\nunit.framework.xml
+C:\Users\Angel\Desktop\FrameworkHomework\FrameworkHomework\FrameworkHomework\bin\Debug\FrameworkHomework.dll.config
+C:\Users\Angel\Desktop\FrameworkHomework\FrameworkHomework\FrameworkHomework\bin\Debug\FrameworkHomework.dll
+C:\Users\Angel\Desktop\FrameworkHomework\FrameworkHomework\FrameworkHomework\bin\Debug\FrameworkHomework.pdb
+C:\Users\Angel\Desktop\FrameworkHomework\FrameworkHomework\FrameworkHomework\bin\Debug\nunit.framework.dll
+C:\Users\Angel\Desktop\FrameworkHomework\FrameworkHomework\FrameworkHomework\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\Angel\Desktop\FrameworkHomework\FrameworkHomework\FrameworkHomework\bin\Debug\nunit.framework.xml
+C:\Users\Angel\Desktop\FrameworkHomework\FrameworkHomework\FrameworkHomework\obj\Debug\FrameworkHomework.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Desktop\FrameworkHomework\FrameworkHomework\FrameworkHomework\obj\Debug\FrameworkHomework.dll
+C:\Users\Angel\Desktop\FrameworkHomework\FrameworkHomework\FrameworkHomework\obj\Debug\FrameworkHomework.pdb

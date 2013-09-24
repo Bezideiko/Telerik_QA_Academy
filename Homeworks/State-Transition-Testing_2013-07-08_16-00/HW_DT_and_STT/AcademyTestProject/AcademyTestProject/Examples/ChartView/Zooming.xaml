@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="Examples.ChartView.Zooming"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"                  
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400">
+
+    <UserControl.Resources>
+    </UserControl.Resources>
+    <Grid x:Name="LayoutRoot" Background="Azure">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5" />
+            <ColumnDefinition Width="1000" />
+            <ColumnDefinition Width="200" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5" />
+            <RowDefinition Height="755" />
+            <RowDefinition Height="100" />
+        </Grid.RowDefinitions>
+        <telerik:RadWrapPanel Grid.Column="2" Grid.Row="1" Margin="3" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Content="Load chart" Name="btnLoadChart" Click="btnLoadChart_Click"  Width="190" Height="25"/>
+            <Button Content="Apply Zoom" Name="btnApplyZoom" Click="btnApplyZoom_Click"  Width="190" Height="25"/>
+            <Button Content="Clear" Name="btnClear" Click="btnClear_Click"  Width="190" Height="25"/>
+            <Button Content="Print" Name="btnPrint" Click="btnPrint_Click"  Width="190" Height="25"/>
+
+        </telerik:RadWrapPanel>
+        <telerik:RadCartesianChart Name="RadChart1" Grid.Column="1" Grid.Row="1" Width="Auto" Height="650" Margin="5" Palette="Windows8">
+        </telerik:RadCartesianChart>
+    </Grid>
+</UserControl>

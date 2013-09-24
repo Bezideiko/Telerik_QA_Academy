@@ -1,0 +1,53 @@
+<html>
+<script language="JavaScript">
+<!--
+var visits = 0;
+
+function extractCookieValue(val) {
+  if ((endOfCookie = document.cookie.indexOf(";", val)) == -1) {
+     endOfCookie = document.cookie.length;
+  }
+  return unescape(document.cookie.substring(val,endOfCookie));
+}
+
+function ReadCookie(cookiename) {
+  var numOfCookies = document.cookie.length;
+  var nameOfCookie = cookiename + "=";
+  var cookieLen = nameOfCookie.length;
+  var x = 0;
+  while (x <= numOfCookies) {
+        var y = (x + cookieLen);
+        if (document.cookie.substring(x, y) == nameOfCookie)
+           return (extractCookieValue(y));
+           x = document.cookie.indexOf(" ", x) + 1;
+           if (x == 0){
+              break;
+           }
+  }
+  return (null);
+}
+
+function createCookie(name, value, expiredays) {
+  var todayDate = new Date();
+  todayDate.setDate(todayDate.getDate() + expiredays);
+  document.cookie = name + "=" + value + "; expires=" +todayDate.toGMTString() + ";"
+}
+
+function showHits() {
+  userCookie = ReadCookie("_visitSite");
+  if (userCookie == null)
+     visits = 1;
+  else
+     visits = parseInt(userCookie) + 1;
+     createCookie("_visitSite", visits, 30);
+     document.write("You have visited this site on <b>" +visits + "</b> occasions<hr>");
+}
+//-->
+</script>
+</head>
+<body>
+<script>
+showHits();
+</script>
+</body>
+</html>

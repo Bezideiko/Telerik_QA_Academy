@@ -1,0 +1,78 @@
+<TestList Type="ArtOfTest.WebAii.Design.Execution.TestList" Version="2012.2.1420.0">
+  <ID Type="System.String">1dd069d5-37ef-4b96-98ae-d54675146b4e</ID>
+  <TestListName Type="System.String">BookStoreTestList</TestListName>
+  <Date Type="System.DateTime">2013-06-15 02:02:16Z+0000000</Date>
+  <Settings Type="ArtOfTest.WebAii.Core.Settings" Version="2012.2.1420.0">
+    <WebSettings Type="ArtOfTest.WebAii.Core.Settings+WebSettings" Version="2012.2.1420.0">
+      <DefaultBrowser Type="ArtOfTest.WebAii.Core.BrowserType">InternetExplorer</DefaultBrowser>
+      <WebAppPhysicalPath Type="System.String">
+      </WebAppPhysicalPath>
+      <EnableScriptLogging Type="System.Boolean">False</EnableScriptLogging>
+      <EnableUILessRequestViewing Type="System.Boolean">False</EnableUILessRequestViewing>
+      <LocalWebServer Type="ArtOfTest.WebAii.Core.LocalWebServerType">None</LocalWebServer>
+      <BaseUrl Type="System.String">
+      </BaseUrl>
+      <AspNetDevServerPort Type="System.Int32">-1</AspNetDevServerPort>
+      <KillBrowserProcessOnClose Type="System.Boolean">False</KillBrowserProcessOnClose>
+      <RecycleBrowser Type="System.Boolean">False</RecycleBrowser>
+      <UseHttpProxy Type="System.Boolean">False</UseHttpProxy>
+      <EnableSilverlight Type="System.Boolean">False</EnableSilverlight>
+      <VerboseHttpProxy Type="System.Boolean">False</VerboseHttpProxy>
+      <SilverlightConnectTimeout Type="System.Int32">60000</SilverlightConnectTimeout>
+      <UseMultiBrowsers Type="System.Boolean">False</UseMultiBrowsers>
+      <IsProfilingExecution Type="System.Boolean">False</IsProfilingExecution>
+      <ProfilerConfigurations />
+      <__DataMembers />
+    </WebSettings>
+    <WpfSettings Type="ArtOfTest.WebAii.Core.Settings+WpfSettings" Version="2012.2.1420.0">
+      <__DataMembers />
+    </WpfSettings>
+    <ClientReadyTimeout Type="System.Int32">60000</ClientReadyTimeout>
+    <ExecuteCommandTimeout Type="System.Int32">20000</ExecuteCommandTimeout>
+    <LogLocation Type="System.String">C:\WebAiiLog\</LogLocation>
+    <QueryEventLogErrorsOnExit Type="System.Boolean">False</QueryEventLogErrorsOnExit>
+    <ExecutionDelay Type="System.Int32">0</ExecutionDelay>
+    <AnnotateExecution Type="System.Boolean">False</AnnotateExecution>
+    <SimulatedMouseMoveSpeed Type="System.Single">0.3</SimulatedMouseMoveSpeed>
+    <WaitCheckInterval Type="System.Int32">500</WaitCheckInterval>
+    <AnnotationMode Type="ArtOfTest.WebAii.Core.AnnotationMode">All</AnnotationMode>
+    <LogAnnotations Type="System.Boolean">False</LogAnnotations>
+    <IsUserInteractiveMode Type="System.Boolean">False</IsUserInteractiveMode>
+    <CreateLogFile Type="System.Boolean">True</CreateLogFile>
+    <XMultiMgr Type="System.Boolean">True</XMultiMgr>
+    <UnexpectedDialogAction Type="ArtOfTest.WebAii.Core.UnexpectedDialogAction">HandleAndFailTest</UnexpectedDialogAction>
+    <ElementWaitTimeout Type="System.Int32">30000</ElementWaitTimeout>
+    <DisableDialogMonitoring Type="System.Boolean">False</DisableDialogMonitoring>
+    <__DataMembers />
+  </Settings>
+  <Tests>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestInfo" Version="2012.2.1420.0">
+      <ID Type="System.String">8af48038-de56-438f-87bd-f8b2483a5e01</ID>
+      <Path Type="System.String">BookStorePracticingVariableStorage.tstest</Path>
+      <__DataMembers />
+    </Item>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestInfo" Version="2012.2.1420.0">
+      <ID Type="System.String">3c396e9e-1694-4aeb-bb0a-104b704aa9c9</ID>
+      <Path Type="System.String">BookStoreRadioButtonVerificationAndJavaScriptSearch.tstest</Path>
+      <__DataMembers />
+    </Item>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestInfo" Version="2012.2.1420.0">
+      <ID Type="System.String">917afc1c-4aa1-4698-a32f-12677b2bd030</ID>
+      <Path Type="System.String">BookStoreSearchJavaScriptVerification.tstest</Path>
+      <__DataMembers />
+    </Item>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestInfo" Version="2012.2.1420.0">
+      <ID Type="System.String">08664c34-2c59-421d-9581-8c55ed85ad49</ID>
+      <Path Type="System.String">BookStoreIfElsePractice.tstest</Path>
+      <__DataMembers />
+    </Item>
+  </Tests>
+  <Filter Type="ArtOfTest.WebAii.Design.Execution.Filter" Version="2012.2.1420.0">
+    <Keys />
+    <Comparisons />
+    <Values />
+    <__DataMembers />
+  </Filter>
+  <TestListType Type="ArtOfTest.WebAii.Design.TestListType">Automated</TestListType>
+  <__DataMembers />
+</TestList>

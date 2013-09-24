@@ -1,0 +1,6 @@
+click("1372231007417.png")
+sleep(2)
+type("http://www.google.com" + Key.ENTER)
+sleep(2)
+type("Telerik academy" + Key.ENTER)
+assert exists("Telerik Academy")
