@@ -103,7 +103,7 @@ namespace TILS.TTF.AutomationTests
             Manager.LaunchNewBrowser();
             Browser browser = Manager.ActiveBrowser;
             browser.ClearCache(ArtOfTest.WebAii.Core.BrowserCacheType.Cookies);
-            browser.NavigateTo(@"http://test.telerikacademy.com/");
+            browser.NavigateTo(@"http://test.example.com/");
         }
 
         // Use TestCleanup to run code after each test has run
@@ -143,11 +143,11 @@ namespace TILS.TTF.AutomationTests
             browser.Find.ById<HtmlAnchor>("LoginButton").Click();
             browser.Find.ById<HtmlInputText>("UsernameOrEmail").Text = "qawannabe";
             browser.Find.ById<HtmlInputPassword>("Password").Text = "testpass1234";
-            browser.Find.ByAttributes<HtmlInputSubmit>("class=submit-button", "type=submit", "value=Вход").MouseClick();
+            browser.Find.ByAttributes<HtmlInputSubmit>("class=submit-button", "type=submit", "value=пїЅпїЅпїЅпїЅ").MouseClick();
             browser.WaitUntilReady();
             browser.RefreshDomTree();
 
-            browser.Find.ByContent<HtmlSpan>("Лектор").MouseHover();
+            browser.Find.ByContent<HtmlSpan>("пїЅпїЅпїЅпїЅпїЅпїЅ").MouseHover();
             
             browser.WaitUntilReady();
             browser.RefreshDomTree();
@@ -167,7 +167,7 @@ namespace TILS.TTF.AutomationTests
         public void UserAlreadySignedAlertHandler(IDialog dialog)
         {
             string txt = dialog.Window.AllChildren[dialog.Window.AllChildren.Count - 1].Caption;
-            Assert.AreEqual<string>("Грешкa:\nТози потребител вече е записал курса!\n", txt);
+            Assert.AreEqual<string>("пїЅпїЅпїЅпїЅпїЅa:\nпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ!\n", txt);
             Log.WriteLine("Dialog text: " + txt);
 
             Manager.Desktop.KeyBoard.KeyPress(Keys.Enter);
@@ -177,7 +177,7 @@ namespace TILS.TTF.AutomationTests
         public void InvalidUserAlertHandler(IDialog dialog)
         {
             string txt = dialog.Window.AllChildren[dialog.Window.AllChildren.Count - 1].Caption;
-            Assert.AreEqual<string>("Грешкa:\nТакъв потребител не съществува!\n", txt);
+            Assert.AreEqual<string>("пїЅпїЅпїЅпїЅпїЅa:\nпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!\n", txt);
             Log.WriteLine("Dialog text: " + txt);
 
             Manager.Desktop.KeyBoard.KeyPress(Keys.Enter);
@@ -195,9 +195,9 @@ namespace TILS.TTF.AutomationTests
             browser.WaitUntilReady();
             browser.RefreshDomTree();
 
-            browser.Find.ByContent<HtmlAnchor>("Записване на студент в курса").Click();
+            browser.Find.ByContent<HtmlAnchor>("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ").Click();
             browser.Find.ById<HtmlInputText>("Username").MouseClick();
-            browser.Find.ById<HtmlInputText>("Username").Text = "angel.elenkov.7";
+            browser.Find.ById<HtmlInputText>("Username").Text = "username";
             browser.Find.ById<HtmlInputCheckBox>("IsLiveParticipant").MouseClick();
             browser.Find.ById<HtmlInputCheckBox>("CanDoPracticalExam").MouseClick();
             browser.Find.ById<HtmlInputCheckBox>("CanDoTestExam").MouseClick();
@@ -208,7 +208,7 @@ namespace TILS.TTF.AutomationTests
             browser.RefreshDomTree();
 
             string actual = browser.Find.ByXPath<HtmlAnchor>("//*[@id=\"UsersInCoursesGrid\"]/table/tbody/tr/td[1]/a").TextContent;
-            string expected = "angel.elenkov.7";
+            string expected = "username";
 
             Assert.AreEqual(expected, actual);
 
@@ -226,9 +226,9 @@ namespace TILS.TTF.AutomationTests
             browser.WaitUntilReady();
             browser.RefreshDomTree();
 
-            browser.Find.ByContent<HtmlAnchor>("Записване на студент в курса").Click();
+            browser.Find.ByContent<HtmlAnchor>("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ").Click();
             browser.Find.ById<HtmlInputText>("Username").MouseClick();
-            browser.Find.ById<HtmlInputText>("Username").Text = "angel.elenkov.7";
+            browser.Find.ById<HtmlInputText>("Username").Text = "username";
             browser.Find.ById<HtmlInputCheckBox>("IsLiveParticipant").MouseClick();
             browser.Find.ById<HtmlInputCheckBox>("CanDoPracticalExam").MouseClick();
             browser.Find.ById<HtmlInputCheckBox>("CanDoTestExam").MouseClick();
@@ -254,7 +254,7 @@ namespace TILS.TTF.AutomationTests
             browser.RefreshDomTree();
 
             string actual = browser.Find.ByXPath<HtmlAnchor>("//*[@id=\"UsersInCoursesGrid\"]/table/tbody/tr/td[1]/a").TextContent;
-            string expected = "angel.elenkov.7";
+            string expected = "username";
 
             Assert.AreEqual(expected, actual);
 
@@ -272,9 +272,9 @@ namespace TILS.TTF.AutomationTests
             browser.WaitUntilReady();
             browser.RefreshDomTree();
 
-            browser.Find.ByContent<HtmlAnchor>("Записване на студент в курса").Click();
+            browser.Find.ByContent<HtmlAnchor>("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ").Click();
             browser.Find.ById<HtmlInputText>("Username").MouseClick();
-            browser.Find.ById<HtmlInputText>("Username").Text = "angel.elenkov.5";
+            browser.Find.ById<HtmlInputText>("Username").Text = "username";
             browser.Find.ById<HtmlInputCheckBox>("IsLiveParticipant").MouseClick();
             browser.Find.ById<HtmlInputCheckBox>("CanDoPracticalExam").MouseClick();
             browser.Find.ById<HtmlInputCheckBox>("CanDoTestExam").MouseClick();
