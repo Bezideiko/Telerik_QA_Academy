@@ -100,7 +100,7 @@ namespace TILS.TTF.AutomationTests
             Manager.LaunchNewBrowser();
             Browser browser = Manager.ActiveBrowser;
             browser.ClearCache(ArtOfTest.WebAii.Core.BrowserCacheType.Cookies);
-            browser.NavigateTo(@"http://test.telerikacademy.com/");
+            browser.NavigateTo(@"http://test.example.com/");
         }
 
         // Use TestCleanup to run code after each test has run
@@ -139,7 +139,7 @@ namespace TILS.TTF.AutomationTests
             browser.Find.ById<HtmlAnchor>("LoginButton").Click();
             browser.Find.ById<HtmlInputText>("UsernameOrEmail").Text = "qawannabe";
             browser.Find.ById<HtmlInputPassword>("Password").Text = "testpass1234";
-            browser.Find.ByAttributes<HtmlInputSubmit>("class=submit-button", "type=submit", "value=Вход").MouseClick();
+            browser.Find.ByAttributes<HtmlInputSubmit>("class=submit-button", "type=submit", "value=пїЅпїЅпїЅпїЅ").MouseClick();
 
             browser.WaitUntilReady();
             browser.RefreshDomTree();
@@ -162,14 +162,14 @@ namespace TILS.TTF.AutomationTests
             browser.RefreshDomTree();
 
             var monthBox = browser.Find.ByXPath("//*[@id=\"calendar\"]/table/tbody/tr/td[2]/span/h2");
-            while (!monthBox.InnerText.Contains("Януари 2014"))
+            while (!monthBox.InnerText.Contains("пїЅпїЅпїЅпїЅпїЅпїЅ 2014"))
             {
                 browser.Find.ByXPath<HtmlSpan>("//*[@id=\"calendar\"]/table/tbody/tr/td[1]/span[2]/span").Click();
                 browser.WaitUntilReady();
                 monthBox.Refresh();
             }
             monthBox.Refresh();
-            Assert.AreEqual(monthBox.InnerText, "Януари 2014");
+            Assert.AreEqual(monthBox.InnerText, "пїЅпїЅпїЅпїЅпїЅпїЅ 2014");
 
             browser.Find.ByXPath<HtmlSpan>("//*[@id=\"calendar\"]/table/tbody/tr/td[1]/span[1]").Click();
 
@@ -178,7 +178,7 @@ namespace TILS.TTF.AutomationTests
             browser.RefreshDomTree();
 
             string expected = monthBox.InnerText;
-            string actual = "Декември 2013";
+            string actual = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ 2013";
 
             Assert.AreEqual(expected, actual);
         }
@@ -193,7 +193,7 @@ namespace TILS.TTF.AutomationTests
             browser.WaitUntilReady();
             browser.RefreshDomTree();
 
-            browser.Find.ByContent<HtmlSpan>("ден").Click();
+            browser.Find.ByContent<HtmlSpan>("пїЅпїЅпїЅ").Click();
 
             browser.WaitUntilReady();
             browser.RefreshDomTree();
@@ -205,7 +205,7 @@ namespace TILS.TTF.AutomationTests
             browser.Find.ByXPath<HtmlSpan>("//*[@id=\"calendar\"]/table/tbody/tr/td[1]/span[2]/span").Click();
             browser.Find.ByXPath<HtmlSpan>("//*[@id=\"calendar\"]/table/tbody/tr/td[1]/span[2]/span").Click();
             browser.WaitUntilReady();
-            browser.Find.ByContent<HtmlSpan>("днес").Click();
+            browser.Find.ByContent<HtmlSpan>("пїЅпїЅпїЅпїЅ").Click();
 
             browser.WaitUntilReady();
             dayBox.Refresh();
@@ -229,7 +229,7 @@ namespace TILS.TTF.AutomationTests
             browser.WaitUntilReady();
             browser.RefreshDomTree();
 
-            browser.Find.ByContent<HtmlSpan>("седмица").Click();
+            browser.Find.ByContent<HtmlSpan>("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ").Click();
 
             browser.WaitUntilReady();
             browser.RefreshDomTree();
@@ -241,7 +241,7 @@ namespace TILS.TTF.AutomationTests
             browser.Find.ByXPath<HtmlSpan>("//*[@id=\"calendar\"]/table/tbody/tr/td[1]/span[2]/span").Click();
             browser.Find.ByXPath<HtmlSpan>("//*[@id=\"calendar\"]/table/tbody/tr/td[1]/span[2]/span").Click();
             browser.WaitUntilReady();
-            browser.Find.ByContent<HtmlSpan>("днес").Click();
+            browser.Find.ByContent<HtmlSpan>("пїЅпїЅпїЅпїЅ").Click();
 
             browser.WaitUntilReady();
             weekBox.Refresh();
@@ -265,7 +265,7 @@ namespace TILS.TTF.AutomationTests
             browser.WaitUntilReady();
             browser.RefreshDomTree();
 
-            browser.Find.ByContent<HtmlSpan>("ден").Click();
+            browser.Find.ByContent<HtmlSpan>("пїЅпїЅпїЅ").Click();
 
             browser.WaitUntilReady();
             browser.RefreshDomTree();
@@ -277,7 +277,7 @@ namespace TILS.TTF.AutomationTests
             browser.Find.ByXPath<HtmlSpan>("//*[@id=\"calendar\"]/table/tbody/tr/td[1]/span[2]/span").Click();
             browser.Find.ByXPath<HtmlSpan>("//*[@id=\"calendar\"]/table/tbody/tr/td[1]/span[2]/span").Click();
             browser.WaitUntilReady();
-            browser.Find.ByContent<HtmlSpan>("днес").Click();
+            browser.Find.ByContent<HtmlSpan>("пїЅпїЅпїЅпїЅ").Click();
 
             browser.WaitUntilReady();
             dayBox.Refresh();
