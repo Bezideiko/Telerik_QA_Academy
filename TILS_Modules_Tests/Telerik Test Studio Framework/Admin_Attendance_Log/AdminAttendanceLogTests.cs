@@ -102,7 +102,7 @@ namespace TILS.TTF.AutomationTests
             Manager.LaunchNewBrowser();
             Browser browser = Manager.ActiveBrowser;
             browser.ClearCache(ArtOfTest.WebAii.Core.BrowserCacheType.Cookies);
-            browser.NavigateTo(@"http://test.telerikacademy.com/");
+            browser.NavigateTo(@"http://test.example.com/");
         }
 
         // Use TestCleanup to run code after each test has run
@@ -141,7 +141,7 @@ namespace TILS.TTF.AutomationTests
             Manager.Settings.ExecutionDelay = 500;
 
             Browser browser = TC_344_NavigateToAttendancesTest();
-            browser.Find.ByContent<HtmlAnchor>("Създаване на присъствие").Click();
+            browser.Find.ByContent<HtmlAnchor>("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ").Click();
             browser.Find.ByAttributes<HtmlSpan>("class=k-icon k-i-arrow-s", "unselectable=on").Click();
             browser.Find.ById<HtmlDiv>("DeviceId-list").Find.ByContent<HtmlListItem>("Ultimate - GreatHallDevice").MouseClick();
             browser.Find.ById<HtmlInputText>("Username").MouseClick();
@@ -215,7 +215,7 @@ namespace TILS.TTF.AutomationTests
             browser.WaitUntilReady();
 
             string oldUserValueActual = browser.Find.ByXPath<HtmlAnchor>("//*[@id=\"DataGrid\"]/table/tbody/tr[1]/td[3]/a").TextContent;
-            string oldUserValueExpected = "angel.elenkov.7";
+            string oldUserValueExpected = "username";
 
             Assert.AreEqual(oldUserValueExpected, oldUserValueActual);
         }
@@ -331,15 +331,15 @@ namespace TILS.TTF.AutomationTests
             browser.Find.ById<HtmlAnchor>("LoginButton").Click();
             browser.Find.ById<HtmlInputText>("UsernameOrEmail").Text = "qawannabe";
             browser.Find.ById<HtmlInputPassword>("Password").Text = "testpass1234";
-            browser.Find.ByAttributes<HtmlInputSubmit>("class=submit-button", "type=submit", "value=Вход").MouseClick();
+            browser.Find.ByAttributes<HtmlInputSubmit>("class=submit-button", "type=submit", "value=пїЅпїЅпїЅпїЅ").MouseClick();
 
             browser.RefreshDomTree();
             browser.WaitUntilReady();
 
-            browser.Find.ByContent<HtmlAnchor>("Админ").Click();
-            browser.Find.ByContent<HtmlAnchor>("Присъствия").Click();
+            browser.Find.ByContent<HtmlAnchor>("пїЅпїЅпїЅпїЅпїЅ").Click();
+            browser.Find.ByContent<HtmlAnchor>("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ").Click();
             string actual = Find.ByXPath("//*[@id=\"MainContent\"]/h2").InnerText;
-            string expected = "Присъствия";
+            string expected = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ";
 
             Assert.AreEqual(expected, actual);
 
